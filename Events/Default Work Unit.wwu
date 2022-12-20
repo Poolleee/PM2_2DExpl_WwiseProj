@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="musica" ID="{721BE6EB-FEE2-4A6B-BA79-3F63F336F5B8}">
-					<ChildrenList>
-						<Action Name="" ID="{985CCA60-0A32-4BE1-BE89-0AEDF3C01A06}" ShortID="326591691">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="musica" ID="{A398F5FE-A17C-4441-907F-11FD2F8DFB17}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Footstep" ID="{83BA13DE-E35E-4AE3-BD2D-C364AC3DFD48}">
 					<ChildrenList>
 						<Action Name="" ID="{EEB045E4-EA51-4641-ABBD-720C825A1A93}" ShortID="254883609">
@@ -49,6 +38,95 @@
 				<Event Name="Play_RoboArm" ID="{9D797DA5-C0D3-4729-AE3D-C8EAE701B1B1}">
 					<ChildrenList>
 						<Action Name="" ID="{1D5E558A-9185-48B7-926C-5810C0DB9026}" ShortID="251167211">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arm_Movement_Layer" ID="{39464F83-D4E6-4B6F-8F30-6E712452DBA7}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Landing" ID="{FE092CCD-4892-48C6-A98F-977B74657308}">
+					<ChildrenList>
+						<Action Name="" ID="{89ADEB05-97EF-49BD-8CDA-CE3BC45AD243}" ShortID="420591864">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{35E272F4-C48B-4DB6-BADA-87B8B6ADF3CE}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B610F01E-2FDA-4F40-B803-672FFB47594D}" ShortID="55825106">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{83081EEF-E2C4-4C8E-8466-BF4C71A60ECD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.05"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{2C138CA8-E1B3-44FB-A1EE-780AE81409FD}">
+					<ChildrenList>
+						<Action Name="" ID="{8E89AAD6-3DF9-4CE3-9EAB-B8B7F4F3CFA7}" ShortID="220446389">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{528AA9F3-2340-4BDB-BFED-A219896ECBBE}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{41A47926-AACD-4096-BB98-B07564C35BFC}" ShortID="365851090">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cloth_Movement_Layer" ID="{CE767CA6-C6D4-4751-8FA9-4F23AAD8C6DD}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B61D6D06-C932-4258-923E-0F9DA14C786A}" ShortID="438903718">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EE724CD1-913A-4B8F-A0BE-4253CB2BC78E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Arm_Movement_Layer" ID="{39464F83-D4E6-4B6F-8F30-6E712452DBA7}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
