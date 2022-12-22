@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Play_Footstep" ID="{83BA13DE-E35E-4AE3-BD2D-C364AC3DFD48}">
 					<ChildrenList>
-						<Action Name="" ID="{EEB045E4-EA51-4641-ABBD-720C825A1A93}" ShortID="254883609">
+						<Action Name="" ID="{09B230A8-FED4-4265-A908-520838C82C76}" ShortID="515764544">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+									<ObjectRef Name="Footstep_Material" ID="{3AA29DFA-3E52-4B14-916E-E2687556C975}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -63,7 +63,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+									<ObjectRef Name="Footstep_Material" ID="{3AA29DFA-3E52-4B14-916E-E2687556C975}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -84,7 +84,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+									<ObjectRef Name="Footstep_Material" ID="{3AA29DFA-3E52-4B14-916E-E2687556C975}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -130,6 +130,24 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Arm_Movement_Layer" ID="{39464F83-D4E6-4B6F-8F30-6E712452DBA7}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crouch" ID="{D541003E-0CBA-47C4-80F8-3FE04ED46481}">
+					<ChildrenList>
+						<Action Name="" ID="{D3B7A16E-D287-4636-A599-229E72D8642C}" ShortID="949998495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arm_Movement_Layer" ID="{39464F83-D4E6-4B6F-8F30-6E712452DBA7}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F665C621-A59B-47A6-A4C7-0ACB1DCA1DDF}" ShortID="482208224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cloth_Movement_Layer" ID="{CE767CA6-C6D4-4751-8FA9-4F23AAD8C6DD}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

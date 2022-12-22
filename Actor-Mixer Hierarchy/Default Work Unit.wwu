@@ -525,14 +525,1323 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<BlendContainer Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" ShortID="456117597">
+						<SwitchContainer Name="Footstep_Material" ID="{3AA29DFA-3E52-4B14-916E-E2687556C975}" ShortID="984357700">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Grass" ID="{C6283AD8-5754-4100-A1EA-1719BE76976D}" WorkUnitID="{24161B7F-87DC-471F-8BF7-B81059154BB9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surface_Type" ID="{1CA10D99-58E7-4625-B364-32945D247E28}" WorkUnitID="{24161B7F-87DC-471F-8BF7-B81059154BB9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}" ShortID="456117597">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{88D3F40D-4CCE-4A6A-962B-E86A92B8055E}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="35"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E5D1B897-BA2E-4D14-B3D9-5B570653BA16}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="38"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E277695D-FF67-4D20-B243-265DA1872A3E}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="505"/>
+															<Property Name="Min" Type="Real64" Value="-556"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{827A9B0A-32A3-4151-8781-EACF723A5D50}">
+														<PropertyList>
+															<Property Name="Min" Type="Real64" Value="-22"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="FS_Grass_Layer" ID="{E646A62D-4846-4698-9252-BF943DA0F767}" ShortID="299737995">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B5293F1F-5552-4086-B212-5178F259700E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="19"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EE3664CA-59CB-4B8F-B811-0D56C4DF7271}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="22"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-180</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{CDD76893-9413-4B71-B124-80C4E9DC7290}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-126"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EF5D9FBB-478F-4082-A6BA-CBB5DC391187}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-7"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{25D592A9-8BC6-49D6-92D3-C82CD0F3AC9B}" ShortID="795781401">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{62968972-E61D-4210-A592-CF5E7E7E50B6}" ShortID="458624102">
+															<PropertyList>
+																<Property Name="FadeInShape" Type="int16" Value="8"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.145023568788246"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+														</AudioFileSource>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" ShortID="213033432">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{69D3CD37-4C0B-4F5E-8E5C-0A4B307C7A78}" ShortID="65862405">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{EC1527A1-ABDB-42F2-9869-FB9816523A05}" ShortID="286451042">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{EC1527A1-ABDB-42F2-9869-FB9816523A05}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{30593F1D-51D0-4278-9B44-1F4B2560F16A}" ShortID="47203817">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{578874C4-626D-4111-9D5F-73AAF5EDB3F7}" ShortID="543093990">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{578874C4-626D-4111-9D5F-73AAF5EDB3F7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{6E8F1D14-C9B2-4BED-913B-7E7157EF78E0}" ShortID="876691181">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{F47E3B8C-82FD-45E4-82FF-4185B1A3F63C}" ShortID="364511688">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{F47E3B8C-82FD-45E4-82FF-4185B1A3F63C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{AEEAA117-6FFE-4944-9B64-734693D8E2C0}" ShortID="226118049">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{86732AD6-1DBA-4220-BCCD-120FBAF01F71}" ShortID="696199848">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{86732AD6-1DBA-4220-BCCD-120FBAF01F71}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{E22BA002-8E2A-4259-8E72-341516D395CA}" ShortID="927695948">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{091EBEA0-1E59-4B0F-B3C3-D38B649BA405}" ShortID="703533166">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{091EBEA0-1E59-4B0F-B3C3-D38B649BA405}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{7F276915-5B1F-41C4-9187-2C036EA08D39}" ShortID="621556909">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{DAAF4BEF-47F9-485C-B19E-DF96A5A8828C}" ShortID="816279401">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{DAAF4BEF-47F9-485C-B19E-DF96A5A8828C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{6813BA0F-9555-43F2-AAFD-DA29413D192D}" ShortID="455569816">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{0DD8F1CA-1571-446E-A25B-9334727AE9EB}" ShortID="453383055">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{0DD8F1CA-1571-446E-A25B-9334727AE9EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{87B3ECCC-7C60-4A69-91B4-926B250CFAE2}" ShortID="532658804">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{EC67BA67-B971-49C9-9C01-2FA32712E5D9}" ShortID="266414310">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{EC67BA67-B971-49C9-9C01-2FA32712E5D9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{84DF7E8D-7619-4D28-B72D-682BBC48775B}" ShortID="558717835">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{FFE000B4-3BE7-464B-956B-81A63999A7EE}" ShortID="719626316">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{FFE000B4-3BE7-464B-956B-81A63999A7EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="FS_Ground_Layer" ID="{0858B311-2C88-49AF-8B31-DC7254EAB944}" ShortID="678847952">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8F86C425-30A1-4E2F-B1C6-117CC3F276AA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="17"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A13372E0-0015-4F88-8A7A-538DFEAE6FE6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="17"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8A8D4A5C-91FC-4B4B-9F19-24F8A2CB358F}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="505"/>
+																	<Property Name="Min" Type="Real64" Value="-404"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{97352786-B0EB-4B9C-BA95-C7A339A90FB7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-9"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{6899B1EB-A5C7-47B7-8B33-8DC1C1745FAD}" ShortID="718499355">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{647A53CA-E683-4239-8631-DC306A165F83}" ShortID="671521257">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{647A53CA-E683-4239-8631-DC306A165F83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{AC11E682-6D71-4F18-9A54-1F88DA6C21BC}" ShortID="951313788">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{C4B86A64-3974-49E9-9695-C120025AD8FE}" ShortID="802163195">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{C4B86A64-3974-49E9-9695-C120025AD8FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{7BB63C82-CC88-428E-BAB1-20B3AC2AFC36}" ShortID="182295851">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{D63207B7-46CE-494C-AC18-9C5AE58CD473}" ShortID="913433546">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{D63207B7-46CE-494C-AC18-9C5AE58CD473}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{F44AE47C-2C77-40EC-ADA0-9CE28E0B5D43}" ShortID="555585515">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{275ED8F7-D903-463B-82F4-98D5519F8BA7}" ShortID="74167825">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{275ED8F7-D903-463B-82F4-98D5519F8BA7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{60740FEF-908E-457C-AC8D-A6E794C0DAED}" ShortID="587654682">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{DDBB4F5B-D4C5-428C-8A5E-50C747A13B23}" ShortID="571584703">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{DDBB4F5B-D4C5-428C-8A5E-50C747A13B23}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{E09ADF25-81C1-461C-81CD-1ECED9613CEA}" ShortID="813196037">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{6B8A4C15-45AB-4166-A32B-40DC06D639BA}" ShortID="386887836">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{6B8A4C15-45AB-4166-A32B-40DC06D639BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{974477B7-6D7D-45AD-8044-AE8395587FD0}" ShortID="719021358">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{1DB7CD96-6AB9-42FF-AE02-EBA1D8A37437}" ShortID="590148228">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{1DB7CD96-6AB9-42FF-AE02-EBA1D8A37437}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{D07FEF4F-3BD8-4BC6-875C-F16EAEACE0BE}" ShortID="76228970">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{9C254E3D-10C1-4384-874C-123775292E81}" ShortID="310944723">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{9C254E3D-10C1-4384-874C-123775292E81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{3B0519E7-04A9-4C4D-AF63-0D67D7A1CFD4}" ShortID="331218543">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{5463E786-DAD2-4728-8E2A-F74FD29B792E}" ShortID="841553862">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{5463E786-DAD2-4728-8E2A-F74FD29B792E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{66325DBC-3E9C-4C5F-ACE2-A6C0263CBF50}" ShortID="1012674541">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{B1531477-31EF-43F7-9496-7ADBA48A020C}" ShortID="1001671458">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{B1531477-31EF-43F7-9496-7ADBA48A020C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{38E0F026-310C-40D2-ACEC-D2F6A68183D3}" ShortID="956370997">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{920C87C8-4424-4E9D-8681-DDCCF4AF1A91}" ShortID="1015461931">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{920C87C8-4424-4E9D-8681-DDCCF4AF1A91}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="FS_Grass_Layer" ID="{B9C15A1A-0386-4F75-B489-34A71F93592D}" ShortID="836296962">
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="FS_Grass_Layer" ID="{E646A62D-4846-4698-9252-BF943DA0F767}"/>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="FS_Ground_Layer" ID="{0858B311-2C88-49AF-8B31-DC7254EAB944}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="Footstep_Tile" ID="{8DD1AFA3-4DCD-42E8-A6D2-09AF41584DA1}" ShortID="518262466">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="FS_Tile_Layer" ID="{F9C26FB2-5844-487E-8532-FFA157E675F7}" ShortID="464934977">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>34</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{36623965-D2FB-45A6-A101-8FBE2EA67FEB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="18"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B944B86D-90C2-4A16-A92F-DCC22CCE8AF8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="18"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2FF5DB71-28E5-4A2A-BE16-8EB66CC330E2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="152"/>
+																	<Property Name="Min" Type="Real64" Value="-126"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C314C5B2-1127-4637-8CB4-398BDEF731AC}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{FA954EDE-B88E-4BC2-AF97-F04781E11979}" ShortID="241186342">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{DC6D6717-4F22-4A35-8060-CA37EF3905A6}" ShortID="507129541">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{DC6D6717-4F22-4A35-8060-CA37EF3905A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{97F9A105-33A6-4450-A986-95BEFE1BF91A}" ShortID="599628217">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{BCF3EB37-154D-4A6F-AA83-6A5DDF184660}" ShortID="4617718">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{BCF3EB37-154D-4A6F-AA83-6A5DDF184660}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{AB50F3D2-7723-446E-A082-837BADE49268}" ShortID="863399362">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{458F3670-01CD-49A7-BAC0-E56CD07D998D}" ShortID="139408472">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{458F3670-01CD-49A7-BAC0-E56CD07D998D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{67FEF578-A00C-400C-AB7E-186B47A6AF27}" ShortID="254085916">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{40B1DCBE-78F3-4586-8D90-9027D2C3AF40}" ShortID="21964351">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{40B1DCBE-78F3-4586-8D90-9027D2C3AF40}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{575F6B54-3B3E-43CD-BA63-59A4FAD5C7E7}" ShortID="536962487">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{4A12C746-EE8D-4099-8659-7793A0DCE32A}" ShortID="1018540249">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{4A12C746-EE8D-4099-8659-7793A0DCE32A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{CF16F100-C379-4204-ADCE-0FFF6E2B2D53}" ShortID="865384622">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{707B8CDD-8FDB-439B-8C1A-43DF5591B9F5}" ShortID="683599138">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{707B8CDD-8FDB-439B-8C1A-43DF5591B9F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{39FB2D9B-B5E3-4A6D-9BEF-138D02EB4947}" ShortID="918025840">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{2E3C6A7F-34F6-4790-8E19-6274B0F4A752}" ShortID="334311878">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{2E3C6A7F-34F6-4790-8E19-6274B0F4A752}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{D4EDE2DF-553D-416B-B55D-5D4E18830BC0}" ShortID="810812895">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{DDE5270C-0756-48A9-92E9-C9D6C193E205}" ShortID="551249143">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{DDE5270C-0756-48A9-92E9-C9D6C193E205}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{45A29B74-B5E2-4BBA-B817-17ECEFA0E9EE}" ShortID="994635742">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{166F12BA-D531-435A-8111-2BB45319D9F1}" ShortID="289513068">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{166F12BA-D531-435A-8111-2BB45319D9F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{1C120D74-A2BD-457A-8E5E-351479B6E015}" ShortID="828051991">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{50CB8C28-4556-4CC0-BEFD-FB3A923FA383}" ShortID="847402154">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{50CB8C28-4556-4CC0-BEFD-FB3A923FA383}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{6DF8AE75-7A74-401C-A660-868BA95CEEDA}" ShortID="497648758">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{875BD9F4-EA3E-4F91-BF19-AE44DA3A9C08}" ShortID="863182881">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{875BD9F4-EA3E-4F91-BF19-AE44DA3A9C08}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{701EF1EA-6BB7-45A3-9878-5E55E211670D}" ShortID="838922240">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{9DCE727D-5946-45E1-B635-26A32D83826D}" ShortID="783805604">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{9DCE727D-5946-45E1-B635-26A32D83826D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{680F1165-5772-4865-B986-5F513009C07F}" ShortID="349145399">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{D7825587-A01D-4488-BCFF-1BA095656636}" ShortID="17824775">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{D7825587-A01D-4488-BCFF-1BA095656636}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{A47FC4E2-2B73-4700-A913-739B856A3C2D}" ShortID="686354931">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{79AB6541-3F9A-4A21-9491-2187B988BF4C}" ShortID="220548099">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{79AB6541-3F9A-4A21-9491-2187B988BF4C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="FS_Ground_Layer" ID="{9AB8C4E1-A491-46DE-8B6B-0328E0CFBFD8}" ShortID="198754200">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2D095DBC-EB55-4504-BA09-46E3153B54D0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="17"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{74EA3E11-C30F-4B13-980F-F314F839C2FF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="17"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{06AC4738-1A51-483D-BFAC-B14091B9DC01}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-9"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{1B1FFD07-6ACF-426B-93C4-63E247C7A7A0}" ShortID="885966014">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{ED10838F-D182-4777-AEEB-27272E2DA98A}" ShortID="937515238">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743].wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="671521257"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{ED10838F-D182-4777-AEEB-27272E2DA98A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{F4091AA8-908F-4BF0-89E6-60FD4604ACEE}" ShortID="337536287">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{44252498-1B7D-4341-B342-C422166C5B4F}" ShortID="722137652">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="802163195"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{44252498-1B7D-4341-B342-C422166C5B4F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{88E07272-0B5D-4F2D-ADB6-99F670D338CB}" ShortID="520086571">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{FA21543F-9DB9-4AD1-8D50-C2CC76A7E705}" ShortID="500713901">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="913433546"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{FA21543F-9DB9-4AD1-8D50-C2CC76A7E705}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{C94DEFC9-DC26-47B3-AB20-AFA20355501B}" ShortID="193183027">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{9D20FD46-C46D-4C5E-AA77-6B1045EC1C94}" ShortID="14587167">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="74167825"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{9D20FD46-C46D-4C5E-AA77-6B1045EC1C94}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{176FF3CC-B426-4731-B73C-7C736A809141}" ShortID="322674346">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{1BA56DB5-804E-4608-9922-AEBFCA0EE136}" ShortID="987665961">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744].wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="571584703"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{1BA56DB5-804E-4608-9922-AEBFCA0EE136}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{5A31870D-B827-4515-85EE-3207C2340C09}" ShortID="797583023">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{412E5625-400D-40C2-905C-BA398C7AF71C}" ShortID="865485747">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="386887836"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{412E5625-400D-40C2-905C-BA398C7AF71C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{8086D81E-FE65-44FF-AE03-9BB7BA30C545}" ShortID="931683302">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{381C0CB0-CE7B-4F41-A6CC-2CA950DADFD9}" ShortID="708321072">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="590148228"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{381C0CB0-CE7B-4F41-A6CC-2CA950DADFD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{F602AA00-7881-4003-8BDB-028F24512001}" ShortID="240258216">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{BA060416-7E9A-4793-854D-5A0C0D5AB8DD}" ShortID="115003777">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="310944723"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{BA060416-7E9A-4793-854D-5A0C0D5AB8DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{27B28E63-E5A5-4E23-A7B6-211356469E67}" ShortID="647332446">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{8927CD9E-B2C6-41AE-9815-A0DB88B9A37F}" ShortID="521382816">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="841553862"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{8927CD9E-B2C6-41AE-9815-A0DB88B9A37F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{F9E23FFA-6539-44F4-BDF6-07C582B2F7D8}" ShortID="298682757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{015A2352-41CF-448B-A769-8F95C2356779}" ShortID="611781424">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1001671458"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{015A2352-41CF-448B-A769-8F95C2356779}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{4811CEFA-B1B4-4C10-B20B-4F48D5467704}" ShortID="410231456">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{B7D9C6FB-475F-4C71-BB62-7DA47BEF68B6}" ShortID="714331121">
+															<Language>SFX</Language>
+															<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1015461931"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{B7D9C6FB-475F-4C71-BB62-7DA47BEF68B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footstep_Tile" ID="{8DD1AFA3-4DCD-42E8-A6D2-09AF41584DA1}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{C6283AD8-5754-4100-A1EA-1719BE76976D}"/>
+										<ItemList>
+											<ItemRef Name="Footstep_Grass" ID="{D10BEB15-348A-4F99-A9DE-96B6E32C66BF}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="AlienTile" ID="{3E5218F0-D16A-482A-BA4C-71E6BBCF54FD}"/>
+										<ItemList>
+											<ItemRef Name="Footstep_Tile" ID="{8DD1AFA3-4DCD-42E8-A6D2-09AF41584DA1}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<RandomSequenceContainer Name="FS_Tile_Layer" ID="{6FA55037-6AAE-4A84-B043-1496BC75D9C2}" ShortID="523657699">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{88D3F40D-4CCE-4A6A-962B-E86A92B8055E}">
+											<Modifier Name="" ID="{45152AB5-CE26-4896-8506-7BDE98477F91}">
 												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="35"/>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="18"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -541,9 +1850,10 @@
 								<Property Name="Lowpass" Type="int16">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{E5D1B897-BA2E-4D14-B3D9-5B570653BA16}">
+											<Modifier Name="" ID="{360D42E8-1F16-4CDB-A4A5-FA08671AEB41}">
 												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="38"/>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="18"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -552,21 +1862,26 @@
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{E277695D-FF67-4D20-B243-265DA1872A3E}">
+											<Modifier Name="" ID="{550ACB27-3F4A-4084-86DF-46A2FD0B7707}">
 												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="505"/>
-													<Property Name="Min" Type="Real64" Value="-556"/>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="152"/>
+													<Property Name="Min" Type="Real64" Value="-126"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{827A9B0A-32A3-4151-8781-EACF723A5D50}">
+											<Modifier Name="" ID="{2D42E2C7-740F-48BA-98CB-A0DFD807C9D1}">
 												<PropertyList>
-													<Property Name="Min" Type="Real64" Value="-22"/>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -582,63 +1897,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="FS_Grass_Layer" ID="{E646A62D-4846-4698-9252-BF943DA0F767}" ShortID="299737995">
-									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{B5293F1F-5552-4086-B212-5178F259700E}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="19"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{EE3664CA-59CB-4B8F-B811-0D56C4DF7271}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="22"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-180</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{CDD76893-9413-4B71-B124-80C4E9DC7290}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="101"/>
-															<Property Name="Min" Type="Real64" Value="-126"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{EF5D9FBB-478F-4082-A6BA-CBB5DC391187}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-7"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{326AB9C9-D0CC-4EC8-AC68-2838F0916CA8}" ShortID="559059530">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -648,264 +1907,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{25D592A9-8BC6-49D6-92D3-C82CD0F3AC9B}" ShortID="795781401">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{62968972-E61D-4210-A592-CF5E7E7E50B6}" ShortID="458624102">
-													<PropertyList>
-														<Property Name="FadeInShape" Type="int16" Value="8"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.145023568788246"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
-												</AudioFileSource>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" ShortID="213033432">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{69D3CD37-4C0B-4F5E-8E5C-0A4B307C7A78}" ShortID="65862405">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{EC1527A1-ABDB-42F2-9869-FB9816523A05}" ShortID="286451042">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{EC1527A1-ABDB-42F2-9869-FB9816523A05}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{30593F1D-51D0-4278-9B44-1F4B2560F16A}" ShortID="47203817">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{578874C4-626D-4111-9D5F-73AAF5EDB3F7}" ShortID="543093990">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{578874C4-626D-4111-9D5F-73AAF5EDB3F7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{6E8F1D14-C9B2-4BED-913B-7E7157EF78E0}" ShortID="876691181">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{F47E3B8C-82FD-45E4-82FF-4185B1A3F63C}" ShortID="364511688">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{F47E3B8C-82FD-45E4-82FF-4185B1A3F63C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{AEEAA117-6FFE-4944-9B64-734693D8E2C0}" ShortID="226118049">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{86732AD6-1DBA-4220-BCCD-120FBAF01F71}" ShortID="696199848">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{86732AD6-1DBA-4220-BCCD-120FBAF01F71}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{E22BA002-8E2A-4259-8E72-341516D395CA}" ShortID="927695948">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{091EBEA0-1E59-4B0F-B3C3-D38B649BA405}" ShortID="703533166">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{091EBEA0-1E59-4B0F-B3C3-D38B649BA405}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{7F276915-5B1F-41C4-9187-2C036EA08D39}" ShortID="621556909">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{DAAF4BEF-47F9-485C-B19E-DF96A5A8828C}" ShortID="816279401">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{DAAF4BEF-47F9-485C-B19E-DF96A5A8828C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{6813BA0F-9555-43F2-AAFD-DA29413D192D}" ShortID="455569816">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{0DD8F1CA-1571-446E-A25B-9334727AE9EB}" ShortID="453383055">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{0DD8F1CA-1571-446E-A25B-9334727AE9EB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{87B3ECCC-7C60-4A69-91B4-926B250CFAE2}" ShortID="532658804">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{EC67BA67-B971-49C9-9C01-2FA32712E5D9}" ShortID="266414310">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{EC67BA67-B971-49C9-9C01-2FA32712E5D9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{84DF7E8D-7619-4D28-B72D-682BBC48775B}" ShortID="558717835">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{FFE000B4-3BE7-464B-956B-81A63999A7EE}" ShortID="719626316">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{FFE000B4-3BE7-464B-956B-81A63999A7EE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{2F5C969C-29E7-496E-8639-8A7DF713AE34}" ShortID="537611582">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="507129541"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
 									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="FS_Ground_Layer" ID="{0858B311-2C88-49AF-8B31-DC7254EAB944}" ShortID="678847952">
-									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{8F86C425-30A1-4E2F-B1C6-117CC3F276AA}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="17"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{A13372E0-0015-4F88-8A7A-538DFEAE6FE6}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="17"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{8A8D4A5C-91FC-4B4B-9F19-24F8A2CB358F}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="505"/>
-															<Property Name="Min" Type="Real64" Value="-404"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{97352786-B0EB-4B9C-BA95-C7A339A90FB7}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-9"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{2F5C969C-29E7-496E-8639-8A7DF713AE34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{33F5F559-F4C1-4D06-B362-ACA96F48C9BF}" ShortID="279004211">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -915,233 +1929,305 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{6899B1EB-A5C7-47B7-8B33-8DC1C1745FAD}" ShortID="718499355">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{647A53CA-E683-4239-8631-DC306A165F83}" ShortID="671521257">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743].wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{647A53CA-E683-4239-8631-DC306A165F83}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{AC11E682-6D71-4F18-9A54-1F88DA6C21BC}" ShortID="951313788">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{C4B86A64-3974-49E9-9695-C120025AD8FE}" ShortID="802163195">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{C4B86A64-3974-49E9-9695-C120025AD8FE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{7BB63C82-CC88-428E-BAB1-20B3AC2AFC36}" ShortID="182295851">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{D63207B7-46CE-494C-AC18-9C5AE58CD473}" ShortID="913433546">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{D63207B7-46CE-494C-AC18-9C5AE58CD473}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{F44AE47C-2C77-40EC-ADA0-9CE28E0B5D43}" ShortID="555585515">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{275ED8F7-D903-463B-82F4-98D5519F8BA7}" ShortID="74167825">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{275ED8F7-D903-463B-82F4-98D5519F8BA7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{60740FEF-908E-457C-AC8D-A6E794C0DAED}" ShortID="587654682">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{DDBB4F5B-D4C5-428C-8A5E-50C747A13B23}" ShortID="571584703">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744].wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{DDBB4F5B-D4C5-428C-8A5E-50C747A13B23}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{E09ADF25-81C1-461C-81CD-1ECED9613CEA}" ShortID="813196037">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{6B8A4C15-45AB-4166-A32B-40DC06D639BA}" ShortID="386887836">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{6B8A4C15-45AB-4166-A32B-40DC06D639BA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{974477B7-6D7D-45AD-8044-AE8395587FD0}" ShortID="719021358">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{1DB7CD96-6AB9-42FF-AE02-EBA1D8A37437}" ShortID="590148228">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{1DB7CD96-6AB9-42FF-AE02-EBA1D8A37437}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{D07FEF4F-3BD8-4BC6-875C-F16EAEACE0BE}" ShortID="76228970">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{9C254E3D-10C1-4384-874C-123775292E81}" ShortID="310944723">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{9C254E3D-10C1-4384-874C-123775292E81}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{3B0519E7-04A9-4C4D-AF63-0D67D7A1CFD4}" ShortID="331218543">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{5463E786-DAD2-4728-8E2A-F74FD29B792E}" ShortID="841553862">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{5463E786-DAD2-4728-8E2A-F74FD29B792E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{66325DBC-3E9C-4C5F-ACE2-A6C0263CBF50}" ShortID="1012674541">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{B1531477-31EF-43F7-9496-7ADBA48A020C}" ShortID="1001671458">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{B1531477-31EF-43F7-9496-7ADBA48A020C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{38E0F026-310C-40D2-ACEC-D2F6A68183D3}" ShortID="956370997">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{920C87C8-4424-4E9D-8681-DDCCF4AF1A91}" ShortID="1015461931">
-													<Language>SFX</Language>
-													<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{920C87C8-4424-4E9D-8681-DDCCF4AF1A91}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{E48C6A16-9617-4D07-AFBF-3853AAAA33A7}" ShortID="130296481">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="4617718"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
 									</ChildrenList>
-								</RandomSequenceContainer>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{E48C6A16-9617-4D07-AFBF-3853AAAA33A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{DD63FB61-246A-4980-91B5-4B56E180F107}" ShortID="60575577">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{A3B13554-5DCE-49BD-ADA2-567F62BDD9F2}" ShortID="772508546">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="139408472"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{A3B13554-5DCE-49BD-ADA2-567F62BDD9F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{3463CE5E-EF49-4925-9A4D-AFF7902232ED}" ShortID="789428308">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{6A340B42-4E30-45B8-B8A2-56D8F336738E}" ShortID="562815035">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="21964351"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{6A340B42-4E30-45B8-B8A2-56D8F336738E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{AA9D6351-A327-4564-ACDD-721B4AD7C8AF}" ShortID="15851864">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{F2BDC85B-4D3F-4E3C-B453-5BC0E53FC7B1}" ShortID="880777622">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1018540249"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{F2BDC85B-4D3F-4E3C-B453-5BC0E53FC7B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{1BD107C6-4CD6-44E2-A721-F9CB384A4CD1}" ShortID="165741777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{31B629ED-5895-4B80-8178-48377741921A}" ShortID="420171241">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="683599138"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{31B629ED-5895-4B80-8178-48377741921A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{6B2D8288-3F82-4849-A109-B3D8A02DE9A8}" ShortID="814674022">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{FE62C864-4885-411C-AD00-C135D5DAD639}" ShortID="947084502">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="334311878"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{FE62C864-4885-411C-AD00-C135D5DAD639}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{239FFB2E-5691-4002-BCCE-80E1BD330DF1}" ShortID="284617748">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{2F00582E-1118-4991-828D-02B6B38D438D}" ShortID="72735525">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="551249143"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{2F00582E-1118-4991-828D-02B6B38D438D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{DC54B342-BDB7-4FDF-9B86-9C4F72A83050}" ShortID="1041709800">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{81BD3B97-B18A-43C5-8160-9D166AA16FD9}" ShortID="1064757370">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="289513068"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{81BD3B97-B18A-43C5-8160-9D166AA16FD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{1D5F6AD2-9703-494C-9310-051C7D7E8464}" ShortID="934872480">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{9D8630AA-88E1-44C6-AA65-A042E35F10FD}" ShortID="699960265">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="847402154"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{9D8630AA-88E1-44C6-AA65-A042E35F10FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{7FA852AE-56E8-42C1-ABC0-48512D95BA13}" ShortID="248698038">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{6AE947F1-B977-41B6-BF5C-792AA98F23C8}" ShortID="825536718">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="863182881"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{6AE947F1-B977-41B6-BF5C-792AA98F23C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{B796DEA9-4E63-4EDD-BE8C-4A4376701DF7}" ShortID="446533423">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{CF9013DA-23ED-40DC-ABF0-E3C80150ECD2}" ShortID="959967335">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="783805604"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{CF9013DA-23ED-40DC-ABF0-E3C80150ECD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{1888B7FA-3ACA-49FB-8584-9A1BD4F29C17}" ShortID="726445129">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{E6A3EE8E-6715-4E9A-A124-3EF0E2FF1C14}" ShortID="264456716">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="17824775"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{E6A3EE8E-6715-4E9A-A124-3EF0E2FF1C14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{4A87E5BE-C095-45E3-AB26-029AE4F5CF49}" ShortID="168941226">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{72C66174-89D5-4212-A389-56BB524F7C08}" ShortID="880689517">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="220548099"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{72C66174-89D5-4212-A389-56BB524F7C08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="FS_Grass_Layer" ID="{B9C15A1A-0386-4F75-B489-34A71F93592D}" ShortID="836296962">
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="FS_Grass_Layer" ID="{E646A62D-4846-4698-9252-BF943DA0F767}"/>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="FS_Ground_Layer" ID="{0858B311-2C88-49AF-8B31-DC7254EAB944}"/>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Freeze 5-RAW_Hit,Metal_02_NVG_RX [2022-12-21 163429]" ID="{7391D799-4BEC-4FA1-8C97-21B5D1C2A6DE}" ShortID="146867648">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Freeze 5-RAW_Hit,Metal_02_NVG_RX [2022-12-21 163429]" ID="{26F5911A-28C1-4C81-8C32-FC911A26D505}" ShortID="169714990">
+							<Language>SFX</Language>
+							<AudioFile>Freeze 5-RAW_Hit,Metal_02_NVG_RX [2022-12-21 163429].wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Freeze 5-RAW_Hit,Metal_02_NVG_RX [2022-12-21 163429]" ID="{26F5911A-28C1-4C81-8C32-FC911A26D505}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

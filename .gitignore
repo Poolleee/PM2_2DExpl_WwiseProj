@@ -3,7 +3,6 @@
 *.akd
 *.validationcache
 GeneratedSoundBanks
-Originals
 .cache
 .backup
 *.crossover.wsettings

@@ -3,10 +3,12 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{5CD5BD2D-4E9B-4419-998C-7CEBC64AF7FF}">
 			<PropertyList>
+				<Property Name="Event Action List\{2A1FD8AB-EB2D-4DD7-84EF-D8E356CF469A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2C138CA8-E1B3-44FB-A1EE-780AE81409FD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{721BE6EB-FEE2-4A6B-BA79-3F63F336F5B8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{83BA13DE-E35E-4AE3-BD2D-C364AC3DFD48}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9D797DA5-C0D3-4729-AE3D-C8EAE701B1B1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D541003E-0CBA-47C4-80F8-3FE04ED46481}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FE092CCD-4892-48C6-A98F-977B74657308}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -21,6 +23,15 @@
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="Game Profiler\Capture List\Filters\Scope - Game Object" Type="bool" Value="True"/>
+				<Property Name="Game Profiler\Capture List\Filters\Scope - Global" Type="bool" Value="True"/>
+				<Property Name="Game Profiler\Capture List\Filters\Sub Type - Mask" Type="int32" Value="8191"/>
+				<Property Name="Game Profiler\Capture List\Filters\Type - Mask" Type="int32" Value="6212"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Game Objects" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Hierarchy" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Parents" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - PlayingID" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Use Hierarchy" Type="bool" Value="False"/>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
@@ -63,9 +74,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="aVCNzzw1VEWggF9EPYviO+7FZ5/KPXFIl/veMxPc77fzqYpSQCPbS7/tohmJbsu+SMXA888pC067X3vArYbGNw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="aVCNzzw1VEWggF9EPYviO+7FZ5/KPXFIl/veMxPc77f6naI6Uj4US5Fu4mh1Vsl186mKUkAj20u/7aIZiW7LvkjFwPPPKQtOu197wK2Gxjc="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="P3f0tFio8UOeCIQ3fWG6Bw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="mQ2hHOdYJUazZDKUXSR+KH8bFiTchx9Hi/e4EFkVS7k="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="Yzkv2YJMTkOZyzhgXGHU3A=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
