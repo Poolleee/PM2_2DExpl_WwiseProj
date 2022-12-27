@@ -153,6 +153,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Spaceship" ID="{3185C1B2-D3C7-4913-91F0-A3801CAEFACE}">
+					<ChildrenList>
+						<Action Name="" ID="{116C956B-E7BD-46BB-B671-0A4ECEC1DA21}" ShortID="432084463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spaceship" ID="{6101493B-6E88-4CE9-873F-5E464D0FB2AA}" WorkUnitID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
