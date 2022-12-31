@@ -3,9 +3,21 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{D92F3963-4C82-434E-99CB-38605C61D4DC}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="New_SoundBank" ID="{3F427D34-A9FB-4F41-AAC9-FAD66696C9FD}">
+				<SoundBank Name="Zone2" ID="{B193F133-B883-4862-9BF4-050F33752646}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player" ID="{A30141E6-409B-4E3E-A650-80CAD81B61FE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" WorkUnitID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" WorkUnitID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Scene1" ID="{7BCA4A9F-E076-4A0D-8337-A7CE81EAA946}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Spaceship" ID="{3185C1B2-D3C7-4913-91F0-A3801CAEFACE}" WorkUnitID="{D9639B0B-626B-43B1-87E8-14667FB8E3B5}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -3,26 +3,36 @@
 	<Platform GUID="{DA683B9E-FDF9-4911-B8D8-D917A8DD1277}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3906032657" Timestamp="1671891558"/>
-				<File Name="New_SoundBank" Hash="2810644695" Timestamp="1671892397"/>
+				<File Name="Init" Hash="3906032657" Timestamp="1672247289"/>
+				<File Name="New_SoundBank" Hash="511880943" Timestamp="1672254007"/>
+				<File Name="Player" Hash="1748854234" Timestamp="1672338063"/>
+				<File Name="Scene1" Hash="2220296854" Timestamp="1672338393"/>
+				<File Name="Zone2" Hash="1814483530" Timestamp="1672338393"/>
+				<File Name="Zone_1" Hash="3345300180" Timestamp="1672338063"/>
+				<File Name="Zone_2" Hash="390775757" Timestamp="1672338063"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2274318993" Timestamp="1671892397"/>
+				<File Name="" Hash="308101545" Timestamp="1672338393"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{86AFC6CA-CED8-4F2E-BCBD-0F838058F986}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3513873729" Timestamp="1671891557"/>
-				<File Name="New_SoundBank" Hash="2810644695" Timestamp="1671892397"/>
+				<File Name="Init" Hash="3513873729" Timestamp="1672247288"/>
+				<File Name="New_SoundBank" Hash="511880943" Timestamp="1672254006"/>
+				<File Name="Player" Hash="1748854234" Timestamp="1672338063"/>
+				<File Name="Scene1" Hash="2220296854" Timestamp="1672338392"/>
+				<File Name="Zone2" Hash="1814483530" Timestamp="1672338392"/>
+				<File Name="Zone_1" Hash="3345300180" Timestamp="1672338063"/>
+				<File Name="Zone_2" Hash="390775757" Timestamp="1672338063"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="787124787" Timestamp="1671892397"/>
+				<File Name="" Hash="2574422979" Timestamp="1672338392"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

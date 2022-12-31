@@ -72,7 +72,7 @@
 									<PropertyList>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.049233063088249"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="8.23707017053397E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.0823707017053397"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655].wav</AudioFile>
@@ -94,7 +94,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-1" ID="{D6E95297-05CF-4055-B4FC-2D29EB265827}" ShortID="777394419">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="4.21442549622589E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0421442549622589"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.105360637405647"/>
 									</PropertyList>
@@ -118,9 +118,9 @@
 							<ChildrenList>
 								<AudioFileSource Name="Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-4" ID="{EF312603-7D5A-47C4-8173-1640C028C26B}" ShortID="666105232">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="5.53775277234182E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0553775277234182"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="9.89726027397258E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.0989726027397258"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-4.wav</AudioFile>
@@ -142,7 +142,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190656]-1" ID="{4B1286A8-4BD5-4B75-A75C-F4CC43BCBEE4}" ShortID="978861603">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="3.56718851924331E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0356718851924331"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.117207622775137"/>
 									</PropertyList>
@@ -157,6 +157,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Melee_Swing" ID="{F3C0C548-29CF-4E0B-BB5F-7BC0AD86C637}" ShortID="778722814">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-710</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -2246,7 +2253,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2278,6 +2285,7 @@
 						<Sound Name="Freeze Spaceship Mid Layer [2022-12-24 114324]" ID="{38CD2FCA-0241-4566-9939-4182765A290A}" ShortID="983337032">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-26</Value>
@@ -2286,7 +2294,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+									<ObjectRef Name="mono" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
@@ -2322,7 +2330,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13.5</Value>
+										<Value>-16.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2361,6 +2369,114 @@
 					<BlendTrackList>
 						<BlendTrack Name="New Blend Track" ID="{674014A2-5DC9-4219-8F6F-4A40104750FE}" ShortID="925153947"/>
 					</BlendTrackList>
+				</BlendContainer>
+				<BlendContainer Name="Acid_Pool" ID="{7AF2310B-7A50-4A2E-862C-59D3517385AB}" ShortID="698705745">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-80</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="acid atten" ID="{BAB807CB-78D3-41A3-9E2E-A2483A2C0345}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="acid layer 1" ID="{72F4145E-E84A-4630-80EF-5AB77D857372}" ShortID="205312371">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-960</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="acid layer 1" ID="{9DEB2E7E-E373-47F0-9B14-F943704AB6F6}" ShortID="123908437">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2407.895"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.08275462962963"/>
+										<Property Name="LoopEnd" Type="Real64" Value="18.568287037037"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Acid_Layer\acid layer 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="acid layer 1" ID="{9DEB2E7E-E373-47F0-9B14-F943704AB6F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="acid layer 2" ID="{898601E3-E210-43FE-AF5E-ED1EB115910B}" ShortID="152394941">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="acid layer 2" ID="{6707B101-7E53-4369-AEC4-2FA72E91BA45}" ShortID="526532686">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1608.799"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.00829264322917"/>
+										<Property Name="LoopEnd" Type="Real64" Value="8.96849772135417"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Acid_Layer\acid layer 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="acid layer 2" ID="{6707B101-7E53-4369-AEC4-2FA72E91BA45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
