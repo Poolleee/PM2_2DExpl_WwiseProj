@@ -142,7 +142,7 @@
 				</Attenuation>
 				<Attenuation Name="acid atten" ID="{BAB807CB-78D3-41A3-9E2E-A2483A2C0345}" ShortID="432418485">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="16"/>
+						<Property Name="RadiusMax" Type="Real64" Value="36"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -154,11 +154,17 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>16</XPos>
+											<XPos>10.04389</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>36</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -186,9 +192,16 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>16</XPos>
+											<XPos>6.94143</XPos>
+											<YPos>41</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>36</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

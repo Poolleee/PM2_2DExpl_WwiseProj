@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BBF95127-7D55-49D7-BFD3-363085CD22C5}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
+	<Events>
+		<WorkUnit Name="UI" ID="{BBF95127-7D55-49D7-BFD3-363085CD22C5}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Highlited_Button" ID="{AAB5A909-F654-4512-8DDC-8C8D27F03303}">
+					<ChildrenList>
+						<Action Name="" ID="{F112A2C2-E0E3-473B-B466-E59F5830C555}" ShortID="289299928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI,Select_01_VG_RX" ID="{557515CA-A2E2-4B7C-92F7-E06D8610A5FF}" WorkUnitID="{1FCA6A3C-BC81-4D8F-AFA9-A233233D1106}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

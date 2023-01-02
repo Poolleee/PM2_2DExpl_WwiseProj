@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}" SchemaVersion="94" RootDocumentID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}">
+	<AudioObjects>
+		<WorkUnit Name="Ambiences_Background" ID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}" OwnerID="{A22CFE9E-F2A2-4E60-BE4B-020F1C12A8B1}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="Jungle_Ambient" ID="{084AD5B4-A778-46AF-85D9-CFA8477A119F}" ShortID="1068096653">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Jungle" ID="{3DE6E267-3FB3-4733-A23C-418839FB38FE}" ShortID="347933625">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jungle" ID="{B5F5135E-5087-486B-980C-BE71E11DA80C}" ShortID="285803327">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="39684.211"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="2.37442922374429"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.890410958904113"/>
+										<Property Name="LoopBegin" Type="Real64" Value="41.8493150684931"/>
+										<Property Name="LoopEnd" Type="Real64" Value="134.155251141552"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Audio tracks\Jungle.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jungle" ID="{B5F5135E-5087-486B-980C-BE71E11DA80C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wind outside" ID="{C88FE310-448B-4C58-BF8B-35606E09A8EE}" ShortID="841714590">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind outside" ID="{AF984775-4F96-4181-83B3-8403CF094E32}" ShortID="694852433">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="35578.947"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.48401826484018"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.78082191780823"/>
+										<Property Name="LoopBegin" Type="Real64" Value="30.5707762557078"/>
+										<Property Name="LoopEnd" Type="Real64" Value="138.904109589041"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Audio tracks\Wind outside.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind outside" ID="{AF984775-4F96-4181-83B3-8403CF094E32}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

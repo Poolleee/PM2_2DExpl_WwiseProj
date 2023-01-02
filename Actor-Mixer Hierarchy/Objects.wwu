@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}" SchemaVersion="94" RootDocumentID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}">
+	<AudioObjects>
+		<WorkUnit Name="Objects" ID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}" OwnerID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Objects" ID="{DEF65DDA-6023-43AA-B3F0-757F1E099E2D}" ShortID="482958063">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Column" ID="{77C3388C-4B89-4325-B537-85EB2169EC25}" ShortID="209944638">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Column_Destruction" ID="{3F884129-665F-4BF8-9277-C252CC9475A8}" ShortID="97224076">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FD01D1A0-C0E5-4B5A-8E6E-C62FEF2F1B55}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F05CE2C7-0382-4FA4-BF9C-E49B0EA3F6FF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{97D9BDCC-CE19-4086-B46F-3622BCE68FD0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{019E2BE3-B03F-414B-AE28-DF8C2656E221}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Debris_Layer" ID="{F84FB461-B48E-4FAD-9859-D2247BE30D6A}" ShortID="16381995">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A7764FC0-85B2-4216-957C-8CDF1204F544}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="15"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4FAED7C1-DD1C-4DA6-9F71-6D7F77DE41AE}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="15"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A67494E1-3C27-477A-82A1-FBA75A30193A}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141619]" ID="{2C63A804-A712-4A21-91C8-E39CD717B622}" ShortID="279883853">
+													<Language>SFX</Language>
+													<AudioFile>Column_Layer\Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141619].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141619]" ID="{2C63A804-A712-4A21-91C8-E39CD717B622}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Rocks_layer" ID="{2EE8497C-0ECF-4816-9462-04B57C341807}" ShortID="249492756">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>18</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EBEAB777-D5C4-446D-8D62-7D75DD1A9F4B}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]" ID="{13D5BB5F-2EE6-4C60-B8CB-740004CC6B5C}" ShortID="828482513">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]" ID="{A2141F5A-A8E7-4D66-8C09-431348E52676}" ShortID="347827384">
+															<Language>SFX</Language>
+															<AudioFile>Column_Layer\Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]" ID="{A2141F5A-A8E7-4D66-8C09-431348E52676}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]-2" ID="{D3DD4312-0643-422E-8D91-B4279E355F9F}" ShortID="660803499">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]-2" ID="{22C8144E-EED8-4BA0-96B3-B062C92BDD4B}" ShortID="1050876012">
+															<Language>SFX</Language>
+															<AudioFile>Column_Layer\Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]-2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]-2" ID="{22C8144E-EED8-4BA0-96B3-B062C92BDD4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<Sound Name="Column_Hit" ID="{1F7BE482-337D-48D6-90BC-FBD69D442168}" ShortID="635324048">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>1340</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CEF9CBA7-8147-4416-BB31-239671681A99}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{94C062A3-7AFB-42EA-80B3-7F13E6868142}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze Column_Hit [2022-12-31 152343]" ID="{92A690E0-32EB-42B4-80A5-FCEFF2C48E19}" ShortID="163045504">
+											<Language>SFX</Language>
+											<AudioFile>Column_Layer\Freeze Column_Hit [2022-12-31 152343].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze Column_Hit [2022-12-31 152343]" ID="{92A690E0-32EB-42B4-80A5-FCEFF2C48E19}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Sliding_Door" ID="{244A416C-13D1-4ADC-8227-DC4088FEE6B4}" ShortID="872615306">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Sliding_Door" ID="{9157293B-9942-41ED-826B-F5BADEC638CF}" ShortID="523209116">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{28C63985-7C55-44A9-BA22-6C6FBAC910A2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{490972CD-E249-4785-8A14-FE0BBE727D2B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{565C4570-3BB3-4A24-8F8E-DAD1DC3485C8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D2AED757-E606-4609-8E31-9B91349E7A8A}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Freeze 28-RAW_Debris,Sand_01_G_RX [2023-01-02 121802]" ID="{CEE312FA-C553-4B85-BF6C-7A498C7DC554}" ShortID="149951065">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze 28-RAW_Debris,Sand_01_G_RX [2023-01-02 121802]" ID="{63FCBF1B-0B53-4824-BB30-37E3D42985F8}" ShortID="106720252">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.12079815487839"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sliding_Door_Layer\Freeze 28-RAW_Debris,Sand_01_G_RX [2023-01-02 121802].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze 28-RAW_Debris,Sand_01_G_RX [2023-01-02 121802]" ID="{63FCBF1B-0B53-4824-BB30-37E3D42985F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Freeze 29-Stone,Sliding_04_VVG_RX [2023-01-02 125350]" ID="{2232C662-860F-4D06-9A03-62B274E75DB3}" ShortID="378065407">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze 29-Stone,Sliding_04_VVG_RX [2023-01-02 125350]" ID="{37DDACF9-912E-463A-8C66-0E8D9DBF2C33}" ShortID="870655019">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.158165362035225"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.685383235485975"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sliding_Door_Layer\Freeze 29-Stone,Sliding_04_VVG_RX [2023-01-02 125350].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze 29-Stone,Sliding_04_VVG_RX [2023-01-02 125350]" ID="{37DDACF9-912E-463A-8C66-0E8D9DBF2C33}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Acid_Dive" ID="{1B960299-0158-4582-86C1-7C3774B752D2}" ShortID="667395915">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Acid_Dive 0001 [2023-01-02 142817]" ID="{1CED5890-378E-4EBB-A2D5-96B76C84F1DD}" ShortID="275069038">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F8817C47-D7CA-44E1-AFCB-862C5ED83302}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B86CA69D-00F5-44E7-A618-8A6BC0205010}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{00664211-3B67-45E9-ADA1-5CC111DC9C0B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EA40196D-7EDE-4FFF-94F0-F6CFEC20944F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Acid_Dive 0001 [2023-01-02 142817]" ID="{516C2EE5-AB9D-4BB8-A3A1-F86B86FF04D4}" ShortID="251650587">
+											<Language>SFX</Language>
+											<AudioFile>Acid_Layer\Acid_Dive 0001 [2023-01-02 142817].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Acid_Dive 0001 [2023-01-02 142817]" ID="{516C2EE5-AB9D-4BB8-A3A1-F86B86FF04D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
+	<Events>
+		<WorkUnit Name="Objects" ID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Column" ID="{9AC248D5-228C-4F7B-BE3D-47866FBC3B63}" ShortID="661041948">
+					<ChildrenList>
+						<Event Name="Play_Column_Hit" ID="{3DEE9FE6-3B52-4FFF-8415-D80E9D5A8FDD}">
+							<ChildrenList>
+								<Action Name="" ID="{791393DF-848C-4407-A07E-1C43DF8F7D64}" ShortID="353552171">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.05">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{64F7617C-A93C-4426-928F-87CAFD040D9B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.05"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Column_Hit" ID="{1F7BE482-337D-48D6-90BC-FBD69D442168}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Column_Destruction" ID="{0F7A5383-8089-41B6-BE4C-D45977FD2B91}">
+							<ChildrenList>
+								<Action Name="" ID="{8B22ADF6-35D9-4A92-92A7-5E4BACD5163D}" ShortID="961326086">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Column_Destruction" ID="{3F884129-665F-4BF8-9277-C252CC9475A8}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1C42C056-0696-4868-B86C-E8F913EEE679}" ShortID="467613553">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Melee" ID="{27E6B133-A4DC-4A24-9886-8E008D893BBA}" WorkUnitID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9540FC4B-B473-4FF2-9BF4-D1C0F618428B}" ShortID="214226923">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Column_Hit" ID="{3DEE9FE6-3B52-4FFF-8415-D80E9D5A8FDD}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Sliding_Door" ID="{15848EA3-E252-478C-A6F2-700923B76716}">
+					<ChildrenList>
+						<Action Name="" ID="{BB6343C2-5A6F-4364-BF23-8AEEBF7183AE}" ShortID="734337448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sliding_Door" ID="{9157293B-9942-41ED-826B-F5BADEC638CF}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Acid_Dive" ID="{F381654F-042B-40BE-A527-EDF24972B562}">
+					<ChildrenList>
+						<Action Name="" ID="{3E108AF2-051F-44B3-A948-0CA936DA8D58}" ShortID="972072651">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Acid_Dive 0001 [2023-01-02 142817]" ID="{1CED5890-378E-4EBB-A2D5-96B76C84F1DD}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
