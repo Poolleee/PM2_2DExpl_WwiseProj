@@ -23,7 +23,8 @@
 							<ChildrenList>
 								<SoundBank Name="Acid" ID="{4968B2C4-947B-469C-A95C-B47371FB7034}">
 									<ObjectInclusionList>
-										<ObjectRef Name="Acid_Dive" ID="{F381654F-042B-40BE-A527-EDF24972B562}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
+										<ObjectRef Name="Player_Acid_Dive" ID="{F381654F-042B-40BE-A527-EDF24972B562}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
+										<ObjectRef Name="Object_Acid_Dive" ID="{FAECCEFE-7D4E-4469-8C7B-B19197386B98}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
 										<ObjectRef Name="Acid_Pool" ID="{B8C0C9FC-51B7-4A5D-AF24-A25CA7CFF380}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
 									</ObjectInclusionList>
 									<ObjectExclusionList/>
@@ -42,6 +43,7 @@
 							<ChildrenList>
 								<SoundBank Name="Cave_Ambient" ID="{AD840757-1B9D-4DC8-B645-DE941D9A7DDA}">
 									<ObjectInclusionList>
+										<ObjectRef Name="Cavern" ID="{1521FCD2-6307-424F-A67D-5E76C381342F}" WorkUnitID="{33EB1407-1601-4B0D-A620-9099C0353115}" Filter="7" Origin="Manual"/>
 										<ObjectRef Name="Cave" ID="{3DA40A14-F3E5-4CC0-9377-007324ED05E4}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
 									</ObjectInclusionList>
 									<ObjectExclusionList/>
@@ -77,6 +79,28 @@
 						<SoundBank Name="Sliding_Door" ID="{D639EF01-AC0C-4B9F-8FD0-A59759DC25F3}">
 							<ObjectInclusionList>
 								<ObjectRef Name="Sliding_Door" ID="{15848EA3-E252-478C-A6F2-700923B76716}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Pushable_box" ID="{1CB533D9-F985-4847-8FFF-1CD0A66815C4}">
+							<ObjectInclusionList>
+								<ObjectRef Name="PushableBox" ID="{1A8A2AA2-DFC0-4B65-B0E5-C03D94DDD500}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Pressure_Pad" ID="{5A09A21A-6933-4258-9FBF-73ABF6D189B4}">
+							<ObjectInclusionList>
+								<ObjectRef Name="PressurePad" ID="{3B091C13-52C6-4EA6-ACA5-FBC0024096C0}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Key" ID="{20BF32FA-17D8-462D-950D-743DFA37479C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_hub_Door" ID="{CDD51AC9-196D-427C-967F-896334281A16}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Pick_Key" ID="{6DB0F418-14E1-44A7-9DEA-4CC258EF0B94}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>

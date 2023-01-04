@@ -44,9 +44,11 @@
 						<Property Name="DecayHighFrequency" Type="Real32" Value="8000"/>
 						<Property Name="DecayHighRatio" Type="Real32" Value="0.7150547"/>
 						<Property Name="DecayLowFrequency" Type="Real32" Value="800"/>
-						<Property Name="DecayLowRatio" Type="Real32" Value="1.314807"/>
+						<Property Name="DecayLowRatio" Type="Real32" Value="0.31"/>
 						<Property Name="DecayMidRatio" Type="Real32" Value="0.9701383"/>
-						<Property Name="DecayTime" Type="Real32" Value="0.3059267"/>
+						<Property Name="DecayTime" Type="Real32" Value="1.506"/>
+						<Property Name="PredelayFront" Type="Real32" Value="24.5"/>
+						<Property Name="Quality" Type="int32" Value="8"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="Cavern" ID="{708A63DA-72DF-47A4-AE8E-1AB398F035D8}" ShortID="71612166">

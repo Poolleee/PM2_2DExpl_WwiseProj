@@ -20,7 +20,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Cave" ID="{3DA40A14-F3E5-4CC0-9377-007324ED05E4}"/>
+						<Event Name="Cave" ID="{3DA40A14-F3E5-4CC0-9377-007324ED05E4}">
+							<ChildrenList>
+								<Action Name="" ID="{13044426-4F03-45EE-A346-C5D293B06B1A}" ShortID="426977894">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Ambient" ID="{AB77CA28-324B-4E23-9134-8204C84B8B51}" WorkUnitID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Temple" ID="{6A61FC68-B7E7-498F-BD77-AEED9A95BA3C}"/>
 					</ChildrenList>
 				</Folder>

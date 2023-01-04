@@ -7,12 +7,23 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Highlited_Button" ID="{AAB5A909-F654-4512-8DDC-8C8D27F03303}">
+				<Event Name="Highlighted_Button" ID="{AAB5A909-F654-4512-8DDC-8C8D27F03303}">
 					<ChildrenList>
 						<Action Name="" ID="{F112A2C2-E0E3-473B-B466-E59F5830C555}" ShortID="289299928">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI,Select_01_VG_RX" ID="{557515CA-A2E2-4B7C-92F7-E06D8610A5FF}" WorkUnitID="{1FCA6A3C-BC81-4D8F-AFA9-A233233D1106}"/>
+									<ObjectRef Name="Highlighted_Button" ID="{557515CA-A2E2-4B7C-92F7-E06D8610A5FF}" WorkUnitID="{1FCA6A3C-BC81-4D8F-AFA9-A233233D1106}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clicked_Button" ID="{1D82C00C-2B50-4F98-A9ED-52C8C66CAFBB}">
+					<ChildrenList>
+						<Action Name="" ID="{624D285A-A5D2-4C47-9068-F615AB0B9103}" ShortID="891933117">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Click_Button" ID="{A24A8493-9D55-43DD-A2CD-C29383BA2AC1}" WorkUnitID="{1FCA6A3C-BC81-4D8F-AFA9-A233233D1106}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

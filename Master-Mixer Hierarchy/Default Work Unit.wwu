@@ -9,6 +9,23 @@
 							<ObjectRef Name="System" ID="{F0F79862-4C92-471F-9676-E0BC71A86599}" WorkUnitID="{C62DDAEA-1939-46C1-9AF6-B2BD075F0E58}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambiences" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
+							<ChildrenList>
+								<Bus Name="Cave" ID="{A9DA2192-5E72-4E3C-B96A-521AFFB837FC}">
+									<ChildrenList>
+										<AuxBus Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
+													<ObjectRef Name="Cavern" ID="{1521FCD2-6307-424F-A67D-5E76C381342F}" WorkUnitID="{33EB1407-1601-4B0D-A620-9099C0353115}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
 					<ReferenceList>

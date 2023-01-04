@@ -181,6 +181,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Hit" ID="{E5EB741C-4752-48CE-83F0-FDFF0BE68F6D}">
+							<ChildrenList>
+								<Action Name="" ID="{B53D5FB3-EDB3-4CD2-B1A9-4832540674A4}" ShortID="1069586722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_Layer" ID="{A4B67878-AB55-41B7-A821-E7E1BBF9BBD9}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gun" ID="{3B685655-3C68-498C-94A3-8CFE461F7672}">
+							<ChildrenList>
+								<Action Name="" ID="{B8F7592F-92A5-4231-8A08-75F01610DF55}" ShortID="1065267681">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gunshot" ID="{F3971264-7564-4B71-A90E-E7CBD412E47E}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -3,20 +3,23 @@
 	<Platform GUID="{DA683B9E-FDF9-4911-B8D8-D917A8DD1277}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Acid" Hash="501835994" Timestamp="1672666723"/>
-				<File Name="Cave_Ambient" Hash="3487797772" Timestamp="1672656020"/>
-				<File Name="Column" Hash="3133676342" Timestamp="1672659889"/>
+				<File Name="Acid" Hash="504407764" Timestamp="1672841951"/>
+				<File Name="Cave_Ambient" Hash="166427025" Timestamp="1672739183"/>
+				<File Name="Column" Hash="3121394018" Timestamp="1672738166"/>
 				<File Name="Elements" Hash="1194567341" Timestamp="1672581060"/>
 				<File Name="Enviroment" Hash="3078797674" Timestamp="1672581060"/>
-				<File Name="Init" Hash="3906032657" Timestamp="1672472461"/>
-				<File Name="Jungle_Ambient" Hash="161764632" Timestamp="1672656129"/>
+				<File Name="Init" Hash="1347621382" Timestamp="1672750395"/>
+				<File Name="Jungle_Ambient" Hash="4127541347" Timestamp="1672739143"/>
+				<File Name="Key" Hash="2514845577" Timestamp="1672845215"/>
 				<File Name="New_SoundBank" Hash="511880943" Timestamp="1672254007"/>
-				<File Name="Player" Hash="3387325371" Timestamp="1672654522"/>
+				<File Name="Player" Hash="281182144" Timestamp="1672832383"/>
+				<File Name="Pressure_Pad" Hash="2018351281" Timestamp="1672834894"/>
+				<File Name="Pushable_box" Hash="780793784" Timestamp="1672750395"/>
 				<File Name="Scene1" Hash="1948924305" Timestamp="1672472461"/>
-				<File Name="Sliding_Door" Hash="394918825" Timestamp="1672666496"/>
-				<File Name="Spaceship" Hash="2928893834" Timestamp="1672654522"/>
+				<File Name="Sliding_Door" Hash="408854529" Timestamp="1672750395"/>
+				<File Name="Spaceship" Hash="2755291685" Timestamp="1672738166"/>
 				<File Name="Temple_Ambient" Hash="3520173007" Timestamp="1672656020"/>
-				<File Name="UIMenu" Hash="556745763" Timestamp="1672654522"/>
+				<File Name="UIMenu" Hash="3453486665" Timestamp="1672832383"/>
 				<File Name="Zone1" Hash="2370996128" Timestamp="1672479612"/>
 				<File Name="Zone2" Hash="2967774801" Timestamp="1672497512"/>
 				<File Name="Zone3" Hash="1624632643" Timestamp="1672581060"/>
@@ -26,27 +29,30 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3031497587" Timestamp="1672666723"/>
+				<File Name="" Hash="437255071" Timestamp="1672845215"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{86AFC6CA-CED8-4F2E-BCBD-0F838058F986}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Acid" Hash="501835994" Timestamp="1672666723"/>
-				<File Name="Cave_Ambient" Hash="3487797772" Timestamp="1672656019"/>
-				<File Name="Column" Hash="3133676342" Timestamp="1672659889"/>
+				<File Name="Acid" Hash="504407764" Timestamp="1672841951"/>
+				<File Name="Cave_Ambient" Hash="1238927400" Timestamp="1672739181"/>
+				<File Name="Column" Hash="3121394018" Timestamp="1672738166"/>
 				<File Name="Elements" Hash="1194567341" Timestamp="1672581059"/>
 				<File Name="Enviroment" Hash="3078797674" Timestamp="1672581059"/>
-				<File Name="Init" Hash="3513873729" Timestamp="1672472460"/>
-				<File Name="Jungle_Ambient" Hash="161764632" Timestamp="1672656129"/>
+				<File Name="Init" Hash="1722735443" Timestamp="1672750395"/>
+				<File Name="Jungle_Ambient" Hash="4127541347" Timestamp="1672739143"/>
+				<File Name="Key" Hash="2514845577" Timestamp="1672845215"/>
 				<File Name="New_SoundBank" Hash="511880943" Timestamp="1672254006"/>
-				<File Name="Player" Hash="3387325371" Timestamp="1672654522"/>
+				<File Name="Player" Hash="281182144" Timestamp="1672832383"/>
+				<File Name="Pressure_Pad" Hash="2018351281" Timestamp="1672834894"/>
+				<File Name="Pushable_box" Hash="780793784" Timestamp="1672750395"/>
 				<File Name="Scene1" Hash="1948924305" Timestamp="1672472460"/>
-				<File Name="Sliding_Door" Hash="394918825" Timestamp="1672666496"/>
-				<File Name="Spaceship" Hash="2928893834" Timestamp="1672654522"/>
+				<File Name="Sliding_Door" Hash="408854529" Timestamp="1672750395"/>
+				<File Name="Spaceship" Hash="2755291685" Timestamp="1672738166"/>
 				<File Name="Temple_Ambient" Hash="3520173007" Timestamp="1672656019"/>
-				<File Name="UIMenu" Hash="556745763" Timestamp="1672654522"/>
+				<File Name="UIMenu" Hash="3453486665" Timestamp="1672832383"/>
 				<File Name="Zone1" Hash="2370996128" Timestamp="1672479611"/>
 				<File Name="Zone2" Hash="2967774801" Timestamp="1672497512"/>
 				<File Name="Zone3" Hash="1624632643" Timestamp="1672581059"/>
@@ -56,7 +62,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="887440393" Timestamp="1672666723"/>
+				<File Name="" Hash="1256963351" Timestamp="1672845215"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

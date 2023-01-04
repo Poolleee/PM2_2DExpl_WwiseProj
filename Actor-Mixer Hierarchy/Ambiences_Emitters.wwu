@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}" SchemaVersion="94" RootDocumentID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}">
 	<AudioObjects>
 		<WorkUnit Name="Ambiences_Emitters" ID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}" OwnerID="{A22CFE9E-F2A2-4E60-BE4B-020F1C12A8B1}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="3"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Emitters" ID="{8F0CDC49-5203-42A3-A233-88F8C02A1E34}" ShortID="381342349">
 					<ReferenceList>
@@ -66,6 +70,9 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Spaceship" ID="{6101493B-6E88-4CE9-873F-5E464D0FB2AA}" ShortID="475629160">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Spaceship Attenuation" ID="{A7B799B9-1852-46DC-A15F-4E3ADAEC71DD}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
