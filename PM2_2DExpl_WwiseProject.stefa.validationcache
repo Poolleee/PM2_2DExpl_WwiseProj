@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Ambiences.wwu" DateLow="1672652396" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1672743548" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1672909640" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1672738779" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1672652396" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Chomper.wwu" DateLow="1672937248" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1672931341" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Enemies.wwu" DateLow="1672937248" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Enviroment.wwu" DateLow="1672652396" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1671521739" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1671021914" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1671021802" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1672750401" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Player.wwu" DateLow="1672751644" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1672845285" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Player.wwu" DateLow="1672933105" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\Spitter.wwu" DateLow="1672937248" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\transfer work unit.wwu" DateLow="1671522237" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Actor-Mixer Hierarchy\UI_Menu.wwu" DateLow="1672751644" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1672679785" DateHigh="0"/>
@@ -29,10 +32,11 @@
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1671021888" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1671021888" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="1671021909" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Default Work Unit.wwu" DateLow="1672652528" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Default Work Unit.wwu" DateLow="1672917243" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\elements.wwu" DateLow="1672503864" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Environment.wwu" DateLow="1672738779" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Objects.wwu" DateLow="1672677169" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Enemies.wwu" DateLow="1672937248" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Environment.wwu" DateLow="1672909640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Objects.wwu" DateLow="1672845285" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Player.wwu" DateLow="1672750401" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\Scene.wwu" DateLow="1672503864" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Events\transfer work unit.wwu" DateLow="1671522237" DateHigh="0"/>
@@ -44,15 +48,15 @@
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1672738779" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\PM2_2DExpl_WwiseProject.stefa.wsettings" DateLow="1672752202" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\PM2_2DExpl_WwiseProject.stefa.wsettings" DateLow="1672937266" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\PM2_2DExpl_WwiseProject.wproj" DateLow="1671525001" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Queries\Factory Queries.wwu" DateLow="1671021802" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1672738779" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1672917243" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\States\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1671639280" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\States\Default Work Unit.wwu" DateLow="1672909640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1672909640" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1671521700" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\stefa\Documents\WwiseProjects\PM2_2DExpl_WwiseProject\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1671021911" DateHigh="0"/>

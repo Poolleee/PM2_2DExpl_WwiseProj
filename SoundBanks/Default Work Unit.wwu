@@ -41,24 +41,9 @@
 						</Folder>
 						<Folder Name="Background" ID="{FAEAAA77-8875-42D7-853B-3E575A4DA6ED}" ShortID="49839948">
 							<ChildrenList>
-								<SoundBank Name="Cave_Ambient" ID="{AD840757-1B9D-4DC8-B645-DE941D9A7DDA}">
+								<SoundBank Name="Ambient" ID="{8271BCF1-0335-4B13-BDC7-11F9806CF7AC}">
 									<ObjectInclusionList>
-										<ObjectRef Name="Cavern" ID="{1521FCD2-6307-424F-A67D-5E76C381342F}" WorkUnitID="{33EB1407-1601-4B0D-A620-9099C0353115}" Filter="7" Origin="Manual"/>
-										<ObjectRef Name="Cave" ID="{3DA40A14-F3E5-4CC0-9377-007324ED05E4}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
-									</ObjectInclusionList>
-									<ObjectExclusionList/>
-									<GameSyncExclusionList/>
-								</SoundBank>
-								<SoundBank Name="Jungle_Ambient" ID="{F4FEB468-9A58-490D-9678-31C343559552}">
-									<ObjectInclusionList>
-										<ObjectRef Name="Jungle" ID="{502FC227-4B28-4CF5-83A6-13A6402F940D}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
-									</ObjectInclusionList>
-									<ObjectExclusionList/>
-									<GameSyncExclusionList/>
-								</SoundBank>
-								<SoundBank Name="Temple_Ambient" ID="{A42FE60C-C069-4209-809A-9DB025AE9321}">
-									<ObjectInclusionList>
-										<ObjectRef Name="Temple" ID="{6A61FC68-B7E7-498F-BD77-AEED9A95BA3C}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
+										<ObjectRef Name="Play_Ambient" ID="{088ED430-EC64-4AC3-AACF-B6CDB22C036A}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
 									</ObjectInclusionList>
 									<ObjectExclusionList/>
 									<GameSyncExclusionList/>
@@ -107,6 +92,13 @@
 						</SoundBank>
 					</ChildrenList>
 				</Folder>
+				<SoundBank Name="Monster" ID="{88148577-12EC-4637-90C3-D76DCD3CA12F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enemies" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" WorkUnitID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

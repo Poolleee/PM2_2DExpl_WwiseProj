@@ -9,29 +9,17 @@
 			<ChildrenList>
 				<Folder Name="Background" ID="{19982660-6465-45F1-AC2C-5EB385A8B0DC}" ShortID="993411636">
 					<ChildrenList>
-						<Event Name="Jungle" ID="{502FC227-4B28-4CF5-83A6-13A6402F940D}">
+						<Event Name="Play_Ambient" ID="{088ED430-EC64-4AC3-AACF-B6CDB22C036A}">
 							<ChildrenList>
-								<Action Name="" ID="{28953A49-8C65-42A1-AB8C-BC2644F3C818}" ShortID="618243789">
+								<Action Name="" ID="{318612C5-2B51-4E07-8F68-5CD65A3A373B}" ShortID="936367071">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Jungle_Ambient" ID="{084AD5B4-A778-46AF-85D9-CFA8477A119F}" WorkUnitID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}"/>
+											<ObjectRef Name="Ambient_Background_Switch" ID="{5A97DBFD-3C50-4527-87B8-54D26D403692}" WorkUnitID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Cave" ID="{3DA40A14-F3E5-4CC0-9377-007324ED05E4}">
-							<ChildrenList>
-								<Action Name="" ID="{13044426-4F03-45EE-A346-C5D293B06B1A}" ShortID="426977894">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Cave_Ambient" ID="{AB77CA28-324B-4E23-9134-8204C84B8B51}" WorkUnitID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Temple" ID="{6A61FC68-B7E7-498F-BD77-AEED9A95BA3C}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Emitters" ID="{30435E4E-14F2-4D78-810D-515CDFDDD3E8}" ShortID="887802333">

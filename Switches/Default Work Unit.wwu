@@ -9,6 +9,13 @@
 						<Switch Name="Grass" ID="{C6283AD8-5754-4100-A1EA-1719BE76976D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Ambient_Switch" ID="{75A1679D-62EF-449F-B312-DE76A3A31788}">
+					<ChildrenList>
+						<Switch Name="Jungle" ID="{556D1B0A-A177-4BB7-8D1D-DA19A014BB21}"/>
+						<Switch Name="Cave" ID="{387D0070-92E6-424E-B395-C9EE8ED84448}"/>
+						<Switch Name="Temple" ID="{68907675-DFA7-47E2-B8E6-E7385E288341}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

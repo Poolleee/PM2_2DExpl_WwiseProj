@@ -26,6 +26,83 @@
 				<WorkUnit Name="Enviroment" ID="{AD3B7834-D645-4C6C-B369-5618C97F8B4F}" PersistMode="Reference"/>
 				<WorkUnit Name="UI_Menu" ID="{1FCA6A3C-BC81-4D8F-AFA9-A233233D1106}" PersistMode="Reference"/>
 				<WorkUnit Name="Objects" ID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemies" ID="{08169943-202E-4884-AE0F-87C3453CE2B3}" PersistMode="Reference"/>
+				<Sound Name="Freeze Chomp_Layer [2023-01-05 155758]" ID="{D9789BCE-95F8-40E7-9260-36B4FF1D0B8E}" ShortID="206585084">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Freeze Chomp_Layer [2023-01-05 155758]" ID="{94148E54-A97B-4167-952D-45CBCC8070B6}" ShortID="670420355">
+							<Language>SFX</Language>
+							<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758].wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Freeze Chomp_Layer [2023-01-05 155758]" ID="{94148E54-A97B-4167-952D-45CBCC8070B6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Freeze Chomp_Layer [2023-01-05 155758]-1" ID="{6F5380E5-7E29-46DC-86F2-7BC85E8BC948}" ShortID="779342633">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Freeze Chomp_Layer [2023-01-05 155758]-1" ID="{7F66B683-246D-4D45-9723-75DCBE516524}" ShortID="106389539">
+							<Language>SFX</Language>
+							<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Freeze Chomp_Layer [2023-01-05 155758]-1" ID="{7F66B683-246D-4D45-9723-75DCBE516524}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Freeze Chomp_Layer [2023-01-05 155758]-2" ID="{712ED913-8B7F-430B-A4F0-4387F8F55936}" ShortID="437742874">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Freeze Chomp_Layer [2023-01-05 155758]-2" ID="{D5165B90-F0D3-4DC5-9321-8312024FADA1}" ShortID="1040375403">
+							<Language>SFX</Language>
+							<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Freeze Chomp_Layer [2023-01-05 155758]-2" ID="{D5165B90-F0D3-4DC5-9321-8312024FADA1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Freeze Chomp_Layer [2023-01-05 155758]-3" ID="{29553DE5-E35F-432B-AFB1-A2A84A78DB5D}" ShortID="391276071">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Freeze Chomp_Layer [2023-01-05 155758]-3" ID="{92D37AA2-C0F0-48A1-8853-6A63E9CC83ED}" ShortID="628943079">
+							<Language>SFX</Language>
+							<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Freeze Chomp_Layer [2023-01-05 155758]-3" ID="{92D37AA2-C0F0-48A1-8853-6A63E9CC83ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
