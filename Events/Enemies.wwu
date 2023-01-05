@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
+	<Events>
+		<WorkUnit Name="Enemies" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Chomper" ID="{831BFC0C-E147-4ED6-95E4-AC860FCEB4EB}" ShortID="777765532">
+					<ChildrenList>
+						<Event Name="Play_footstep_Enemy" ID="{9E9660D7-C795-4994-85F7-6D80F7FAE9CC}">
+							<ChildrenList>
+								<Action Name="" ID="{D0A0ED96-D6E6-4DCF-ADA5-13BA429B542F}" ShortID="219042961">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.05">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7B6DC210-63ED-41D6-BEBD-8CF747E419F5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.05"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Walk_Movement_Sequence" ID="{58A84129-FE2B-409C-8B29-F6ED62A6E8FA}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Run_Enemy" ID="{59261404-5DD1-4F19-9FE7-694DBFA1D220}">
+							<ChildrenList>
+								<Action Name="" ID="{C02AD361-8E1B-4DAC-8541-349952A05F2A}" ShortID="215770956">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.03"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Run_Movement_Sequence" ID="{D089CF53-55B2-49B2-99DC-ACB82F3BA6D0}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bite_Enemy" ID="{48FA5E2C-A257-4C07-8A50-8F9AF3A31B95}">
+							<ChildrenList>
+								<Action Name="" ID="{6CCAA8F7-D370-4BB8-BE6C-A8F4563BA8C3}" ShortID="295397659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bite_Attack" ID="{14C5CF82-6E7D-4E38-A750-DC8D5207818F}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hit_Enemy" ID="{B18F371F-3880-4028-8B3C-D546F010152B}">
+							<ChildrenList>
+								<Action Name="" ID="{C98776CF-714C-457A-B845-4EF29697EE56}" ShortID="23247633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_Layer" ID="{1FB27229-7867-41B3-BF84-29B5BD73BA2C}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Spitter" ID="{B820A5BC-AC52-4439-A130-6DDD790C1428}" ShortID="385303023">
+					<ChildrenList>
+						<Event Name="Play_Burp_Enemy" ID="{D6E2376F-48BC-41BC-8122-8FB0DEC8ABD8}">
+							<ChildrenList>
+								<Action Name="" ID="{6E4C0E85-56D7-4AF5-90EF-06E3AB38FB99}" ShortID="218214852">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Burp" ID="{884089D8-EF09-4B37-A783-827B15B4034C}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AcidBall" ID="{5E30449C-0E52-4F08-BE8A-7CC33E10BBF8}">
+							<ChildrenList>
+								<Action Name="" ID="{754C3BCC-F979-4134-9B42-B521FBB11817}" ShortID="613340782">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AcidBall_Hit" ID="{A877A36C-9302-4211-BD27-9A3100FF37CF}">
+							<ChildrenList>
+								<Action Name="" ID="{F49EE262-1576-45AB-883F-EE5371DD22A8}" ShortID="118077788">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AcidBall_Hit" ID="{FEA359FF-FC37-426E-96E6-43D71CBD64AE}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{865C6DEC-D03F-4C68-8295-C4DA0637434A}" ShortID="187350465">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

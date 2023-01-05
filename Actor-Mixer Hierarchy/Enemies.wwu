@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08169943-202E-4884-AE0F-87C3453CE2B3}" SchemaVersion="94" RootDocumentID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}">
+	<AudioObjects>
+		<WorkUnit Name="Enemies" ID="{08169943-202E-4884-AE0F-87C3453CE2B3}" OwnerID="{9F67C5EE-3DCA-4871-97FB-DE3313DCEFB7}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Enemies" ID="{00765940-DF09-4F48-A150-8402A55233A7}" ShortID="325137338">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Chomper" ID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}" PersistMode="Reference"/>
+						<WorkUnit Name="Spitter" ID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
