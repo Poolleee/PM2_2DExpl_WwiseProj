@@ -46,6 +46,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Moving_Platform" ID="{5459E6DA-6905-4DAE-B947-E048019DADEB}" ShortID="740764271">
+							<ChildrenList>
+								<Event Name="Start_moving_Platform" ID="{67FC5571-4BFD-4FFE-8D70-B6A9D5D71C2B}">
+									<ChildrenList>
+										<Action Name="" ID="{EAD4EF80-5277-4D2A-8DFE-B631B0FAC99D}" ShortID="907237927">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Moving_Platform_Blend" ID="{A5473E7B-548B-4633-8736-D6FA0154058E}" WorkUnitID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="End_Moving_Platform" ID="{3AEC6E71-808D-472A-BDBB-132B7516BF8F}">
+									<ChildrenList>
+										<Action Name="" ID="{DB06D945-EE86-457A-A56A-DF5529BF3A75}" ShortID="831357313">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Moving_Platform_Blend" ID="{A5473E7B-548B-4633-8736-D6FA0154058E}" WorkUnitID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

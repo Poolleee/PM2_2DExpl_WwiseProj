@@ -168,7 +168,7 @@
 								<Action Name="" ID="{63FAF6E5-5D55-4EF3-8481-954FD4EA1476}" ShortID="84373141">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Melee_Swing" ID="{F3C0C548-29CF-4E0B-BB5F-7BC0AD86C637}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+											<ObjectRef Name="Melee_Swing" ID="{F9936D15-4804-45A8-94A1-032AA2FB342F}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -205,6 +205,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="HealthPickup" ID="{8971E10D-04A5-453C-804E-D5D8741764F5}">
+					<ChildrenList>
+						<Action Name="" ID="{9FFDF59F-94DD-4CA0-B1B5-3B3CFEFF0ABD}" ShortID="430012724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HealthVase" ID="{35723A6B-9155-410D-B429-51ED5F3B573B}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -188,6 +188,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pick_Melee" ID="{3FAC66BA-BBDB-47C7-AD5F-F519A6531FC4}">
+					<ChildrenList>
+						<Action Name="" ID="{2A8AA994-F374-48D9-B96A-BC5E72768891}" ShortID="807029197">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pick bastone" ID="{BA0B1403-5F56-46DC-AA52-77CA64D67CC9}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Activate_Crystal" ID="{6ED0A13D-3E4E-406D-B107-54916CECFE4B}">
+					<ChildrenList>
+						<Action Name="" ID="{689059AD-60B8-4B04-9D5F-519BEA8FF5D0}" ShortID="260676450">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit cristallo" ID="{769D34F0-0C51-4D9C-81FB-437054682B05}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spikes" ID="{85F465EC-6D23-4EA0-BA6C-B686D706DD76}">
+					<ChildrenList>
+						<Action Name="" ID="{DAB28831-7492-4119-9074-9D8B6B4447E4}" ShortID="837981884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit dei cristalli" ID="{7E1E3778-4E8D-4BCF-AB6A-40F29761B65C}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

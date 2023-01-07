@@ -2149,106 +2149,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Melee_Swing" ID="{F3C0C548-29CF-4E0B-BB5F-7BC0AD86C637}" ShortID="778722814">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-710</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{5601561B-9237-4DDC-8D18-2261B957E376}" ShortID="194462849">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{42B8FD14-0AFD-4C97-9A6B-4902715B2F1B}" ShortID="260261987">
-													<Language>SFX</Language>
-													<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{42B8FD14-0AFD-4C97-9A6B-4902715B2F1B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{13F9A800-6EE5-42A9-8D28-19F8ECA616C9}" ShortID="971289502">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{079E6F38-690C-4AA3-B2CB-2D22D9DA125F}" ShortID="893690268">
-													<Language>SFX</Language>
-													<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{079E6F38-690C-4AA3-B2CB-2D22D9DA125F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{9703F788-02BA-4D3F-8190-10658C34DF79}" ShortID="891529378">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{A10AB442-1A15-40A9-A4C6-EBDC441A4200}" ShortID="1065468746">
-													<Language>SFX</Language>
-													<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{A10AB442-1A15-40A9-A4C6-EBDC441A4200}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{1718E9D2-93B7-49CD-A88D-2B1BAC1E8718}" ShortID="50068369">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{CCE8032A-2568-4E06-95CD-D8C815947729}" ShortID="371309703">
-													<Language>SFX</Language>
-													<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{CCE8032A-2568-4E06-95CD-D8C815947729}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<BlendContainer Name="Hit_Layer" ID="{A4B67878-AB55-41B7-A821-E7E1BBF9BBD9}" ShortID="726279930">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
@@ -2297,6 +2197,11 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2711,6 +2616,11 @@
 												<Value>25</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2738,6 +2648,260 @@
 										<ActiveSource Name="Gunshot" ID="{D1C7D38A-5B0C-42A2-9F4F-73635E5A0262}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="Melee_Swing" ID="{F9936D15-4804-45A8-94A1-032AA2FB342F}" ShortID="448743282">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Melee_Swing" ID="{F3C0C548-29CF-4E0B-BB5F-7BC0AD86C637}" ShortID="778722814">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-130</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{5601561B-9237-4DDC-8D18-2261B957E376}" ShortID="194462849">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{42B8FD14-0AFD-4C97-9A6B-4902715B2F1B}" ShortID="260261987">
+															<Language>SFX</Language>
+															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{42B8FD14-0AFD-4C97-9A6B-4902715B2F1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{13F9A800-6EE5-42A9-8D28-19F8ECA616C9}" ShortID="971289502">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{079E6F38-690C-4AA3-B2CB-2D22D9DA125F}" ShortID="893690268">
+															<Language>SFX</Language>
+															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{079E6F38-690C-4AA3-B2CB-2D22D9DA125F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{9703F788-02BA-4D3F-8190-10658C34DF79}" ShortID="891529378">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{A10AB442-1A15-40A9-A4C6-EBDC441A4200}" ShortID="1065468746">
+															<Language>SFX</Language>
+															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{A10AB442-1A15-40A9-A4C6-EBDC441A4200}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{1718E9D2-93B7-49CD-A88D-2B1BAC1E8718}" ShortID="50068369">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{CCE8032A-2568-4E06-95CD-D8C815947729}" ShortID="371309703">
+															<Language>SFX</Language>
+															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{CCE8032A-2568-4E06-95CD-D8C815947729}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Hit bastone" ID="{9BADE358-F056-400F-A13A-96313B3CC353}" ShortID="74744576">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>36</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C3F5DA23-8CBD-4173-80CF-362BAFF2B7B1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-18</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hit bastone" ID="{A2E76FDE-A51F-42AD-A8A1-614EF1A69CD2}" ShortID="959599849">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.047945205479452"/>
+														<Property Name="FadeInShape" Type="int16" Value="3"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.431506849315068"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.78995433789954E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.744052385508694"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Hit bastone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hit bastone" ID="{A2E76FDE-A51F-42AD-A8A1-614EF1A69CD2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="3-Audio 0001 [2023-01-06 101700]" ID="{E292FAF9-9C26-4651-86F8-2FA86D8CCF55}" ShortID="100745326">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1926CBAC-9A52-48EB-99B4-089CED38941B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="15"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{64B5BCEF-253A-4FE1-B777-EE964F388D22}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="15"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3302572E-3935-4B05-BF89-2DFCF278CCA4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-25</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1F54DC04-1CB2-44D2-881A-F25265226BA9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" ShortID="830001286">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="9.73230221300723E-02"/>
+														<Property Name="FadeInShape" Type="int16" Value="8"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.177914344031807"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.90933895126309"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.30294929580222"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>3-Audio 0001 [2023-01-06 101700].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
