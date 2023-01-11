@@ -11,6 +11,13 @@
 						<State Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="MusicZones" ID="{F953AA1B-8E36-43B1-B7AE-D060A79B9F75}">
+					<ChildrenList>
+						<State Name="None" ID="{6B43CE93-BFC9-45E2-BC54-833D0F766C91}"/>
+						<State Name="MainMenu" ID="{E3A3D85E-3C10-4562-AF9F-2548E9E670B6}"/>
+						<State Name="GamePlay" ID="{F928AD46-47F0-49CC-9C51-38DFAB9BE093}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

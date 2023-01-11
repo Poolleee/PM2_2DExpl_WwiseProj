@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
 	<Events>
-		<WorkUnit Name="Environment" ID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+		<WorkUnit Name="Environment" ID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" OwnerID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Nested">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -9,12 +9,12 @@
 			<ChildrenList>
 				<Folder Name="Background" ID="{19982660-6465-45F1-AC2C-5EB385A8B0DC}" ShortID="993411636">
 					<ChildrenList>
-						<Event Name="Play_Ambient" ID="{088ED430-EC64-4AC3-AACF-B6CDB22C036A}">
+						<Event Name="Play_Ambient" ID="{DFACC78A-A9AB-4C6D-AD2E-8ACCD5EC0CAE}">
 							<ChildrenList>
-								<Action Name="" ID="{318612C5-2B51-4E07-8F68-5CD65A3A373B}" ShortID="936367071">
+								<Action Name="" ID="{31EAEC9D-70F5-4361-BF26-1F57809990FD}" ShortID="923933995">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambient_Background_Switch" ID="{5A97DBFD-3C50-4527-87B8-54D26D403692}" WorkUnitID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}"/>
+											<ObjectRef Name="Ambients" ID="{785CC307-333F-4E2E-88B1-22C22756148B}" WorkUnitID="{6417E893-8B90-47BA-9D39-A0FBA218ECA4}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -24,17 +24,6 @@
 				</Folder>
 				<Folder Name="Emitters" ID="{30435E4E-14F2-4D78-810D-515CDFDDD3E8}" ShortID="887802333">
 					<ChildrenList>
-						<Event Name="Spaceship" ID="{3185C1B2-D3C7-4913-91F0-A3801CAEFACE}">
-							<ChildrenList>
-								<Action Name="" ID="{116C956B-E7BD-46BB-B671-0A4ECEC1DA21}" ShortID="432084463">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Spaceship" ID="{6101493B-6E88-4CE9-873F-5E464D0FB2AA}" WorkUnitID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Acid_Pool" ID="{B8C0C9FC-51B7-4A5D-AF24-A25CA7CFF380}">
 							<ChildrenList>
 								<Action Name="" ID="{79B36EDB-E86A-44BE-8E7D-AD9B6610C0F3}" ShortID="291399895">

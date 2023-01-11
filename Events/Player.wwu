@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
 	<Events>
-		<WorkUnit Name="Player" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+		<WorkUnit Name="Player" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" OwnerID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Nested">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>

@@ -23,7 +23,48 @@
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
+								<Bus Name="Jungle" ID="{ACCE492A-B9FC-42B2-99BD-7806E3D9389D}">
+									<ReferenceList/>
+									<ChildrenList>
+										<AuxBus Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect1">
+													<Custom CreatedFrom="{65E0ACE4-B404-4485-87A4-5907277D9858}">
+														<Effect Name="PA_Announcement1_(Custom)" ID="{F6176B6D-8745-4BE2-A9AF-3BCE97263DC3}" ShortID="670155580" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="HFRatio" Type="Real32" Value="5.5"/>
+																<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+																<Property Name="PreDelay" Type="Real32" Value="0.15"/>
+																<Property Name="ReverbTime" Type="Real32" Value="0.5"/>
+																<Property Name="WetLevel" Type="Real32" Value="-41"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Temple" ID="{7CDF381B-C590-4F49-86DD-BB207BFE0FD8}"/>
+								<Bus Name="Jungle Roofed" ID="{586F8F28-59E9-4AE5-8201-9EF495600CDF}"/>
 							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}"/>
+						<Bus Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

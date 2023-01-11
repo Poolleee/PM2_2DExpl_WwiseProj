@@ -3,114 +3,17 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{D92F3963-4C82-434E-99CB-38605C61D4DC}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Player" ID="{A30141E6-409B-4E3E-A650-80CAD81B61FE}">
+				<SoundBank Name="Global_Soundbank" ID="{1734C972-B648-4064-AA0B-9C67E8A7D576}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Player" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" WorkUnitID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Everything Else" ID="{250A1798-400B-454F-81CD-B088E6617B99}" WorkUnitID="{250A1798-400B-454F-81CD-B088E6617B99}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="UIMenu" ID="{D16BEFEE-3317-4416-ADEA-7C0234A678E0}">
+				<SoundBank Name="spaceship" ID="{CD1C6AE1-3174-4B3A-A519-5809C18F5C16}">
 					<ObjectInclusionList>
-						<ObjectRef Name="UI" ID="{BBF95127-7D55-49D7-BFD3-363085CD22C5}" WorkUnitID="{BBF95127-7D55-49D7-BFD3-363085CD22C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Spceship" ID="{74448B77-82EB-435A-93B8-75B9176FC34F}" WorkUnitID="{74448B77-82EB-435A-93B8-75B9176FC34F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<Folder Name="Ambience" ID="{358CCF15-B050-4E6E-898B-BF3D864D5618}" ShortID="840459326">
-					<ChildrenList>
-						<Folder Name="Emitters" ID="{F93E7DF3-F3CE-4E8A-AAE5-C150A1C43907}" ShortID="1049430623">
-							<ChildrenList>
-								<SoundBank Name="Acid" ID="{4968B2C4-947B-469C-A95C-B47371FB7034}">
-									<ObjectInclusionList>
-										<ObjectRef Name="Player_Acid_Dive" ID="{F381654F-042B-40BE-A527-EDF24972B562}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-										<ObjectRef Name="Object_Acid_Dive" ID="{FAECCEFE-7D4E-4469-8C7B-B19197386B98}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-										<ObjectRef Name="Acid_Pool" ID="{B8C0C9FC-51B7-4A5D-AF24-A25CA7CFF380}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
-									</ObjectInclusionList>
-									<ObjectExclusionList/>
-									<GameSyncExclusionList/>
-								</SoundBank>
-								<SoundBank Name="Moving_Platform" ID="{5FA03346-1BF1-495D-8CF0-2F4EC7819103}">
-									<ObjectInclusionList>
-										<ObjectRef Name="Moving_Platform" ID="{5459E6DA-6905-4DAE-B947-E048019DADEB}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
-									</ObjectInclusionList>
-									<ObjectExclusionList/>
-									<GameSyncExclusionList/>
-								</SoundBank>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Background" ID="{FAEAAA77-8875-42D7-853B-3E575A4DA6ED}" ShortID="49839948">
-							<ChildrenList>
-								<SoundBank Name="Ambient" ID="{8271BCF1-0335-4B13-BDC7-11F9806CF7AC}">
-									<ObjectInclusionList>
-										<ObjectRef Name="Play_Ambient" ID="{088ED430-EC64-4AC3-AACF-B6CDB22C036A}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
-									</ObjectInclusionList>
-									<ObjectExclusionList/>
-									<GameSyncExclusionList/>
-								</SoundBank>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Objects" ID="{DE11E3BA-5537-4FC4-B79E-D86E9F388C45}" ShortID="445127283">
-					<ChildrenList>
-						<SoundBank Name="Column" ID="{AB3CD501-C6ED-4F45-861E-66B384EE4572}">
-							<ObjectInclusionList>
-								<ObjectRef Name="Column" ID="{9AC248D5-228C-4F7B-BE3D-47866FBC3B63}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-							</ObjectInclusionList>
-							<ObjectExclusionList/>
-							<GameSyncExclusionList/>
-						</SoundBank>
-						<SoundBank Name="Key" ID="{20BF32FA-17D8-462D-950D-743DFA37479C}">
-							<ObjectInclusionList>
-								<ObjectRef Name="Pick_Key" ID="{6DB0F418-14E1-44A7-9DEA-4CC258EF0B94}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-							</ObjectInclusionList>
-							<ObjectExclusionList/>
-							<GameSyncExclusionList/>
-						</SoundBank>
-					</ChildrenList>
-				</Folder>
-				<SoundBank Name="Monster" ID="{88148577-12EC-4637-90C3-D76DCD3CA12F}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Enemies" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" WorkUnitID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Zone1" ID="{7E7D6FDF-C19B-4A00-8D68-8FFCC23B4C3D}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Spaceship" ID="{3185C1B2-D3C7-4913-91F0-A3801CAEFACE}" WorkUnitID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Zone2" ID="{027788A6-0691-4FC2-ABE3-752BAFFBD5D2}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_hub_Door" ID="{CDD51AC9-196D-427C-967F-896334281A16}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Zone3" ID="{5B5C438B-1FA5-4D29-972F-25DF2BA7577D}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Pick_Melee" ID="{3FAC66BA-BBDB-47C7-AD5F-F519A6531FC4}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Zone4" ID="{CC7E7D4B-4D9B-4ABF-AB5A-9E38619A8132}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Activate_Crystal" ID="{6ED0A13D-3E4E-406D-B107-54916CECFE4B}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Sliding_Door" ID="{15848EA3-E252-478C-A6F2-700923B76716}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="PushableBox" ID="{1A8A2AA2-DFC0-4B65-B0E5-C03D94DDD500}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Spikes" ID="{85F465EC-6D23-4EA0-BA6C-B686D706DD76}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="PressurePad" ID="{3B091C13-52C6-4EA6-ACA5-FBC0024096C0}" WorkUnitID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Zone5" ID="{179855C3-2B69-4574-A5DC-16180F49ECBE}">
-					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74448B77-82EB-435A-93B8-75B9176FC34F}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
+	<Events>
+		<WorkUnit Name="Spceship" ID="{74448B77-82EB-435A-93B8-75B9176FC34F}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Spaceship" ID="{3185C1B2-D3C7-4913-91F0-A3801CAEFACE}">
+					<ChildrenList>
+						<Action Name="" ID="{116C956B-E7BD-46BB-B671-0A4ECEC1DA21}" ShortID="432084463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spaceship" ID="{6101493B-6E88-4CE9-873F-5E464D0FB2AA}" WorkUnitID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

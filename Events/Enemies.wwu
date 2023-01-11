@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
 	<Events>
-		<WorkUnit Name="Enemies" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
+		<WorkUnit Name="Enemies" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" OwnerID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Chomper" ID="{831BFC0C-E147-4ED6-95E4-AC860FCEB4EB}" ShortID="777765532">
 					<ChildrenList>

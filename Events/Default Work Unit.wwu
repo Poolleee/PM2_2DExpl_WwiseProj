@@ -3,15 +3,11 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="23"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<WorkUnit Name="Player" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" PersistMode="Reference"/>
-				<WorkUnit Name="Environment" ID="{6DFF9614-C3D0-47A7-934E-73019D4EEAD2}" PersistMode="Reference"/>
-				<WorkUnit Name="Objects" ID="{B711B16E-7E9B-4D74-979A-ABD54839BD2A}" PersistMode="Reference"/>
-				<WorkUnit Name="UI" ID="{BBF95127-7D55-49D7-BFD3-363085CD22C5}" PersistMode="Reference"/>
-				<WorkUnit Name="Enemies" ID="{5B8DAA33-C9F2-4779-8A7C-B2B32D993923}" PersistMode="Reference"/>
+				<WorkUnit Name="Everything Else" ID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Reference"/>
+				<WorkUnit Name="Spceship" ID="{74448B77-82EB-435A-93B8-75B9176FC34F}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

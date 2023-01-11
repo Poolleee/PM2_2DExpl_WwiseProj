@@ -13,7 +13,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="41"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -25,13 +25,29 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+							<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<WorkUnit Name="Chomper" ID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}" PersistMode="Reference"/>
 						<WorkUnit Name="Spitter" ID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}" PersistMode="Reference"/>
 					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="UserAuxSendVolume3"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
