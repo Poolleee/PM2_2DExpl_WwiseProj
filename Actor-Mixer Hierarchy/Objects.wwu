@@ -127,6 +127,11 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -162,7 +167,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-10</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -237,7 +242,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>7</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -353,6 +358,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sliding_Door_Fragments 0001 [2023-01-02 162144]" ID="{347F89BF-C4F1-4A88-9C70-FC6623EB17FE}" ShortID="654279191">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>10.7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Sliding_Door_Layer\Sliding_Door_Fragments 0001 [2023-01-02 162144].wav</AudioFile>
 												</AudioFileSource>
@@ -389,6 +401,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sliding_Door_Main 0003 [2023-01-02 162257]" ID="{0820C59C-2DEB-4FD0-8852-182BED0DA15B}" ShortID="285083168">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>10.7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Sliding_Door_Layer\Sliding_Door_Main 0003 [2023-01-02 162257].wav</AudioFile>
 												</AudioFileSource>
@@ -458,7 +477,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>7</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -531,7 +550,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>6</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -640,12 +659,12 @@
 							<ChildrenList>
 								<Sound Name="looppush" ID="{84B5E929-EB05-4ECE-BF7B-D2C484A33E6F}" ShortID="462711970">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Lowpass" Type="int16">
+										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>18</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>-350</Value>
@@ -666,33 +685,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Freeze Pushable_Box [2023-01-02 170633]" ID="{B6178B4C-8BF9-4058-BF5D-F9DB6E65C7B9}" ShortID="660755477">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="929.745"/>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.228544598204579"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.255432197993353"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.860403193240767"/>
-												<Property Name="LoopEnd" Type="Real64" Value="6.33202975025627"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.120994199049483"/>
-												<Property Name="TrimEnd" Type="Real64" Value="7.21932054328581"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Stone_Box_layer\Freeze Pushable_Box [2023-01-02 170633].wav</AudioFile>
-										</AudioFileSource>
-										<AudioFileSource Name="Freeze Pushable_Box [2023-01-02 171429]" ID="{B27FED48-3BE2-4BB7-B2AE-82566F6E9DE1}" ShortID="819570536">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="775.12"/>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.225634299381853"/>
-												<Property Name="LoopBegin" Type="Real64" Value="1.6856209424409"/>
-												<Property Name="LoopEnd" Type="Real64" Value="6.68939334637965"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.331815146149784"/>
-												<Property Name="TrimEnd" Type="Real64" Value="7.35302363867922"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Stone_Box_layer\Freeze Pushable_Box [2023-01-02 171429].wav</AudioFile>
-										</AudioFileSource>
 										<AudioFileSource Name="Freeze Pushable_Box [2023-01-02 172955]" ID="{BA9D9A60-1DDC-4B93-B4B3-01B4803D4CAF}" ShortID="1003166284">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="897.508"/>
@@ -701,6 +693,11 @@
 												<Property Name="LoopEnd" Type="Real64" Value="6.82211940483956"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.305269934457801"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Stone_Box_layer\Freeze Pushable_Box [2023-01-02 172955].wav</AudioFile>
@@ -759,11 +756,6 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-21</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -805,6 +797,11 @@
 														<Property Name="FadeInDuration" Type="Real64" Value="3.1760394924374E-03"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="7.25195684106539E-02"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>21</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>PressurePad_Layer\Freeze PressurePad_UI_Layer [2023-01-04 123050].wav</AudioFile>
@@ -829,13 +826,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Accensione porta" ID="{368322F1-E3F1-44C8-B4D3-429B4A16304A}" ShortID="954311926">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -846,6 +836,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Accensione porta" ID="{A8938E9E-C254-48E0-A7DA-4B514799CFA9}" ShortID="201041610">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>15.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Accensione porta.wav</AudioFile>
 										</AudioFileSource>
@@ -892,6 +889,11 @@
 														<Property Name="FadeInShape" Type="int16" Value="9"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.164383561643836"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>10.7</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Pick chiave.wav</AudioFile>
@@ -919,6 +921,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Freeze Pickup_Chiave_Diegetic_Layer [2023-01-04 155525]" ID="{DDFCA650-D7E2-4863-99B9-33EBC2C0639C}" ShortID="371634002">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>7.6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Freeze Pickup_Chiave_Diegetic_Layer [2023-01-04 155525].wav</AudioFile>
 												</AudioFileSource>
@@ -976,6 +985,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="1.94974734219554"/>
 														<Property Name="TrimEnd" Type="Real64" Value="2.86221040980971"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>7.9</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3-Audio 0001 [2023-01-06 101700].wav</AudioFile>
@@ -996,12 +1010,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Pick bastone" ID="{4E31AF22-5AE2-4D45-8A5B-6F4EC905D07C}" ShortID="677317642">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>8.2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Pick bastone.wav</AudioFile>
-												</AudioFileSource>
-												<AudioFileSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{E52AAFE0-8B15-4B20-A872-ACEED62EBA17}" ShortID="82508718">
-													<Language>SFX</Language>
-													<AudioFile>3-Audio 0001 [2023-01-06 101700].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1037,11 +1054,6 @@
 												<Property Name="Lowpass" Type="int16">
 													<ValueList>
 														<Value>17</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1109,6 +1121,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<Sound Name="Vaso vita" ID="{F49B1216-6467-4DE1-B6D7-2C66C1D0EAE9}" ShortID="237782086">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1119,6 +1138,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Vaso vita" ID="{5AB4BC9C-B8C2-44CD-BA27-3A00919426BE}" ShortID="1025753456">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>11.3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vaso vita.wav</AudioFile>
 												</AudioFileSource>
@@ -1159,6 +1185,11 @@
 												<Property Name="FadeOutShape" Type="int16" Value="2"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="3.06506849315068"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>10.7</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Hit cristallo.wav</AudioFile>
@@ -1211,7 +1242,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>8</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>

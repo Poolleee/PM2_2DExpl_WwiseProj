@@ -7,7 +7,14 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<BlendContainer Name="Click_Button" ID="{A24A8493-9D55-43DD-A2CD-C29383BA2AC1}" ShortID="386844724">
+				<ActorMixer Name="UI" ID="{D5DFFA37-DC22-481C-8915-AAD8BEC00975}" ShortID="1049487234">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -17,14 +24,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Click mouse" ID="{6C90421B-9548-4C62-8032-E05F99124A8A}" ShortID="411424902">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<BlendContainer Name="Click_Button" ID="{A24A8493-9D55-43DD-A2CD-C29383BA2AC1}" ShortID="386844724">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -34,20 +34,72 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Click mouse" ID="{F07A92CF-6FC6-4405-B749-B44A4F5D182C}" ShortID="647517151">
+								<Sound Name="Click mouse" ID="{6C90421B-9548-4C62-8032-E05F99124A8A}" ShortID="411424902">
 									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.299657534246582"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Click mouse.wav</AudioFile>
-								</AudioFileSource>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Click mouse" ID="{F07A92CF-6FC6-4405-B749-B44A4F5D182C}" ShortID="647517151">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.299657534246582"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Click mouse.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Click mouse" ID="{F07A92CF-6FC6-4405-B749-B44A4F5D182C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Highlighted_Button" ID="{557515CA-A2E2-4B7C-92F7-E06D8610A5FF}" ShortID="411740239">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI,Select_01_VG_RX" ID="{7FA6EB1A-5E83-4132-BFAC-537F5E93678C}" ShortID="637828617">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.25770547945205E-03"/>
+												<Property Name="FadeInShape" Type="int16" Value="9"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.52016267123288E-02"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.88677226027397E-03"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI_Layer\UI,Select_01_VG_RX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI,Select_01_VG_RX" ID="{7FA6EB1A-5E83-4132-BFAC-537F5E93678C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Click mouse" ID="{F07A92CF-6FC6-4405-B749-B44A4F5D182C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Highlighted_Button" ID="{557515CA-A2E2-4B7C-92F7-E06D8610A5FF}" ShortID="411740239">
+						</BlendContainer>
+						<Sound Name="Highlighted_Button" ID="{A93CFFA7-69B9-4C7B-A62D-50F751BA4F98}" ShortID="396957694">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -64,7 +116,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UI,Select_01_VG_RX" ID="{7FA6EB1A-5E83-4132-BFAC-537F5E93678C}" ShortID="637828617">
+								<AudioFileSource Name="UI,Select_01_VG_RX" ID="{B0416DED-38B8-46A2-B78C-94E9E77187EF}" ShortID="1018390584">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="5.25770547945205E-03"/>
 										<Property Name="FadeInShape" Type="int16" Value="9"/>
@@ -74,50 +126,17 @@
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI_Layer\UI,Select_01_VG_RX.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="637828617"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI,Select_01_VG_RX" ID="{7FA6EB1A-5E83-4132-BFAC-537F5E93678C}" Platform="Linked"/>
+								<ActiveSource Name="UI,Select_01_VG_RX" ID="{B0416DED-38B8-46A2-B78C-94E9E77187EF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-				</BlendContainer>
-				<Sound Name="Highlighted_Button" ID="{A93CFFA7-69B9-4C7B-A62D-50F751BA4F98}" ShortID="396957694">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>12</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="UI,Select_01_VG_RX" ID="{B0416DED-38B8-46A2-B78C-94E9E77187EF}" ShortID="1018390584">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="5.25770547945205E-03"/>
-								<Property Name="FadeInShape" Type="int16" Value="9"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.52016267123288E-02"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="9.88677226027397E-03"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>UI_Layer\UI,Select_01_VG_RX.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="637828617"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="UI,Select_01_VG_RX" ID="{B0416DED-38B8-46A2-B78C-94E9E77187EF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

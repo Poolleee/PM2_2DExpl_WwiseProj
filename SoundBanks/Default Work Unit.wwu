@@ -17,6 +17,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Acid" ID="{3AC817E7-CA1D-41C9-97E6-7396DA903CEC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Acid" ID="{5F0CF628-6BE5-43D2-90C4-4A3FA9DD216E}" WorkUnitID="{5F0CF628-6BE5-43D2-90C4-4A3FA9DD216E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

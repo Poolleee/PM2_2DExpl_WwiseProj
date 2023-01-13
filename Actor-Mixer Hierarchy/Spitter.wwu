@@ -33,7 +33,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>24</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -85,6 +85,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="7.89302368072458E-02"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.498174516777701"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>24</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vomiti mostro\Vomito 1.wav</AudioFile>
@@ -110,6 +115,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="6.39269406392694E-02"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.527397260273973"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>24</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vomiti mostro\Vomito 2.wav</AudioFile>
@@ -136,6 +146,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.687214611872146"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.25456621004566"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>24</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vomiti mostro\Vomito 3.wav</AudioFile>
@@ -162,6 +177,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="7.19178082191781E-02"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.591324200913244"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>24</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
@@ -172,6 +192,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Vomito 5" ID="{A94ADAE8-8CD5-47EE-A33E-ED5E62D4A9B2}" ShortID="454896887">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -189,7 +216,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="0.982876712328765"/>
 														<Property Name="VolumeOffset" Type="Real64">
 															<ValueList>
-																<Value>2.3</Value>
+																<Value>24</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -218,6 +245,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.695205479452055"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.13470319634703"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>24</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
@@ -252,11 +284,6 @@
 													</ValueList>
 												</Property>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-24</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -391,6 +418,11 @@
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.223744292237443"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.615296803652969"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>24</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Vomiti mostro\Vomito 1.wav</AudioFile>
@@ -411,6 +443,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 2" ID="{73A3D298-272F-4BFC-9118-B64A19E44793}" ShortID="107955049">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>24</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Vomiti mostro\Vomito 2.wav</AudioFile>
 														</AudioFileSource>
@@ -435,6 +474,11 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.623287671232877"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.44634703196347"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>24</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Vomiti mostro\Vomito 3.wav</AudioFile>
@@ -459,6 +503,11 @@
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.223744292237443"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.591324200913244"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>24</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
@@ -469,6 +518,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Vomito 5" ID="{3240E45E-7123-4B5F-A002-3BC2B2AC4C2B}" ShortID="458323358">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -487,7 +543,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="1.837899543379"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>2.3</Value>
+																		<Value>24</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -516,6 +572,11 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.615296803652968"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.43036529680365"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>24</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
@@ -541,6 +602,11 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.54337899543379"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.51826484018265"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>24</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Vomiti mostro\Vomito 1.wav</AudioFile>
@@ -589,6 +655,11 @@
 										<Property Name="LoopBegin" Type="Real64" Value="3.41335344640139"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="5.43171755785568"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Acid_Layer\Freeze Acid_Noise [2022-12-31 103402].wav</AudioFile>
@@ -610,6 +681,11 @@
 										<Value>560</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -628,7 +704,7 @@
 										<Property Name="TrimEnd" Type="Real64" Value="1.36642976554455"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>12.9</Value>
+												<Value>24</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

@@ -112,14 +112,14 @@
 				<Property Name="PluginUserAcknowledge\iZotope Trash Distortion" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{7CDF381B-C590-4F49-86DD-BB207BFE0FD8}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="4kdJfymCxkK7hswpC6ITnK2tyqeH419GnHOTy0WlI3yuyejYqJTSRr0/mskkPCk7Gnmhbyzat0uZDGzqSgiFIQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="4kdJfymCxkK7hswpC6ITnK2tyqeH419GnHOTy0WlI3yuyejYqJTSRr0/mskkPCk7"/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
@@ -130,8 +130,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ8ypJzqz8ubJCmb14BuPZOJ2sOB8cTz/EQ7hUswZhKL9GvGicfnImGU6zmjswhCly6JIh2qlyXjxOuWpSGv+4N/w4byMbQIInT71v1I/pspUE"/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="eHi2pFWrt0GoIefhu/m72WlQjc88NVRFoIBfRD2L4jsVbZP5BEioRZShAyqi+zQvLq6keWygZkam7LojjIGPPe7FZ5/KPXFIl/veMxPc77dDmRYILiCESK4Ph8NFPOKzqtv1qhkppkiJoYvH4pgScGNPhcKeWKNLn8/9LNSMGghhgXd2kAUcTKSYnbaUb6fT"/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="P3f0tFio8UOeCIQ3fWG6B5gXCiULQE9Fgc2wiOZhe5lgJpgZZWTxRawsXrOFqLDcFJb/bdDDp0eTTnMBnU7q0lJkwMOx2mZNkbW9/wGeOZA="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="KUGoWCv+nECLKfbtYqbo+ilysh9neLNBv4Qptb1zuix4eLakVau3Qagh5+G7+bvZo6/Rjc1N6EKm0gmvQVhNoSs48H/70gpFr0YkAMo1Qd5pUI3PPDVURaCAX0Q9i+I7FW2T+QRIqEWUoQMqovs0Ly6upHlsoGZGpuy6I4yBjz03+t/VItwcSIkVqti+wAl17sVnn8o9cUiX+94zE9zvt0OZFgguIIRIrg+Hw0U84rOq2/WqGSmmSImhi8fimBJwU8+J0LJVskmZ3Ky4Lzum0M6l/2xSZqtKjV3li9PTd1P6naI6Uj4US5Fu4mh1Vsl12IlAiAnvN0ung4J7FbQDTGNPhcKeWKNLn8/9LNSMGgg4dWIk+9S/S43jXMSHLINbYYF3dpAFHEykmJ22lG+n0+j6SzXhiONMoUpbtbkC2yA8asofgbyPTa+pojMjPREGg5yc7k7HmE2CQ6x+CT8RO6wxhVoKWwROts1P1wvTvqCCz8UUfW44TqdQ3I1SB4GPQFl2AAnfSE+hUIQCpVIzpxXrC9GKNJlPqd6WtuMsZr8="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="P3f0tFio8UOeCIQ3fWG6B5gXCiULQE9Fgc2wiOZhe5lgJpgZZWTxRawsXrOFqLDcPjTSaDK/pkiMTQT67TAQ31c4BvX1h4VLtZ1+zUdKvJA="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="nWehde9in0SzEt52o6MXiJkNoRznWCVGs2QylF0kfih/GxYk3IcfR4v3uBBZFUu5"/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="URq95fI7jkOA8cl77S9g1BuqU/k2jrFDt67QYKebn3U="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="Yzkv2YJMTkOZyzhgXGHU3A=="/>
@@ -182,7 +182,7 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{B7064E45-4198-44EA-ABEE-1ECB27672566}"/>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{18F58C24-8BED-4A4A-967D-3D024EA80962}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

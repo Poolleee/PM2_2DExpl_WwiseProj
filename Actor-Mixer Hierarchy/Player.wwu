@@ -83,7 +83,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-16</Value>
+												<Value>-9</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -361,6 +361,9 @@
 													</ModifierList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{827A9B0A-32A3-4151-8781-EACF723A5D50}">
@@ -693,6 +696,9 @@
 															</ModifierList>
 														</Property>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{97352786-B0EB-4B9C-BA95-C7A339A90FB7}">
@@ -940,6 +946,13 @@
 											</BlendTrackList>
 										</BlendContainer>
 										<BlendContainer Name="Footstep_Tile" ID="{8DD1AFA3-4DCD-42E8-A6D2-09AF41584DA1}" ShortID="518262466">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1318,7 +1331,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-4</Value>
+																<Value>-15</Value>
 															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
@@ -2204,7 +2217,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2226,7 +2239,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-38</Value>
+														<Value>-23</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2324,11 +2337,6 @@
 														<Value>150</Value>
 													</ValueList>
 												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-1</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2350,6 +2358,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Main_Layer [2023-01-03 114518]" ID="{B1E91539-9418-43B7-8796-8A1D34964B5A}" ShortID="978833963">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>14</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518].wav</AudioFile>
 														</AudioFileSource>
@@ -2369,6 +2384,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Main_Layer [2023-01-03 114518]-1" ID="{1BA7C5FD-4BCB-4A5D-B118-DBB04F317F07}" ShortID="717040652">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>14</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
@@ -2388,6 +2410,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Main_Layer [2023-01-03 114519]" ID="{BA56D152-428A-495D-94C6-824A5DA42F2D}" ShortID="219074377">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>14</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
@@ -2407,6 +2436,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Main_Layer [2023-01-03 114519]-1" ID="{7CC13C3B-66AE-48DE-9192-C05080FDF9D6}" ShortID="1050165523">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>14</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
@@ -2426,7 +2462,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2611,17 +2647,50 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>19</Value>
+												<Value>4</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8DE2779F-5255-4536-B464-277193FB5B0B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>25</Value>
+												<Value>12</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{23DB4678-C3C6-4747-AD2B-44A6E26F555C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D762D63A-3B8D-4732-8551-7809E9EC19E5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>8</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2642,6 +2711,11 @@
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.187329986357826"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.04280821917808"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Gunshot.wav</AudioFile>
@@ -2655,7 +2729,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2770,12 +2844,15 @@
 										</RandomSequenceContainer>
 										<Sound Name="Hit bastone" ID="{9BADE358-F056-400F-A13A-96313B3CC353}" ShortID="74744576">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16">
+												<Property Name="Lowpass" Type="int16">
 													<ValueList>
-														<Value>36</Value>
+														<Value>39</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-1040</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{C3F5DA23-8CBD-4173-80CF-362BAFF2B7B1}">
@@ -2790,7 +2867,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-18</Value>
+														<Value>-29</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2862,7 +2939,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-25</Value>
+														<Value>-9</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>

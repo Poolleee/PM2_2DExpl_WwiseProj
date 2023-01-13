@@ -8,6 +8,9 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{F0F79862-4C92-471F-9676-E0BC71A86599}" WorkUnitID="{C62DDAEA-1939-46C1-9AF6-B2BD075F0E58}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Ambiences" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
@@ -24,7 +27,6 @@
 									</ChildrenList>
 								</Bus>
 								<Bus Name="Jungle" ID="{ACCE492A-B9FC-42B2-99BD-7806E3D9389D}">
-									<ReferenceList/>
 									<ChildrenList>
 										<AuxBus Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}">
 											<PropertyList>

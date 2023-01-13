@@ -15,6 +15,11 @@
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -25,26 +30,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="Ambient_Background_Switch" ID="{5A97DBFD-3C50-4527-87B8-54D26D403692}" ShortID="296684028">
-							<PropertyList>
-								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-								</Reference>
-								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Jungle" ID="{556D1B0A-A177-4BB7-8D1D-DA19A014BB21}" WorkUnitID="{24161B7F-87DC-471F-8BF7-B81059154BB9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="Ambient_Switch" ID="{75A1679D-62EF-449F-B312-DE76A3A31788}" WorkUnitID="{24161B7F-87DC-471F-8BF7-B81059154BB9}"/>
-								</Reference>
-							</ReferenceList>
-							<GroupingInfo/>
-						</SwitchContainer>
 						<ActorMixer Name="Ambients" ID="{8C555AED-4615-49B0-8FC3-77D12DD3E301}" ShortID="104548907">
 							<PropertyList>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -114,6 +99,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Cave" ID="{00C4E190-CD20-4D4A-B118-1832880FBF94}" ShortID="579052288">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -125,8 +113,11 @@
 													<ChildrenList>
 														<AudioFileSource Name="Cave" ID="{9AD53484-1821-44F8-838F-BFF339AF7FA2}" ShortID="995223459">
 															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="14140.351"/>
 																<Property Name="FadeInDuration" Type="Real64" Value="5.93607305936073"/>
 																<Property Name="FadeInShape" Type="int16" Value="8"/>
+																<Property Name="LoopBegin" Type="Real64" Value="16.027397260274"/>
+																<Property Name="LoopEnd" Type="Real64" Value="154.931506849315"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -139,9 +130,10 @@
 												</Sound>
 												<Sound Name="Jungle" ID="{37C6858E-511E-488F-A5D1-B02CB09468E3}" ShortID="1056144882">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
-																<Value>49</Value>
+																<Value>63</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -165,6 +157,7 @@
 												</Sound>
 												<Sound Name="WaterDrip" ID="{A8CB5C81-116D-4CA9-927A-C3A24A43AD28}" ShortID="193629843">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-7</Value>
@@ -191,6 +184,7 @@
 												</Sound>
 												<Sound Name="WaterDrip long distance" ID="{8741E7CE-11E0-4547-941F-0907E7C4803E}" ShortID="430470747">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-4</Value>
@@ -217,6 +211,7 @@
 												</Sound>
 												<Sound Name="Wind inside wav" ID="{4E1E8131-CF03-4766-A838-9F00CE49D74D}" ShortID="1032592214">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-4</Value>
@@ -233,6 +228,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Wind inside wav" ID="{3CCF4286-AE4D-48E6-B001-089E8F1942D7}" ShortID="194931615">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="12315.789"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="3.2648401826484"/>
+																<Property Name="LoopBegin" Type="Real64" Value="14.5433789954338"/>
+																<Property Name="LoopEnd" Type="Real64" Value="161.75799086758"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Wind inside wav.wav</AudioFile>
 														</AudioFileSource>
@@ -247,6 +249,11 @@
 											<PropertyList>
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -258,6 +265,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Jungle" ID="{3DE6E267-3FB3-4733-A23C-418839FB38FE}" ShortID="347933625">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -272,8 +282,8 @@
 																<Property Name="CrossfadeDuration" Type="Real64" Value="39684.211"/>
 																<Property Name="FadeInDuration" Type="Real64" Value="2.37442922374429"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.890410958904113"/>
-																<Property Name="LoopBegin" Type="Real64" Value="41.8493150684931"/>
-																<Property Name="LoopEnd" Type="Real64" Value="134.155251141552"/>
+																<Property Name="LoopBegin" Type="Real64" Value="29.0867579908675"/>
+																<Property Name="LoopEnd" Type="Real64" Value="149.292237442922"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -286,6 +296,7 @@
 												</Sound>
 												<Sound Name="Wind outside" ID="{C88FE310-448B-4C58-BF8B-35606E09A8EE}" ShortID="841714590">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-12</Value>
@@ -326,7 +337,7 @@
 												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>12</Value>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -341,6 +352,7 @@
 											<ChildrenList>
 												<Sound Name="Ambiente Caverna" ID="{14D4A68F-6085-4DF1-8D85-30D9BDFB072D}" ShortID="924555593">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-17</Value>
@@ -357,6 +369,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Ambiente Caverna" ID="{C6C98DEC-AFEC-49E5-996A-4FF0174FBBFE}" ShortID="41935878">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="2083.421"/>
+																<Property Name="LoopBegin" Type="Real64" Value="1.70325342465753"/>
+																<Property Name="LoopEnd" Type="Real64" Value="15.7116438356164"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="18.5272260273973"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Ambiente Caverna.wav</AudioFile>
 														</AudioFileSource>
@@ -367,6 +386,7 @@
 												</Sound>
 												<Sound Name="Inetferenze 2" ID="{58BF4A9A-394A-4B10-9EC6-7618E99F441B}" ShortID="324115580">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-5</Value>
@@ -393,6 +413,7 @@
 												</Sound>
 												<Sound Name="Interferenze" ID="{C56BD4BF-E989-4BEA-9DEB-FF6D5CB81161}" ShortID="118131371">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-8</Value>
@@ -419,6 +440,7 @@
 												</Sound>
 												<Sound Name="Noise" ID="{2D9D3D8A-2E60-479D-B8F7-D10EE9C7EAC4}" ShortID="782338140">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-6</Value>
@@ -445,6 +467,7 @@
 												</Sound>
 												<Sound Name="Wind inside" ID="{F4DA3CF5-FEFB-41B4-B70E-4AA2AD30AB11}" ShortID="454767552">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-21</Value>

@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -26,7 +26,7 @@
 								<Property Name="Tempo" Type="Real64" Value="110"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -119,6 +119,9 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{81F0A558-E77B-4C5C-B923-98DF74B63177}" ShortID="418761051">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{E097E406-9107-4360-9419-5503D3124365}" ShortID="383702924">
 											<PropertyList>
@@ -136,7 +139,7 @@
 								<Property Name="Tempo" Type="Real64" Value="90"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -189,7 +192,6 @@
 														<MusicClip Name="Menu 2" ID="{A4479805-E45B-4AE4-8B83-D0BF82641676}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="99999.9999999999"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="2829.66839812118"/>
 															</PropertyList>
 															<AudioSourceRef Name="Menu 2" ID="{83A51849-F47E-4245-AD31-3520DF0ADCCE}"/>
 															<PropertyCurveList>
@@ -313,7 +315,6 @@
 											<MusicFade Name="Source Fade-out" ID="{E317E70A-8090-4669-BDB7-FE59A36F12E3}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="7"/>
-													<Property Name="FadeOffset" Type="Real64" Value="2"/>
 													<Property Name="FadeTime" Type="Real64" Value="2"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>

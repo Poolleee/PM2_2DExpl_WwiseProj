@@ -24,17 +24,6 @@
 				</Folder>
 				<Folder Name="Emitters" ID="{30435E4E-14F2-4D78-810D-515CDFDDD3E8}" ShortID="887802333">
 					<ChildrenList>
-						<Event Name="Acid_Pool" ID="{B8C0C9FC-51B7-4A5D-AF24-A25CA7CFF380}">
-							<ChildrenList>
-								<Action Name="" ID="{79B36EDB-E86A-44BE-8E7D-AD9B6610C0F3}" ShortID="291399895">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Acid_Pool" ID="{7AF2310B-7A50-4A2E-862C-59D3517385AB}" WorkUnitID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Folder Name="Moving_Platform" ID="{5459E6DA-6905-4DAE-B947-E048019DADEB}" ShortID="740764271">
 							<ChildrenList>
 								<Event Name="Start_moving_Platform" ID="{67FC5571-4BFD-4FFE-8D70-B6A9D5D71C2B}">
