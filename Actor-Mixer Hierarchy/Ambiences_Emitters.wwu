@@ -22,7 +22,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -242,7 +242,7 @@
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -513,7 +513,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -546,6 +546,137 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="Energy_Particles" ID="{EB6B1C96-4B3D-4D34-8421-8B49DE6860D7}" ShortID="237591252">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>87</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="infopost attenuation" ID="{4C63C8CB-33E0-47D4-891C-1BC928C9DD12}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chiave ronzio avvicinamento" ID="{DC37ECC0-5EB4-4AC8-9D30-80044A554875}" ShortID="879396411">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1789.474"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.80821917808219"/>
+										<Property Name="LoopEnd" Type="Real64" Value="6.93493150684932"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.33219178082192"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Chiave ronzio avvicinamento.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Chiave ronzio avvicinamento" ID="{DC37ECC0-5EB4-4AC8-9D30-80044A554875}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Accensione porta" ID="{E65A738E-EBEB-44EB-B315-BC72C62CD4D0}" ShortID="855982499">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>72</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>530</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Accensione porta" ID="{D34B854F-89C0-4652-B14B-EA8D389F19CF}" ShortID="943819172">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.182648401826484"/>
+										<Property Name="FadeOutShape" Type="int16" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.502283105022831"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>15.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Accensione porta.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Accensione porta" ID="{D34B854F-89C0-4652-B14B-EA8D389F19CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Energy_Particles_01" ID="{AA2DFC7F-61C5-4D12-B03D-3EC4120B5B47}" ShortID="661008187">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>2400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="infopost attenuation" ID="{4C63C8CB-33E0-47D4-891C-1BC928C9DD12}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chiave ronzio avvicinamento" ID="{B52170D4-D5B3-4D75-8DA3-84D1C29A70A3}" ShortID="695400392">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1789.474"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.80821917808219"/>
+										<Property Name="LoopEnd" Type="Real64" Value="6.93493150684932"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.33219178082192"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Chiave ronzio avvicinamento.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="879396411"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Chiave ronzio avvicinamento" ID="{B52170D4-D5B3-4D75-8DA3-84D1C29A70A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

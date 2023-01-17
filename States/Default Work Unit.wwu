@@ -16,6 +16,18 @@
 						<State Name="None" ID="{6B43CE93-BFC9-45E2-BC54-833D0F766C91}"/>
 						<State Name="MainMenu" ID="{E3A3D85E-3C10-4562-AF9F-2548E9E670B6}"/>
 						<State Name="GamePlay" ID="{F928AD46-47F0-49CC-9C51-38DFAB9BE093}"/>
+						<State Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Boss_Stage" ID="{DC29C10F-05B3-43EE-A852-7B3DF59654D4}">
+					<ChildrenList>
+						<State Name="None" ID="{344DF542-E407-44A3-8D11-89827A7968AC}"/>
+						<State Name="enter" ID="{443D0277-0D35-4DB6-AAFA-C665ABD1EE58}"/>
+						<State Name="Stage1" ID="{E9333CF3-22B1-4639-A098-0D785836AEF1}"/>
+						<State Name="Stage2" ID="{BA2CB8CE-4D06-427B-9BE4-34F5C5D46671}"/>
+						<State Name="Stage3" ID="{59D3B9EF-877D-4A2B-A25A-FC799BBA88A0}"/>
+						<State Name="boss_out" ID="{2DCBB6DB-1F27-4350-9221-754694D6E877}"/>
+						<State Name="exit" ID="{219C132F-7D7F-4FBC-B70A-0A48EB2E3D42}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

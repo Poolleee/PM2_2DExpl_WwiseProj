@@ -6,6 +6,7 @@
 				<SoundBank Name="Global_Soundbank" ID="{1734C972-B648-4064-AA0B-9C67E8A7D576}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Everything Else" ID="{250A1798-400B-454F-81CD-B088E6617B99}" WorkUnitID="{250A1798-400B-454F-81CD-B088E6617B99}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Wwise RoomVerb" ID="{D16E55BD-B819-4EBE-8C66-2CA5A5FE1653}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

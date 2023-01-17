@@ -11,6 +11,9 @@
 						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
+						<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Ambiences" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
@@ -32,29 +35,36 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect1">
-													<Custom CreatedFrom="{65E0ACE4-B404-4485-87A4-5907277D9858}">
-														<Effect Name="PA_Announcement1_(Custom)" ID="{F6176B6D-8745-4BE2-A9AF-3BCE97263DC3}" ShortID="670155580" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-															<PropertyList>
-																<Property Name="HFRatio" Type="Real32" Value="5.5"/>
-																<Property Name="NumberOfDelays" Type="int32" Value="12"/>
-																<Property Name="PreDelay" Type="Real32" Value="0.15"/>
-																<Property Name="ReverbTime" Type="Real32" Value="0.5"/>
-																<Property Name="WetLevel" Type="Real32" Value="-41"/>
-															</PropertyList>
-														</Effect>
-													</Custom>
+												<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 											</ReferenceList>
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
-								<Bus Name="Temple" ID="{7CDF381B-C590-4F49-86DD-BB207BFE0FD8}"/>
+								<Bus Name="Temple" ID="{7CDF381B-C590-4F49-86DD-BB207BFE0FD8}">
+									<ChildrenList>
+										<AuxBus Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-17</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
 								<Bus Name="Jungle Roofed" ID="{586F8F28-59E9-4AE5-8201-9EF495600CDF}"/>
 							</ChildrenList>
 						</Bus>

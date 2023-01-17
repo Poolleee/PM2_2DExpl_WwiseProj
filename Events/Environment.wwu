@@ -57,6 +57,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Info_Post" ID="{A84D495B-62C2-46F8-BFB6-079C394AB3AD}">
+							<ChildrenList>
+								<Action Name="" ID="{84FA2651-E834-4D0F-AE86-8BC8FFFE5CE2}" ShortID="220753788">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Energy_Particles" ID="{EB6B1C96-4B3D-4D34-8421-8B49DE6860D7}" WorkUnitID="{0710A854-1580-4E72-8C99-5174D5FC2FCA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

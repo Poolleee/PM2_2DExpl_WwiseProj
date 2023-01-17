@@ -11,11 +11,6 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="41"/>
-						<Property Name="UserAuxSendVolume0" Type="Real64">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-11</Value>
@@ -33,7 +28,7 @@
 							<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+							<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -52,6 +47,33 @@
 							<Property Name="UserAuxSendVolume3"/>
 							<Property Name="Volume"/>
 						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+								<CustomState Name="" ID="{CB6283E1-4847-41FE-BB30-782774B6267C}" ShortID="224740879">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+								<CustomState Name="" ID="{BD1D85B8-4E47-4A04-B880-7D9287D11CBB}" ShortID="874254938">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+								<CustomState Name="" ID="{AFD08B5E-1BE0-4A2E-9540-F983A187DFA0}" ShortID="57433702"/>
+							</CustomState>
+						</CustomStateList>
 					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>

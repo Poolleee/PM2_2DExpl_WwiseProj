@@ -8,6 +8,7 @@
 				<WorkUnit Name="UI_Menu" ID="{1FCA6A3C-BC81-4D8F-AFA9-A233233D1106}" PersistMode="Reference"/>
 				<WorkUnit Name="Objects" ID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}" PersistMode="Reference"/>
 				<WorkUnit Name="Enemies" ID="{08169943-202E-4884-AE0F-87C3453CE2B3}" PersistMode="Reference"/>
+				<WorkUnit Name="Boss" ID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

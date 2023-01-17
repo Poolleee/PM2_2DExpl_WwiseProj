@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
+	<Events>
+		<WorkUnit Name="Boss" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" OwnerID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Footstep_Boss" ID="{FDDE0F59-8F4E-4E9E-8067-ED37498AC4FE}">
+					<ChildrenList>
+						<Action Name="" ID="{1FD5B8C8-6AE5-4490-B814-7D456F6260DB}" ShortID="231686529">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Footstep" ID="{2FFDA20E-E5E5-4257-B146-6E78C82FFF3A}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CryBoss" ID="{29BA8317-7C51-4DAC-A3FD-51264111D99A}">
+					<ChildrenList>
+						<Action Name="" ID="{8D1371BF-F23F-4FB4-9F66-A792684E6D02}" ShortID="592553040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Cries" ID="{D81A38DA-0E85-4A5E-9FFD-6F7F2FE48F0E}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Beam_Attack" ID="{31FBC535-8578-4FB7-9C8A-8489AF759748}" ShortID="667840106">
+					<ChildrenList>
+						<Event Name="Play_Beam_Attack_Boss" ID="{9B08CFCB-3CF0-49E3-8BFB-288AF473E619}">
+							<ChildrenList>
+								<Action Name="" ID="{A6CAFCF3-6A8A-420B-ACD6-10D322BF12B5}" ShortID="173182424">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="beam_Blast" ID="{9912E281-9DD6-457A-AFCE-118E4FE87E6C}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BC754064-58F1-4F15-980D-C725A44CDAB5}" ShortID="698899392">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Freeze EnergyBallStatic [2023-01-16 171318]" ID="{AF3C5A84-D0D7-40AA-921B-A77288329906}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Beam_Charge_Boss" ID="{3FDE6465-81E0-4009-A21A-6BEC9FE30CC4}">
+							<ChildrenList>
+								<Action Name="" ID="{0CCD38C0-DB72-441D-80B6-7FEF4B159A38}" ShortID="236882038">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beam_Charge" ID="{D426DD32-3E1A-40BF-849E-88CD3F533519}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D7099E3D-AA7D-4384-92F7-A15FF105FE35}" ShortID="52616423">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beam_Laser_Pointer" ID="{9CE3235A-E3D1-4D46-87FB-5F3F0CD048C7}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Beam_Laser_Pointer" ID="{4A96B5E4-6A72-4A51-8CA1-78057AF56F13}">
+							<ChildrenList>
+								<Action Name="" ID="{154AF1A8-3C08-4F56-85F5-4092F5F635ED}" ShortID="390644923">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beam_Laser_Pointer" ID="{9CE3235A-E3D1-4D46-87FB-5F3F0CD048C7}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Beam_Projectile_Hit" ID="{C8FD3D91-BD42-404C-AC10-32E00047FA08}">
+							<ChildrenList>
+								<Action Name="" ID="{039846BC-0F91-4A46-81F7-A5A6345447C0}" ShortID="243368362">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Freeze EnergyBallStatic [2023-01-16 171318]" ID="{AF3C5A84-D0D7-40AA-921B-A77288329906}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E53E0762-0932-4778-B76E-DA1D58491252}" ShortID="468269913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnergyBallHit" ID="{0F82DB93-D772-432F-8FBF-9809295CE862}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Beam_Projectile_Fly" ID="{C7B73A36-CABE-48D9-84FC-2531E352B4E1}">
+							<ChildrenList>
+								<Action Name="" ID="{99D0284A-2ACF-4FE4-A57B-1CCFD1EB6BEE}" ShortID="920307662">
+									<PropertyList>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Freeze EnergyBallStatic [2023-01-16 171318]" ID="{AF3C5A84-D0D7-40AA-921B-A77288329906}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Electric_Attack" ID="{E9E5EB9A-0A34-4232-817B-65FD3BD146FA}" ShortID="465865519">
+					<ChildrenList>
+						<Event Name="Play_ElectricAttack" ID="{0259E7B1-2AF8-4185-81AB-ADFD1C78D0B3}">
+							<ChildrenList>
+								<Action Name="" ID="{13661328-A6D7-4AFA-BC71-C00C3BB7B9B1}" ShortID="919402674">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Electric_Attack_Blast" ID="{D335C0E0-981F-4BB2-A17D-40D06552CC07}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ElectricCharge" ID="{A33759C4-7203-4435-983A-DD836ADC90FD}">
+							<ChildrenList>
+								<Action Name="" ID="{D2FAE331-6F87-4A64-920E-0D5E509BFAED}" ShortID="102277403">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Electric Attack_Charge 0001 [2023-01-16 141610]" ID="{59F5332F-35E2-49A2-971D-8B6F35236FC5}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Shield" ID="{17486EA3-3979-4D9E-A066-D67BF32E67B3}" ShortID="849466347">
+					<ChildrenList>
+						<Event Name="Boss_Shield_Off" ID="{38D806F9-F372-4374-BDA9-6C625AC26286}">
+							<ChildrenList>
+								<Action Name="" ID="{C4A34EE0-22AD-4AE0-B3A7-C0F08F1236DC}" ShortID="449821723">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{37103A2E-B2ED-418C-94A8-DBFD148D28A3}" ShortID="15472501">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Shield_Deactivate" ID="{31FA655A-B2DE-4D6D-85B7-058D220BDA0F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Shield_On" ID="{671E99B0-7D3B-4080-BEA5-8B99A7D22EE5}">
+							<ChildrenList>
+								<Action Name="" ID="{A8AF039D-B233-4015-B14F-71159C33B34C}" ShortID="656749502">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BC98DB1D-036E-4D90-9EE3-2985B83CECC8}" ShortID="77206016">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_shield_Hit" ID="{293A3C81-13B6-481B-A6F9-A4F017C1E6B5}">
+							<ChildrenList>
+								<Action Name="" ID="{42C7A368-A443-48A4-AF1B-2665631795F6}" ShortID="439471658">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ShieldHit" ID="{EB1F7F70-21C2-470C-BBA5-A78870E2A327}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grnade_Attack" ID="{3F77E848-D803-455C-A87B-C4FACD5A04DC}" ShortID="485204271">
+					<ChildrenList>
+						<Event Name="Granade_Generate" ID="{8E9D6B86-62BD-4166-A9F7-C2F5F9DB4FC7}">
+							<ChildrenList>
+								<Action Name="" ID="{C5394B62-640B-41E5-BF7A-9757BD00C1C9}" ShortID="709023626">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Energy_Granade_Generate 0001 [2023-01-17 174755]" ID="{6BCE6A4F-F084-4A3B-BDF7-44B1E554862F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Granade_Fly" ID="{9DC4D2A9-C92B-4ED7-92F9-11325A5BAA7C}">
+							<ChildrenList>
+								<Action Name="" ID="{A0DBDCF9-1DE9-4E77-9B74-655A072160DB}" ShortID="365577363">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Energy_Granade_Generate 0001 [2023-01-17 174755]_01" ID="{6E40848A-A898-4C57-B5F2-A48F5B70039F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Granade_Explode" ID="{0DF8FE07-0D67-4221-8399-4728376B25F1}">
+							<ChildrenList>
+								<Action Name="" ID="{33FFBBB5-405E-40CA-839D-D7CFB1D12D6F}" ShortID="471679181">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{CCE974DC-2BDD-4852-81BC-4C033EEA0FE3}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{009858B0-4F25-4BB9-9A5F-8F29203590B1}" ShortID="495791514">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Energy_Granade_Generate 0001 [2023-01-17 174755]_01" ID="{6E40848A-A898-4C57-B5F2-A48F5B70039F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

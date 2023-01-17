@@ -4,6 +4,13 @@
 		<WorkUnit Name="Ambiences" ID="{09F0E1FC-104B-43C1-8E4F-B215F3BE339B}" OwnerID="{AD3B7834-D645-4C6C-B369-5618C97F8B4F}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Ambiences" ID="{A22CFE9E-F2A2-4E60-BE4B-020F1C12A8B1}" ShortID="292494415">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>

@@ -24,7 +24,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>20</Value>
+										<Value>27</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2156,6 +2156,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Combat" ID="{AAF5DBAA-2919-48A6-89A1-8BC7E2981270}" ShortID="968219231">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -2217,7 +2224,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

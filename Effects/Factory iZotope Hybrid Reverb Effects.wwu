@@ -80,11 +80,14 @@
 				<Effect Name="City_Center" ID="{C0BCFD9D-288E-4551-A9AA-651BD535AFE7}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
 					<PropertyList>
 						<Property Name="DecayHighFrequency" Type="Real32" Value="8000"/>
-						<Property Name="DecayHighRatio" Type="Real32" Value="0.8789631"/>
+						<Property Name="DecayHighRatio" Type="Real32" Value="0.63"/>
 						<Property Name="DecayLowFrequency" Type="Real32" Value="800"/>
 						<Property Name="DecayLowRatio" Type="Real32" Value="0.487843"/>
 						<Property Name="DecayMidRatio" Type="Real32" Value="1.633194"/>
-						<Property Name="DecayTime" Type="Real32" Value="0.5061578"/>
+						<Property Name="DecayTime" Type="Real32" Value="0.306"/>
+						<Property Name="EarlyGain" Type="Real32" Value="-10"/>
+						<Property Name="PredelayFront" Type="Real32" Value="100"/>
+						<Property Name="PredelayRear" Type="Real32" Value="100"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="City Center" ID="{63F73444-446A-492A-9DE5-A5743D61554B}" ShortID="875305838">
@@ -98,11 +101,16 @@
 				<Effect Name="City_Streets" ID="{7B15BCFE-88CF-43F0-9ABE-9B70D7526277}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
 					<PropertyList>
 						<Property Name="DecayHighFrequency" Type="Real32" Value="8000"/>
-						<Property Name="DecayHighRatio" Type="Real32" Value="1.162309"/>
+						<Property Name="DecayHighRatio" Type="Real32" Value="0.66"/>
 						<Property Name="DecayLowFrequency" Type="Real32" Value="800"/>
 						<Property Name="DecayLowRatio" Type="Real32" Value="0.8012477"/>
-						<Property Name="DecayMidRatio" Type="Real32" Value="1.036443"/>
-						<Property Name="DecayTime" Type="Real32" Value="0.5579304"/>
+						<Property Name="DecayMidRatio" Type="Real32" Value="1.29"/>
+						<Property Name="DecayTime" Type="Real32" Value="0.358"/>
+						<Property Name="EarlyGain" Type="Real32" Value="-12.2"/>
+						<Property Name="FrontWet" Type="Real32" Value="-20"/>
+						<Property Name="PredelayFront" Type="Real32" Value="22.5"/>
+						<Property Name="PredelayRear" Type="Real32" Value="21.5"/>
+						<Property Name="RearWet" Type="Real32" Value="-20"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="City Streets" ID="{FEAAE5A1-A9A3-452A-90D1-6AA148AA3828}" ShortID="28968810">
