@@ -153,7 +153,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
 						<CurrentStateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
-						<CurrentStateRef Name="Stage1" ID="{E9333CF3-22B1-4639-A098-0D785836AEF1}"/>
+						<CurrentStateRef Name="exit" ID="{219C132F-7D7F-4FBC-B70A-0A48EB2E3D42}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Cave" ID="{387D0070-92E6-424E-B395-C9EE8ED84448}"/>

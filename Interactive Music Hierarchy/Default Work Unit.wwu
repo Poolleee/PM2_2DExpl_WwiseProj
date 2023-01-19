@@ -299,7 +299,9 @@
 						</MusicPlaylistContainer>
 						<MusicSwitchContainer Name="Boss_Music" ID="{65153B89-C61C-4F89-9E54-ED731B278DE3}" ShortID="109035961">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="115"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2393,6 +2395,18 @@
 											</ReferenceList>
 											<TransitionInfo/>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{96BB22BE-4E5C-4515-9DDB-8CA616152F35}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Boss_Outro" ID="{A9B6C942-847A-418D-80BA-ED828C1D8F41}" WorkUnitID="{7F4947E2-8229-42C6-BB86-CC290BA2139C}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo/>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
@@ -2527,6 +2541,7 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<Folder Name="Stinger" ID="{A40878C2-BA75-4428-9EF6-CFE9CA10F76E}" ShortID="804596088"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

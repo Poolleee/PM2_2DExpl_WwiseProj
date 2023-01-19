@@ -1678,7 +1678,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1848,7 +1848,7 @@
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>12</Value>
+														<Value>6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1922,6 +1922,9 @@
 												</Property>
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{4491B377-99F8-434D-B4D1-5FB28392A952}">
@@ -1974,7 +1977,13 @@
 							</ChildrenList>
 						</Folder>
 						<ActorMixer Name="Energy_Granade" ID="{C753DC77-09B5-4C93-AB4E-BB0A810A2133}" ShortID="159389553">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 								</Reference>
@@ -1983,27 +1992,24 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{CCE974DC-2BDD-4852-81BC-4C033EEA0FE3}" ShortID="868994756">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{3737FE7D-632C-4434-9F88-4EBCE64CA0F1}" ShortID="676031930">
-											<Language>SFX</Language>
-											<AudioFile>Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{3737FE7D-632C-4434-9F88-4EBCE64CA0F1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Energy_Granade_Generate 0001 [2023-01-17 174755]" ID="{6BCE6A4F-F084-4A3B-BDF7-44B1E554862F}" ShortID="523962710">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 										</Reference>
@@ -2032,6 +2038,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2068,8 +2079,862 @@
 										<ActiveSource Name="Energy_Granade_Generate 0001 [2023-01-17 174755]" ID="{49D01355-0ED9-4716-9BE7-99BF9749430F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="granade_Explode" ID="{BDCCE1D6-425B-4AD4-B1E0-7502B13D336B}" ShortID="36101020">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{CCE974DC-2BDD-4852-81BC-4C033EEA0FE3}" ShortID="868994756">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Projectile_Attenuation" ID="{0A6367B1-97FC-481E-B4CF-C0861B7E1161}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{3737FE7D-632C-4434-9F88-4EBCE64CA0F1}" ShortID="676031930">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.248252725747833"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{3737FE7D-632C-4434-9F88-4EBCE64CA0F1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Freeze Sub_Operator [2023-01-15 093214]" ID="{BB5B0884-5C28-45A0-978F-085BF6C06ACB}" ShortID="1059845529">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Sub_Operator [2023-01-15 093214]" ID="{AFF5ADFA-B6EF-4FF6-9AEA-7EDA4D42AE79}" ShortID="626460758">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.721472059143292"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.767852405802504"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.84490712266642"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Footstep_Layer\Freeze Sub_Operator [2023-01-15 093214].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Sub_Operator [2023-01-15 093214]" ID="{AFF5ADFA-B6EF-4FF6-9AEA-7EDA4D42AE79}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Boss_Electric_Attack_Blast" ID="{795CC8BE-7385-4A41-948C-B8441A8A1D4B}" ShortID="274205376">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-680</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Boss_Electric Attack_Blast [2023-01-16 141804]" ID="{B1E849BE-AA80-450F-AC61-826C0CC1BB66}" ShortID="736171555">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Electric Attack_Charge 0002 [2023-01-16 141804]" ID="{CCF0AAAA-3259-4936-B9A9-77F95DE17805}" ShortID="951542222">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.280995247414034"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.676477187891724"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.917966623655767"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Electric Attack_Charge 0002 [2023-01-16 141804]" ID="{CCF0AAAA-3259-4936-B9A9-77F95DE17805}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_Electric Attack_Blast [2023-01-16 141804]_01" ID="{68EBB89C-C30D-4DC0-AB95-A92361E466EA}" ShortID="987175771">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Electric Attack_Charge 0002 [2023-01-16 141804]" ID="{84F1D27C-528C-4FF8-B8AD-E23CA5676C8D}" ShortID="825326556">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.248704848489605"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.608401943412586"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.29550493750149"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.07858806401019"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Electric Attack_Charge 0002 [2023-01-16 141804]" ID="{84F1D27C-528C-4FF8-B8AD-E23CA5676C8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_Electric Attack_Blast [2023-01-16 141804]_02" ID="{C2E4BC4D-5376-4980-8A2C-9C9FFA8CB265}" ShortID="947993420">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Electric Attack_Charge 0002 [2023-01-16 141804]" ID="{05E9E759-7D91-46D6-BBA8-FF7C2D8B222C}" ShortID="1021509140">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.156279257298296"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.530768800670953"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.58868101237297"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.32239735628983"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Electric Attack_Charge 0002 [2023-01-16 141804]" ID="{05E9E759-7D91-46D6-BBA8-FF7C2D8B222C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]_01" ID="{ACEEF044-BB4C-4C90-85A0-01A77B7D0208}" ShortID="377103075">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>74</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-1410</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{3167DC8E-D12D-46B8-976D-404585AAB398}" ShortID="1045321089">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.321809088932377"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.248252725747833"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.772341813437704"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{3167DC8E-D12D-46B8-976D-404585AAB398}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="Hit_Boss" ID="{FE8A7364-AB1E-4582-BBE8-1BF594DED00E}" ShortID="49444615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Boss_Hit" ID="{F3EEDE32-13BD-472C-892F-2D56F6D549BD}" ShortID="877455842">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{871CEA35-929B-479E-AF30-1A6E6F518B02}" ShortID="983173549">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{41E9DF1F-7430-4617-85F5-2AB3227BEF8B}" ShortID="353225775">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.408840508806262"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.642463656695555"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Freeze Hit_Boss_Main_Layer [2023-01-18 095703].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{41E9DF1F-7430-4617-85F5-2AB3227BEF8B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]_01" ID="{C6181713-02A7-4A91-B715-6592694F1162}" ShortID="907478480">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{C16C7F38-ED72-4A9C-97DB-BC299D7401AE}" ShortID="1017312948">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.408840508806262"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.17961721898231"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.8495165874569"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Freeze Hit_Boss_Main_Layer [2023-01-18 095703].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{C16C7F38-ED72-4A9C-97DB-BC299D7401AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]_02" ID="{35A734E4-314D-44DF-92A2-FEDC002AA080}" ShortID="115729627">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{835A9662-FB19-4524-AE29-9733B6027986}" ShortID="22832178">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.408840508806262"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.4708006405739"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.58222160096916"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Freeze Hit_Boss_Main_Layer [2023-01-18 095703].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{835A9662-FB19-4524-AE29-9733B6027986}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]_03" ID="{C1B11364-AE8B-463A-9F39-B2CD0C23CC17}" ShortID="263327638">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{E7235005-C14D-46D7-ACC8-C82D7F3A6D6F}" ShortID="420802467">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.408840508806262"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.61673261701197"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.27096987916231"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Freeze Hit_Boss_Main_Layer [2023-01-18 095703].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{E7235005-C14D-46D7-ACC8-C82D7F3A6D6F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]_04" ID="{5F808DB9-6652-4061-855F-108A778BA7AB}" ShortID="912782029">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{5F63FA30-A5DE-4B17-92B4-E8999F2AF12F}" ShortID="377296043">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.408840508806262"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.76881841111324"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.35315927065452"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Freeze Hit_Boss_Main_Layer [2023-01-18 095703].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Freeze Hit_Boss_Main_Layer [2023-01-18 095703]" ID="{5F63FA30-A5DE-4B17-92B4-E8999F2AF12F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Boss_Sick_Voice" ID="{9DA7DE55-BF0F-4EBE-8565-11C4D2EA477C}" ShortID="544627210">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Boss - Sick Voice (Character)" ID="{37862836-29FB-4805-9CF3-546BA29A8652}" ShortID="707754490">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{8C19B8E9-03B7-438E-8867-68D17528BA2E}" ShortID="736160412">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.01619001025068"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{8C19B8E9-03B7-438E-8867-68D17528BA2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boss - Sick Voice (Character)_01" ID="{D582E63C-1E15-4FC0-A526-2F8DE06383B1}" ShortID="662006005">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{47C00267-D7F2-424A-8A7C-115E57BC1ECA}" ShortID="9158098">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.01619001025068"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="736160412"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{47C00267-D7F2-424A-8A7C-115E57BC1ECA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boss - Sick Voice (Character)_02" ID="{354AFF70-BC4E-41BD-86A1-48D7903EB8C9}" ShortID="417475387">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{9D3AA2B4-9F82-4BD8-9481-9395152E55B6}" ShortID="785856999">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.1519317864132"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.25778562109775"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{9D3AA2B4-9F82-4BD8-9481-9395152E55B6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boss - Sick Voice (Character)_03" ID="{B00560D3-D2CC-42C2-9D8E-5ACAA5A80635}" ShortID="327635089">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{0C95F681-8580-4E87-BBB6-44D98B113405}" ShortID="948441937">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.25778562109775"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.33375151430435"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{0C95F681-8580-4E87-BBB6-44D98B113405}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boss - Sick Voice (Character)_04" ID="{C1212E47-5FD1-4A99-9C1B-78EB79DE8C6E}" ShortID="203644649">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{211ADB0C-93EF-4D0B-A42C-AC3F6AFF909D}" ShortID="1069499109">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.34869548504333"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.39477343677197"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{211ADB0C-93EF-4D0B-A42C-AC3F6AFF909D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boss - Sick Voice (Character)_05" ID="{48264D70-9187-4C86-A1AC-2D5B64F4F9CC}" ShortID="590976211">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{E1405CAA-30A0-414F-9035-B94C7DDA8C1C}" ShortID="340659319">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.42466137824993"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.54545918367347"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{E1405CAA-30A0-414F-9035-B94C7DDA8C1C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boss - Sick Voice (Character)_06" ID="{06B641FA-CBDE-4DD4-B0D7-BF8C88782CBD}" ShortID="227973309">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss - Sick Voice (Character)" ID="{ADA06BA8-03A3-4A8E-8D7E-0ADC32FB2C51}" ShortID="36790588">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.53051521293449"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.60648110614109"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss - Sick Voice (Character)" ID="{ADA06BA8-03A3-4A8E-8D7E-0ADC32FB2C51}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Freeze 123-Granulator II [2023-01-18 103534]" ID="{A1192AE1-F03D-4FE5-8C96-6BC676E35B1B}" ShortID="924641484">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-26</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freeze 123-Granulator II [2023-01-18 103534]" ID="{A11F0C44-272A-4524-AA39-A0C09D867685}" ShortID="210599387">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="7.55063367812879"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.4474713447023"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Boss_Hit_Layer\Freeze 123-Granulator II [2023-01-18 103534].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Freeze 123-Granulator II [2023-01-18 103534]" ID="{A11F0C44-272A-4524-AA39-A0C09D867685}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Damage" ID="{7D2612FC-29CC-4661-AAC9-9D24335C4BA0}" ShortID="246952503">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Shield Attenution" ID="{B0C1CCED-5D88-4C4B-BB6B-0B3752FB38B8}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Boss_Electric_Damage" ID="{782EA215-A1CE-4D43-B378-CEAC0283707D}" ShortID="460058951">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Freeze 118-Electricity, Electromagnetic, Backing Up File Data, Glitch, Click, Squeal SND52830 [2023-01-18 092054]" ID="{D8DFC517-10E2-487B-AE86-2CF233BAA30F}" ShortID="173579068">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2320.826"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.5168778927096"/>
+										<Property Name="LoopEnd" Type="Real64" Value="5.66297525859658"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.92816536203521"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Boss_Hit_Layer\Freeze 118-Electricity, Electromagnetic, Backing Up File Data, Glitch, Click, Squeal SND52830 [2023-01-18 092054].wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Freeze 118-Electricity, Electromagnetic, Backing Up File Data, Glitch, Click, Squeal SND52830 [2023-01-18 092054]" ID="{D8DFC517-10E2-487B-AE86-2CF233BAA30F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_Vapor_Damage" ID="{D5F85D1A-A49F-463B-ACAD-51CDCE205658}" ShortID="23960012">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Freeze 119-RAW_Air,Compressed_02_G [2023-01-18 092054]" ID="{3938292C-E0A6-4F08-ACD4-AF5DD9A9B38A}" ShortID="235324119">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1837.321"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.5168778927096"/>
+										<Property Name="LoopEnd" Type="Real64" Value="5.91466304786754"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.99108730935296"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Boss_Hit_Layer\Freeze 119-RAW_Air,Compressed_02_G [2023-01-18 092054].wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Freeze 119-RAW_Air,Compressed_02_G [2023-01-18 092054]" ID="{3938292C-E0A6-4F08-ACD4-AF5DD9A9B38A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

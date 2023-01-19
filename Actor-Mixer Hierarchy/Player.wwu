@@ -2991,6 +2991,695 @@
 								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="Voice" ID="{E8CFAAEF-7ECA-47B3-A683-0074D8717428}" ShortID="669413379">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Hit_Player_Voices" ID="{C2CDF7BC-DF97-4038-BB5D-326C55C42789}" ShortID="193835933">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{F8B3E6C1-1A0D-4AF7-B81B-6EA080F22E6C}" ShortID="324208862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{7F0E309D-E9C7-4718-9244-0CEAA0DA9458}" ShortID="821618615">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.11845032861627"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.18908867722604"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{7F0E309D-E9C7-4718-9244-0CEAA0DA9458}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4_01" ID="{A34FE663-8C11-4EC8-ACDB-B0A80BABDD19}" ShortID="30772606">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{9E50ED0A-B2B2-4E5B-AE97-2521A1517D82}" ShortID="184851124">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.20853854998649"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.16769060322885"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{9E50ED0A-B2B2-4E5B-AE97-2521A1517D82}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4_02" ID="{01453206-CA8E-4D95-9A79-FEB325AB833A}" ShortID="610472580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{72B00D6E-2514-421D-97CA-091C98E5C993}" ShortID="816454804">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.64978850842778"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.54422997026639"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{72B00D6E-2514-421D-97CA-091C98E5C993}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4_03" ID="{07C2D749-10AC-4182-B538-6F2E65641132}" ShortID="315710420">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{45A2F3AD-D0F7-45D1-9318-F6C413F6527A}" ShortID="526188856">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.78289772719612"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.4489843270427"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{45A2F3AD-D0F7-45D1-9318-F6C413F6527A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4_04" ID="{9092F368-616E-4B5A-AE3E-4B466046A46E}" ShortID="895281523">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{2B9196F9-7DCB-4BF1-B82C-8F4B4883A91E}" ShortID="629655617">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.1616694137204"/>
+														<Property Name="TrimEnd" Type="Real64" Value="11.0908587970891"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{2B9196F9-7DCB-4BF1-B82C-8F4B4883A91E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4_05" ID="{411CA637-D3EE-4C78-8B99-EAB19F343A6A}" ShortID="282743654">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{169F466C-818F-433C-8289-3FA81EE46F76}" ShortID="659160986">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="13.455508141317"/>
+														<Property Name="TrimEnd" Type="Real64" Value="14.4599521836391"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{169F466C-818F-433C-8289-3FA81EE46F76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Angry SND62165 4_06" ID="{B1112C33-C86F-44BE-A4BF-E8F99A36BD64}" ShortID="677842004">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{D9A43971-44AB-4A35-B894-A0D40DDCC3BC}" ShortID="169106465">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="14.5546170837429"/>
+														<Property Name="TrimEnd" Type="Real64" Value="15.0632503496005"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Angry SND62165 4" ID="{D9A43971-44AB-4A35-B894-A0D40DDCC3BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154" ID="{95A20B94-5673-4AD7-B36D-0D384512CE12}" ShortID="93106279">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154" ID="{CB831185-22C7-488B-B061-3B5B777F429D}" ShortID="105010494">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="8.70255422374429E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.48419663242009E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154" ID="{CB831185-22C7-488B-B061-3B5B777F429D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Jump_Player_Voices" ID="{4FFFCAB2-ECE0-4217-A21E-C63E9CEFAFA4}" ShortID="945259067">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0350863A-B511-43D1-AFD3-713AD6F3E174}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A63CBCA4-5933-4FF7-B78E-DBA43758EEE0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{7A0DAA4B-6630-4B94-B0D1-8D3F0AE80B2F}" ShortID="552147088">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{695D7274-05D1-47F1-B176-FB3BCD4A62C2}" ShortID="1001376757">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.39476660596344E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.86368777393685E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.10150791952054"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{695D7274-05D1-47F1-B176-FB3BCD4A62C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351_01" ID="{3860C5A4-93AE-43E9-B9AA-7D1B1546D810}" ShortID="747141291">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{E63656C8-5AD6-4D3B-8157-52E8DBEE8437}" ShortID="1028601295">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="6.56076667988419E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.31970045705358"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.39883946917807"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{E63656C8-5AD6-4D3B-8157-52E8DBEE8437}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351_02" ID="{1A14CB02-0B21-4A5C-AD1F-92F7E4C0B58C}" ShortID="22563611">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{FB20E8B5-C26D-4034-9F1B-F831CE817F75}" ShortID="966066401">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="8.72035237867941E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.65738866933473"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.98631035958903"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{FB20E8B5-C26D-4034-9F1B-F831CE817F75}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351_04" ID="{A828B462-4878-4592-9993-E8503D2E5EAA}" ShortID="663411328">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{5E5E50A0-1313-44D7-9B6A-17261388E7BB}" ShortID="258065035">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="9.26161562976979E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.35204284520303"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.07085482594184"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{5E5E50A0-1313-44D7-9B6A-17261388E7BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351_05" ID="{21113DC8-9619-4C5C-BE3F-DB7A5A436402}" ShortID="232233313">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{9639A4D3-63A9-4D58-AF05-4EF7118E9115}" ShortID="732092373">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="6.56076667988419E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.09450142369772"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.4204160958904"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{9639A4D3-63A9-4D58-AF05-4EF7118E9115}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351_06" ID="{91C427CB-9780-4A22-A1F7-1784A3E7FD1C}" ShortID="276994883">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{E87DF360-B5DC-4013-985B-2447A62A4AC4}" ShortID="882894668">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="9.20538439201763E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="13.7342787742879"/>
+														<Property Name="TrimEnd" Type="Real64" Value="14.1482572773972"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{E87DF360-B5DC-4013-985B-2447A62A4AC4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="silence" ID="{DB7FE3A1-5D66-4640-A59F-AAC05FA94560}" ShortID="18385440">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{CEC61CD5-B503-46E3-82BF-C67EE524E0F1}" ShortID="923446558" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{CEC61CD5-B503-46E3-82BF-C67EE524E0F1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Melee_Player_Voices" ID="{C1D50541-75C1-4C5C-8913-0733DDE14A4A}" ShortID="416921787">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{4DEA722E-6C93-451F-BDFB-A693F32A3EE2}" ShortID="958554235">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{90A85F35-F2FE-4E02-A645-F956BF4E2458}" ShortID="76583027">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.30613441780822"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.33840410958904"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{90A85F35-F2FE-4E02-A645-F956BF4E2458}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144_01" ID="{91D2F386-EDE2-45D3-B38E-0B60CBBA10C9}" ShortID="197627739">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{B2D23B98-1FAF-4650-B9BA-66960748B6EA}" ShortID="606521311">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.59030565068493"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.7763176369863"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{B2D23B98-1FAF-4650-B9BA-66960748B6EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144_02" ID="{67299C4F-5AF5-4A11-AEC2-CE72A8855755}" ShortID="1069407862">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{FC481164-5ACB-4D79-9711-1748469877D3}" ShortID="663332387">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="9.07079537671233"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.44416952054795"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{FC481164-5ACB-4D79-9711-1748469877D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144_03" ID="{22521424-C5E0-4550-9341-0263F9DAAEBF}" ShortID="562904998">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{62686EFE-97E6-4985-8225-518843BB03B3}" ShortID="341102499">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.1689546232877"/>
+														<Property Name="TrimEnd" Type="Real64" Value="10.5423287671233"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Efforts, Female, Fight, Short, Breathy SND62144" ID="{62686EFE-97E6-4985-8225-518843BB03B3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="silence" ID="{61738899-C514-4818-9721-CC68A51E8B95}" ShortID="1050212739">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{0A69A953-D3A2-4B7B-81BB-E000A34B9D66}" ShortID="642733119" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{0A69A953-D3A2-4B7B-81BB-E000A34B9D66}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>

@@ -143,6 +143,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{8888F426-B6E2-461A-BCF8-6B3E5FDAAD79}" ShortID="810139971">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump_Player_Voices" ID="{4FFFCAB2-ECE0-4217-A21E-C63E9CEFAFA4}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_RoboArm" ID="{9D797DA5-C0D3-4729-AE3D-C8EAE701B1B1}">
@@ -179,6 +186,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3ED11DAD-C843-4577-847B-52D0374413A3}" ShortID="611298374">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Melee_Player_Voices" ID="{C1D50541-75C1-4C5C-8913-0733DDE14A4A}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Hit" ID="{E5EB741C-4752-48CE-83F0-FDFF0BE68F6D}">
@@ -187,6 +201,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Hit_Layer" ID="{A4B67878-AB55-41B7-A821-E7E1BBF9BBD9}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{910BFC91-5121-494C-834C-8684F1018E44}" ShortID="751553937">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_Player_Voices" ID="{C2CDF7BC-DF97-4038-BB5D-326C55C42789}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

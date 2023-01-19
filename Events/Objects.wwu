@@ -221,6 +221,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayInfoPost" ID="{5460F92B-F829-4FF7-B470-368BB8DF8152}">
+					<ChildrenList>
+						<Action Name="" ID="{2BDD4EAF-90C3-421C-BED4-B2CDB98558E4}" ShortID="240986745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Totem singolo" ID="{A4AA6169-6F2F-4E75-BD0B-A4FE0777AE47}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
