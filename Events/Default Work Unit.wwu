@@ -9,6 +9,7 @@
 				<WorkUnit Name="Everything Else" ID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Reference"/>
 				<WorkUnit Name="Spceship" ID="{74448B77-82EB-435A-93B8-75B9176FC34F}" PersistMode="Reference"/>
 				<WorkUnit Name="Acid" ID="{5F0CF628-6BE5-43D2-90C4-4A3FA9DD216E}" PersistMode="Reference"/>
+				<WorkUnit Name="Boss" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -6,6 +6,10 @@
 				<Event Name="Play_Music" ID="{1DE945A5-8100-4158-9A3A-48599AAB9730}">
 					<ChildrenList>
 						<Action Name="" ID="{21343B25-C8C0-417A-8CD7-798C37CB3326}" ShortID="903758831">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="globalMusicManager" ID="{A7CAADAD-E387-465F-9C73-93CB45A5237C}" WorkUnitID="{7F4947E2-8229-42C6-BB86-CC290BA2139C}"/>

@@ -8,12 +8,28 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Objects" ID="{DEF65DDA-6023-43AA-B3F0-757F1E099E2D}" ShortID="482958063">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="object atten" ID="{BAB807CB-78D3-41A3-9E2E-A2483A2C0345}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+							<ObjectRef Name="Mono Mid SFX" ID="{B1802859-7ECE-48EF-97D3-46AEDD0E8090}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -145,6 +161,9 @@
 												<AudioFileSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141619]" ID="{2C63A804-A712-4A21-91C8-E39CD717B622}" ShortID="279883853">
 													<Language>SFX</Language>
 													<AudioFile>Column_Layer\Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141619].wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1059676660"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -193,6 +212,9 @@
 														<AudioFileSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]" ID="{A2141F5A-A8E7-4D66-8C09-431348E52676}" ShortID="347827384">
 															<Language>SFX</Language>
 															<AudioFile>Column_Layer\Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620].wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1017343801"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -212,6 +234,9 @@
 														<AudioFileSource Name="Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]-2" ID="{22C8144E-EED8-4BA0-96B3-B062C92BDD4B}" ShortID="1050876012">
 															<Language>SFX</Language>
 															<AudioFile>Column_Layer\Freeze Column_Destroy_RocksLayer_04 [2022-12-31 141620]-2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="66068382"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -661,13 +686,13 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>5</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>-350</Value>
+												<Value>-330</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -731,6 +756,18 @@
 									<ChildrenList>
 										<Sound Name="Freeze PressurePad_diegetic_Layer [2023-01-04 123050]" ID="{4C5E7A99-65E2-46D8-833F-DFC2EBAA53DA}" ShortID="886265059">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{51203D69-37B8-4167-AE10-081E5E606118}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="20"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -749,8 +786,20 @@
 															<Modifier Name="" ID="{E283E185-51D3-42EE-84F2-D34B3BA7B9BC}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="50"/>
-																	<Property Name="Min" Type="Real64" Value="-50"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5286DD11-D84D-487C-9B5A-700B187566B5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -769,10 +818,11 @@
 												<AudioFileSource Name="Freeze PressurePad_diegetic_Layer [2023-01-04 123050]" ID="{29CD37E8-907A-4FA0-81BE-DE737C4402FE}" ShortID="146637021">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.055545172636349"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.644802441524555"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.180750500094424"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="6.94314657954363E-02"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.18213780946169"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.353473628336456"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>PressurePad_Layer\Freeze PressurePad_diegetic_Layer [2023-01-04 123050].wav</AudioFile>
@@ -783,6 +833,21 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Freeze PressurePad_UI_Layer [2023-01-04 123050]" ID="{42B2C58E-D953-4DA9-B084-D10320368F7A}" ShortID="295563189">
+											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -950,7 +1015,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="New Blend Container" ID="{7EFFA83E-34B7-4FFE-93E3-8F9C852405D6}" ShortID="402266178">
+								<BlendContainer Name="Pick_Melee" ID="{7EFFA83E-34B7-4FFE-93E3-8F9C852405D6}" ShortID="402266178">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1122,6 +1187,19 @@
 										</RandomSequenceContainer>
 										<Sound Name="Vaso vita" ID="{F49B1216-6467-4DE1-B6D7-2C66C1D0EAE9}" ShortID="237782086">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-5</Value>
@@ -1139,6 +1217,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="Vaso vita" ID="{5AB4BC9C-B8C2-44CD-BA27-3A00919426BE}" ShortID="1025753456">
 													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.93150684931507"/>
 														<Property Name="VolumeOffset" Type="Real64">
 															<ValueList>
 																<Value>11.3</Value>
@@ -1168,6 +1249,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Hit cristallo" ID="{769D34F0-0C51-4D9C-81FB-437054682B05}" ShortID="580140340">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1277,9 +1373,10 @@
 											<ChildrenList>
 												<AudioFileSource Name="Hit cristallo 1" ID="{73E83B26-5689-42D7-B0C7-00D873ECC75B}" ShortID="48766081">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.143835616438356"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.351598173515982"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.791095890410959"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.415525114155251"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Hit dei cristalli\Hit cristallo 1.wav</AudioFile>
@@ -1302,8 +1399,9 @@
 												<AudioFileSource Name="Hit cristallo 2" ID="{DDE7E357-F312-459E-9B60-8ED2075C68F2}" ShortID="621602899">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.343607305936073"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.02283105022831"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.439497716894976"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Hit dei cristalli\Hit cristallo 2.wav</AudioFile>
@@ -1325,9 +1423,11 @@
 											<ChildrenList>
 												<AudioFileSource Name="Hit cristallo 3" ID="{A45DFA5F-EE3E-412D-AF6C-80DC16BD8B5B}" ShortID="565945592">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.207762557077626"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="7.99086757990869E-03"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.239726027397261"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.942922374429223"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.35958904109589"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Hit dei cristalli\Hit cristallo 3.wav</AudioFile>

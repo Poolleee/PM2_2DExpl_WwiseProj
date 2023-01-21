@@ -21,11 +21,47 @@
 								<Bus Name="Cave" ID="{A9DA2192-5E72-4E3C-B96A-521AFFB837FC}">
 									<ChildrenList>
 										<AuxBus Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
-													<ObjectRef Name="Cavern" ID="{1521FCD2-6307-424F-A67D-5E76C381342F}" WorkUnitID="{33EB1407-1601-4B0D-A620-9099C0353115}"/>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+														<CustomState Name="" ID="{6315C502-4503-4BD1-813E-E66D694B9A38}" ShortID="718709090"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+														<CustomState Name="" ID="{66F51E24-6E70-4D56-95ED-30B4166C7052}" ShortID="325784368">
+															<PropertyList>
+																<Property Name="BusVolume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+														<CustomState Name="" ID="{862F95B0-5EF0-4B90-8892-F0A3BB144E55}" ShortID="636629745">
+															<PropertyList>
+																<Property Name="BusVolume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
@@ -44,6 +80,35 @@
 													<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+														<CustomState Name="" ID="{9033505D-4E7D-49F9-9241-DEEE06DD80EE}" ShortID="586697647">
+															<PropertyList>
+																<Property Name="BusVolume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+														<CustomState Name="" ID="{C054391D-D913-4291-B758-9853FFDC3106}" ShortID="944985550">
+															<PropertyList>
+																<Property Name="BusVolume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+														<CustomState Name="" ID="{12B33057-433F-46C1-9099-7875D5AAA7EE}" ShortID="396425755"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
@@ -53,7 +118,7 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<ValueList>
-														<Value>-17</Value>
+														<Value>-13</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -62,13 +127,64 @@
 													<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+														<CustomState Name="" ID="{6C40131F-FF8E-497A-AE1E-369DB1927E64}" ShortID="252379735">
+															<PropertyList>
+																<Property Name="BusVolume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+														<CustomState Name="" ID="{E9F02EF2-3C30-413A-BCEC-86C0524F6F57}" ShortID="886900155"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+														<CustomState Name="" ID="{10837C3E-A299-4431-AE32-C439A6EB7C41}" ShortID="544414711">
+															<PropertyList>
+																<Property Name="BusVolume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
-								<Bus Name="Jungle Roofed" ID="{586F8F28-59E9-4AE5-8201-9EF495600CDF}"/>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}"/>
+						<Bus Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+										<CustomState Name="" ID="{B4C682AE-AD58-4F48-B322-DEB4D738D5EC}" ShortID="130856908"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+										<CustomState Name="" ID="{8A190DAF-3839-47BE-8072-D60E2B36D021}" ShortID="498963904">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="46"/>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
 						<Bus Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">

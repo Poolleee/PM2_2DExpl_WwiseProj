@@ -9,7 +9,6 @@
 				<WorkUnit Name="Player" ID="{68D2343E-BF32-48A6-8C4D-04FAED3010DF}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{BBF95127-7D55-49D7-BFD3-363085CD22C5}" PersistMode="Reference"/>
 				<WorkUnit Name="Music" ID="{C3C06452-DAB1-4D66-91B5-BDFF019E3990}" PersistMode="Reference"/>
-				<WorkUnit Name="Boss" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

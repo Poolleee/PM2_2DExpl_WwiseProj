@@ -29,7 +29,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Monster_Walk_Movement_Sequence" ID="{58A84129-FE2B-409C-8B29-F6ED62A6E8FA}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+											<ObjectRef Name="Monster_Walk_Movement_Sequence" ID="{58A84129-FE2B-409C-8B29-F6ED62A6E8FA}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -43,7 +43,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Monster_Run_Movement_Sequence" ID="{D089CF53-55B2-49B2-99DC-ACB82F3BA6D0}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+											<ObjectRef Name="Monster_Run_Movement_Sequence" ID="{D089CF53-55B2-49B2-99DC-ACB82F3BA6D0}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -54,7 +54,7 @@
 								<Action Name="" ID="{6CCAA8F7-D370-4BB8-BE6C-A8F4563BA8C3}" ShortID="295397659">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Bite_Attack" ID="{14C5CF82-6E7D-4E38-A750-DC8D5207818F}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+											<ObjectRef Name="Bite_Attack" ID="{14C5CF82-6E7D-4E38-A750-DC8D5207818F}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -65,7 +65,7 @@
 								<Action Name="" ID="{C98776CF-714C-457A-B845-4EF29697EE56}" ShortID="23247633">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hit_Layer" ID="{1FB27229-7867-41B3-BF84-29B5BD73BA2C}" WorkUnitID="{EE9C9C83-C74E-4D98-8243-AC7E093F113B}"/>
+											<ObjectRef Name="Hit_Layer" ID="{1FB27229-7867-41B3-BF84-29B5BD73BA2C}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -80,7 +80,18 @@
 								<Action Name="" ID="{6E4C0E85-56D7-4AF5-90EF-06E3AB38FB99}" ShortID="218214852">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Monster_Burp" ID="{884089D8-EF09-4B37-A783-827B15B4034C}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+											<ObjectRef Name="Monster_Burp" ID="{884089D8-EF09-4B37-A783-827B15B4034C}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{36588339-0C49-4281-A05B-8F1F119894CF}" ShortID="657128527">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -91,7 +102,7 @@
 								<Action Name="" ID="{754C3BCC-F979-4134-9B42-B521FBB11817}" ShortID="613340782">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -102,17 +113,18 @@
 								<Action Name="" ID="{F49EE262-1576-45AB-883F-EE5371DD22A8}" ShortID="118077788">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="AcidBall_Hit" ID="{FEA359FF-FC37-426E-96E6-43D71CBD64AE}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+											<ObjectRef Name="AcidBall_Hit" ID="{FEA359FF-FC37-426E-96E6-43D71CBD64AE}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{865C6DEC-D03F-4C68-8295-C4DA0637434A}" ShortID="187350465">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{24627538-D4FB-4BBF-8DE3-5CC4872C835B}"/>
+											<ObjectRef Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" WorkUnitID="{08169943-202E-4884-AE0F-87C3453CE2B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

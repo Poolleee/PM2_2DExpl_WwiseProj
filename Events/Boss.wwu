@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" SchemaVersion="94" RootDocumentID="{B4F4773F-A858-43F1-9E08-84377D61BA07}">
 	<Events>
-		<WorkUnit Name="Boss" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" OwnerID="{250A1798-400B-454F-81CD-B088E6617B99}" PersistMode="Nested">
+		<WorkUnit Name="Boss" ID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}" OwnerID="{B4F4773F-A858-43F1-9E08-84377D61BA07}" PersistMode="Nested">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="1"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -13,17 +13,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Boss_Footstep" ID="{2FFDA20E-E5E5-4257-B146-6E78C82FFF3A}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_CryBoss" ID="{29BA8317-7C51-4DAC-A3FD-51264111D99A}">
-					<ChildrenList>
-						<Action Name="" ID="{8D1371BF-F23F-4FB4-9F66-A792684E6D02}" ShortID="592553040">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Robot_Cries" ID="{D81A38DA-0E85-4A5E-9FFD-6F7F2FE48F0E}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -145,7 +134,7 @@
 								<Action Name="" ID="{D2FAE331-6F87-4A64-920E-0D5E509BFAED}" ShortID="102277403">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Boss_Electric Attack_Charge 0001 [2023-01-16 141610]" ID="{59F5332F-35E2-49A2-971D-8B6F35236FC5}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Boss_Electric Attack_Charge" ID="{59F5332F-35E2-49A2-971D-8B6F35236FC5}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -178,7 +167,7 @@
 								<Action Name="" ID="{AD990443-06FF-4C6D-A89B-1BFAA1B295FD}" ShortID="168758019">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Freeze 123-Granulator II [2023-01-18 103534]" ID="{A1192AE1-F03D-4FE5-8C96-6BC676E35B1B}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Boss_Deactivated_State" ID="{A1192AE1-F03D-4FE5-8C96-6BC676E35B1B}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -218,7 +207,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Freeze 123-Granulator II [2023-01-18 103534]" ID="{A1192AE1-F03D-4FE5-8C96-6BC676E35B1B}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Boss_Deactivated_State" ID="{A1192AE1-F03D-4FE5-8C96-6BC676E35B1B}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -244,7 +233,7 @@
 								<Action Name="" ID="{C5394B62-640B-41E5-BF7A-9757BD00C1C9}" ShortID="709023626">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Energy_Granade_Generate 0001 [2023-01-17 174755]" ID="{6BCE6A4F-F084-4A3B-BDF7-44B1E554862F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Energy_Granade_Generate" ID="{6BCE6A4F-F084-4A3B-BDF7-44B1E554862F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -255,7 +244,7 @@
 								<Action Name="" ID="{A0DBDCF9-1DE9-4E77-9B74-655A072160DB}" ShortID="365577363">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Energy_Granade_Generate 0001 [2023-01-17 174755]_01" ID="{6E40848A-A898-4C57-B5F2-A48F5B70039F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Energy_Granade_Fly" ID="{6E40848A-A898-4C57-B5F2-A48F5B70039F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -266,7 +255,7 @@
 								<Action Name="" ID="{33FFBBB5-405E-40CA-839D-D7CFB1D12D6F}" ShortID="471679181">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Energy_Granade_Detonate 0001 [2023-01-17 172017]" ID="{CCE974DC-2BDD-4852-81BC-4C033EEA0FE3}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Granade_Explode" ID="{BDCCE1D6-425B-4AD4-B1E0-7502B13D336B}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -277,7 +266,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Energy_Granade_Generate 0001 [2023-01-17 174755]_01" ID="{6E40848A-A898-4C57-B5F2-A48F5B70039F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Energy_Granade_Fly" ID="{6E40848A-A898-4C57-B5F2-A48F5B70039F}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -285,46 +274,143 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Boss_Damage_Stage2" ID="{35EB5044-E9BC-42E1-89B5-A376FACA54C5}">
+				<Event Name="Boss_Hit" ID="{B403FC2A-53DA-4B8E-96E4-6D258425C0DD}">
 					<ChildrenList>
-						<Action Name="" ID="{0731DD92-6A87-4973-A1D3-D6DC7F712736}" ShortID="164500322">
+						<Action Name="" ID="{789D78F0-F1FA-470D-8C4A-4831F55A7622}" ShortID="199185766">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_Vapor_Damage" ID="{D5F85D1A-A49F-463B-ACAD-51CDCE205658}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+									<ObjectRef Name="Boss_Hit" ID="{61AB5651-38CB-46AB-8D81-8C390CC149F5}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{96DBA6D0-EA56-4538-B7A8-F8B9A4C90061}" ShortID="97934774">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Suffer_Boss" ID="{E08CF11D-01C1-442D-BCA6-B3167D83CA73}" WorkUnitID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Boss_Damage_Stage3" ID="{E1EEF78D-D50A-4462-B28C-00B3C23C7E7F}">
+				<Folder Name="Boss_Damage" ID="{4BFC84C6-4D66-49DA-A715-3366EED5F902}" ShortID="1014836528">
 					<ChildrenList>
-						<Action Name="" ID="{32C42E4E-F1DC-47A2-829D-A5A7B63256F5}" ShortID="482633781">
+						<Event Name="Boss_Damage_Stage2" ID="{35EB5044-E9BC-42E1-89B5-A376FACA54C5}">
+							<ChildrenList>
+								<Action Name="" ID="{0731DD92-6A87-4973-A1D3-D6DC7F712736}" ShortID="164500322">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Vapor_Damage" ID="{D5F85D1A-A49F-463B-ACAD-51CDCE205658}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Damage_Stage3" ID="{E1EEF78D-D50A-4462-B28C-00B3C23C7E7F}">
+							<ChildrenList>
+								<Action Name="" ID="{32C42E4E-F1DC-47A2-829D-A5A7B63256F5}" ShortID="482633781">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Electric_Damage" ID="{782EA215-A1CE-4D43-B378-CEAC0283707D}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Entrance_Animation_Event" ID="{B5C91B76-4290-4B21-8BAE-13DBCFCFA480}">
+					<ChildrenList>
+						<Action Name="" ID="{F8DEC7D4-1E0E-4876-9B35-D4DAA76B3CE1}" ShortID="930807990">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Entrance Animation" ID="{EB37E753-7862-4D55-9951-885FB7CADD22}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Die_Animation" ID="{DDB3E6BA-D450-4983-AF87-E26F5A9BEF65}">
+					<ChildrenList>
+						<Action Name="" ID="{C9128D7F-FF15-4EBD-B077-181CB9977681}" ShortID="625684961">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Animazione boss 2" ID="{31B49F60-705C-4FFF-A692-D7A4D41F1DD3}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5B7C9135-E947-4CE1-A7EB-9CC30261B127}" ShortID="721287634">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Boss_Electric_Damage" ID="{782EA215-A1CE-4D43-B378-CEAC0283707D}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6AFA3461-D78D-467F-9774-F696D1F43857}" ShortID="333488199">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Vapor_Damage" ID="{D5F85D1A-A49F-463B-ACAD-51CDCE205658}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CCF23550-B001-430C-9D87-79D7BFF5E925}" ShortID="984148546">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="5.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Deactivated_State" ID="{A1192AE1-F03D-4FE5-8C96-6BC676E35B1B}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Boss_Hit" ID="{B403FC2A-53DA-4B8E-96E4-6D258425C0DD}">
+				<Folder Name="Cry_Boss" ID="{F3F4F7F5-080F-4E34-ACFE-0EF370179061}" ShortID="60712852">
 					<ChildrenList>
-						<Action Name="" ID="{789D78F0-F1FA-470D-8C4A-4831F55A7622}" ShortID="199185766">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Boss_Hit" ID="{F3EEDE32-13BD-472C-892F-2D56F6D549BD}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{12029874-4463-45F8-B996-AEBCCA3CBBD1}" ShortID="43238447">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Boss_Sick_Voice" ID="{9DA7DE55-BF0F-4EBE-8565-11C4D2EA477C}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_CryBoss" ID="{29BA8317-7C51-4DAC-A3FD-51264111D99A}">
+							<ChildrenList>
+								<Action Name="" ID="{8D1371BF-F23F-4FB4-9F66-A792684E6D02}" ShortID="592553040">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Cries" ID="{D81A38DA-0E85-4A5E-9FFD-6F7F2FE48F0E}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Suffer_Boss" ID="{E08CF11D-01C1-442D-BCA6-B3167D83CA73}">
+							<ChildrenList>
+								<Action Name="" ID="{307C2C35-FB51-4D1E-A6AF-55C44F8EFA7E}" ShortID="542945010">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Sick_Voice" ID="{9DA7DE55-BF0F-4EBE-8565-11C4D2EA477C}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

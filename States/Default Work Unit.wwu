@@ -30,6 +30,13 @@
 						<State Name="exit" ID="{219C132F-7D7F-4FBC-B70A-0A48EB2E3D42}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}">
+					<ChildrenList>
+						<State Name="None" ID="{BF1995E7-F5C2-4927-972A-E82B815F92A6}"/>
+						<State Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+						<State Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
