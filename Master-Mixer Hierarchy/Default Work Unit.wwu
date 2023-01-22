@@ -193,6 +193,21 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="DUCKING" ID="{7F46492E-0B17-45CF-9E8E-98C27419A2A2}">
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}"/>
+											<DuckingParam>
+												<Volume>-5</Volume>
+												<FadeInTime>0.5</FadeInTime>
+												<FadeOutTime>0.5</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

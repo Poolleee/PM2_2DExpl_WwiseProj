@@ -52,6 +52,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -552,7 +557,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -615,7 +620,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Boss - Voice (Character)" ID="{AC50609E-F0CE-4989-8FD0-2D7747C54050}" ShortID="963885558">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.78873389045868E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0178873389045868"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.34495736650825"/>
 														<Property Name="FadeOutShape" Type="int16" Value="7"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -649,7 +654,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Boss - Voice (Character)" ID="{C14C0A5F-84F9-4573-819D-717FEA806795}" ShortID="378015452">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.78873389045868E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0178873389045868"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.867632187962005"/>
 														<Property Name="FadeOutShape" Type="int16" Value="1"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -731,7 +736,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -822,6 +827,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1421,6 +1431,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1936,7 +1951,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1957,7 +1972,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Boss_Electric Attack_Charge 0001 [2023-01-16 141610]" ID="{A58F4E96-3BA5-4AD9-862B-93B481847D51}" ShortID="851083580">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="2.47706023048488E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0247706023048488"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.15006367843941"/>
 											</PropertyList>
@@ -2008,6 +2023,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2026,9 +2046,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="Beam_Attack 0001 [2023-01-14 192159]" ID="{B6DD756E-B57B-42F1-85DB-C9F5D4A311FB}" ShortID="1047871444">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="4.4814186737776E-03"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0044814186737776"/>
 												<Property Name="FadeInShape" Type="int16" Value="8"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.87651609295942E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0187651609295942"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.8618943751467"/>
 											</PropertyList>
@@ -2057,6 +2077,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2077,7 +2102,7 @@
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.66348709346752"/>
 												<Property Name="FadeInShape" Type="int16" Value="8"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.87651609295942E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0187651609295942"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.857513411844"/>
 											</PropertyList>
@@ -2634,7 +2659,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>10</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2767,6 +2792,11 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2804,7 +2834,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2879,7 +2909,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-9</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -2931,20 +2961,29 @@
 							</ChildrenList>
 						</ActorMixer>
 						<Sound Name="Entrance Animation" ID="{EB37E753-7862-4D55-9951-885FB7CADD22}" ShortID="687636848">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+									<ObjectRef Name="DUCKING" ID="{7F46492E-0B17-45CF-9E8E-98C27419A2A2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Animazione 1 boss" ID="{B6AEB0EC-522C-493F-9C92-AF4C526B8C71}" ShortID="675799043">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.223744292237443"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0548481880509311"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.319634703196347"/>
+										<Property Name="TrimEnd" Type="Real64" Value="12.6333659810643"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Animazione 1 boss.wav</AudioFile>

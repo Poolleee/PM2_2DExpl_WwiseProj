@@ -243,7 +243,7 @@
 				</Attenuation>
 				<Attenuation Name="Enemies_attenuation" ID="{57D5BC6C-5D5C-4CE3-BC96-A71FE2BA4A9F}" ShortID="260675412">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="25"/>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -260,7 +260,13 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>25</XPos>
+											<XPos>9.99999</XPos>
+											<YPos>-5.83768</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log2</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>20</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -288,7 +294,13 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>25</XPos>
+											<XPos>12.31745</XPos>
+											<YPos>39</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log2</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>20</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -309,7 +321,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>25</XPos>
+											<XPos>20</XPos>
 											<YPos>23</YPos>
 											<Flags>37</Flags>
 										</Point>

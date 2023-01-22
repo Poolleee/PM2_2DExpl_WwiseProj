@@ -84,7 +84,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -267,7 +267,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -745,6 +745,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="Pressure_Pad" ID="{80F79EC6-72CC-4C57-838A-9CAE84DFF1CD}" ShortID="868793742">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -821,7 +828,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.180750500094424"/>
 														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="6.94314657954363E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0694314657954363"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.353473628336456"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -859,9 +866,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze PressurePad_UI_Layer [2023-01-04 123050]" ID="{680716E5-BF05-44E3-9F4C-0687D268E24B}" ShortID="104273023">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="3.1760394924374E-03"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0031760394924374"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="7.25195684106539E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0725195684106539"/>
 														<Property Name="VolumeOffset" Type="Real64">
 															<ValueList>
 																<Value>21</Value>
@@ -891,6 +898,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Accensione porta" ID="{368322F1-E3F1-44C8-B4D3-429B4A16304A}" ShortID="954311926">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -929,6 +943,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="PickKey" ID="{91EBE5BA-291E-4D6E-92F2-F2F57CDBBC0E}" ShortID="177024244">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1016,6 +1037,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="Pick_Melee" ID="{7EFFA83E-34B7-4FFE-93E3-8F9C852405D6}" ShortID="402266178">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1105,6 +1133,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="HealthVase" ID="{35723A6B-9155-410D-B429-51ED5F3B573B}" ShortID="407837166">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1423,7 +1458,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Hit cristallo 3" ID="{A45DFA5F-EE3E-412D-AF6C-80DC16BD8B5B}" ShortID="565945592">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="7.99086757990869E-03"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00799086757990869"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.239726027397261"/>
 														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
