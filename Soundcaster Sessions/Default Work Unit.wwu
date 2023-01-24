@@ -212,6 +212,10 @@
 							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}"/>
+							<Value>40.4347826086957</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
 							<Value>75</Value>
 						</RTPCValue>
@@ -222,7 +226,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
-						<CurrentStateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+						<CurrentStateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
 						<CurrentStateRef Name="Stage1" ID="{E9333CF3-22B1-4639-A098-0D785836AEF1}"/>
 						<CurrentStateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
 					</CurrentStateList>

@@ -16,7 +16,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Ambiences" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
+						<Bus Name="Reverbs" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
 							<ChildrenList>
 								<Bus Name="Cave" ID="{A9DA2192-5E72-4E3C-B96A-521AFFB837FC}">
 									<ChildrenList>
@@ -159,6 +159,57 @@
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
+								<Bus Name="External" ID="{0EBD1920-1701-4D95-9D41-7C4BC40712DB}">
+									<ChildrenList>
+										<AuxBus Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}">
+											<PropertyList>
+												<Property Name="OutputBusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{A3A57D69-ED21-45C6-B033-91D56884FC7F}" ShortID="1064817706">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0CC53839-508F-4736-8B8A-2E05F2D79EBC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-5.57507</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>24.78261</XPos>
+																		<YPos>-5.86954</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>39.56522</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}">
@@ -208,6 +259,96 @@
 									</DuckingList>
 								</Bus>
 							</ChildrenList>
+						</Bus>
+						<Bus Name="Ambiences" ID="{4E6714E1-6864-46FE-854F-11DDCF0B2E33}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1C57B548-E647-43C8-9E1B-04E6DC5A3A8F}" ShortID="499111514">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2062EEC3-0E5E-432F-810E-9DEA6EF6C906}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1.43478</XPos>
+														<YPos>-6.48219</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25</XPos>
+														<YPos>-6.28163</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>39.34782</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{CB13E6F6-4A53-4C58-BD4C-E5FA80C09585}" ShortID="205798471">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{84C0D399-DE86-4180-9075-2103D2A0CC18}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>2.6087</XPos>
+														<YPos>73</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25.21739</XPos>
+														<YPos>57</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>40</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

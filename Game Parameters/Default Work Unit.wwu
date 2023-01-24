@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FEB87A98-DF00-4440-86AD-7439A183D868}" SchemaVersion="94">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{FEB87A98-DF00-4440-86AD-7439A183D868}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FEB87A98-DF00-4440-86AD-7439A183D868}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

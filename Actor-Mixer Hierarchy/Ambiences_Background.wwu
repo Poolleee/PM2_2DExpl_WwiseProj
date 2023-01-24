@@ -50,7 +50,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambiences" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+									<ObjectRef Name="Ambiences" ID="{4E6714E1-6864-46FE-854F-11DDCF0B2E33}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
