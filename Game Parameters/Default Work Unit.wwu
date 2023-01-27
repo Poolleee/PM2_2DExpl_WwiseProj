@@ -5,10 +5,29 @@
 			<ChildrenList>
 				<GameParameter Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="InitialValue" Type="Real64" Value="180"/>
 						<Property Name="Max" Type="Real64" Value="180"/>
 					</PropertyList>
 				</GameParameter>
+				<Folder Name="Options_Volume" ID="{D4D4A88D-1645-4B1D-90E5-D09520913705}" ShortID="328961617">
+					<ChildrenList>
+						<GameParameter Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Music_Volume" ID="{3F01C171-CA21-4678-B086-7648507D6A07}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Global_volume" ID="{819D5A9C-59B2-4B41-8F3C-315BE23804A9}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
