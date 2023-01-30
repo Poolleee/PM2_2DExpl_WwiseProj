@@ -22,10 +22,9 @@
 												<XPos>0</XPos>
 												<YPos>-200</YPos>
 												<Flags>5</Flags>
-												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>100</XPos>
+												<XPos>1</XPos>
 												<YPos>0</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -68,7 +67,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>1</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -85,7 +84,7 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<ValueList>
-														<Value>-16</Value>
+														<Value>-13</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -280,7 +279,7 @@
 										<RTPC Name="" ID="{B01115A0-A53F-4517-9BA2-9E62F56D6BF6}" ShortID="811103077">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+													<ObjectRef Name="Music_Volume" ID="{3F01C171-CA21-4678-B086-7648507D6A07}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{C39BD2FF-C2A9-4CD2-8417-C02C939F7F5A}">
@@ -294,7 +293,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>1</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -353,7 +352,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>1</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -378,6 +377,27 @@
 									</DuckingList>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+										<CustomState Name="" ID="{A7FA6EAE-CE1A-46E9-9A76-3FE44FCAE81C}" ShortID="975404747"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+										<CustomState Name="" ID="{AC2A85B8-0AD5-4D78-945D-FFE4B281D18E}" ShortID="880856774">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="Ambiences" ID="{4E6714E1-6864-46FE-854F-11DDCF0B2E33}">
 							<PropertyList>
@@ -486,7 +506,39 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="UIMenu" ID="{168A87E0-8802-4723-9A79-4231070D5D52}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{0690681A-55CA-4CBA-9248-DDE6BE98A879}" ShortID="412052672">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CDA27CC5-0322-4484-A399-6425310AB75E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>

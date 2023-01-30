@@ -3,15 +3,15 @@
 	<Platform GUID="{DA683B9E-FDF9-4911-B8D8-D917A8DD1277}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Acid" Hash="2819628368" Timestamp="1674481772"/>
+				<File Name="Acid" Hash="2737163470" Timestamp="1675088180"/>
 				<File Name="Ambient" Hash="4051539610" Timestamp="1672909689"/>
 				<File Name="Boss" Hash="2372342070" Timestamp="1674481772"/>
 				<File Name="Cave_Ambient" Hash="93869982" Timestamp="1672909645"/>
 				<File Name="Column" Hash="3121394018" Timestamp="1672738166"/>
 				<File Name="Elements" Hash="1194567341" Timestamp="1672581060"/>
 				<File Name="Enviroment" Hash="3078797674" Timestamp="1672581060"/>
-				<File Name="Global_Soundbank" Hash="2654960899" Timestamp="1674486245"/>
-				<File Name="Init" Hash="3240896015" Timestamp="1674836606"/>
+				<File Name="Global_Soundbank" Hash="3046807208" Timestamp="1675093958"/>
+				<File Name="Init" Hash="3120601232" Timestamp="1675091839"/>
 				<File Name="Jungle_Ambient" Hash="4038201250" Timestamp="1672909645"/>
 				<File Name="Key" Hash="2198701944" Timestamp="1673016716"/>
 				<File Name="Monster" Hash="1707377324" Timestamp="1673093846"/>
@@ -37,22 +37,22 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1796233121" Timestamp="1674836606"/>
+				<File Name="" Hash="2606237995" Timestamp="1675093958"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{86AFC6CA-CED8-4F2E-BCBD-0F838058F986}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Acid" Hash="2819628368" Timestamp="1674481771"/>
+				<File Name="Acid" Hash="2737163470" Timestamp="1675088180"/>
 				<File Name="Ambient" Hash="4051539610" Timestamp="1672909687"/>
 				<File Name="Boss" Hash="2372342070" Timestamp="1674481771"/>
 				<File Name="Cave_Ambient" Hash="207171193" Timestamp="1672909644"/>
 				<File Name="Column" Hash="3121394018" Timestamp="1672738166"/>
 				<File Name="Elements" Hash="1194567341" Timestamp="1672581059"/>
 				<File Name="Enviroment" Hash="3078797674" Timestamp="1672581059"/>
-				<File Name="Global_Soundbank" Hash="2654960899" Timestamp="1674486245"/>
-				<File Name="Init" Hash="1484803939" Timestamp="1674836606"/>
+				<File Name="Global_Soundbank" Hash="3046807208" Timestamp="1675093958"/>
+				<File Name="Init" Hash="2816466341" Timestamp="1675091839"/>
 				<File Name="Jungle_Ambient" Hash="4038201250" Timestamp="1672909644"/>
 				<File Name="Key" Hash="2198701944" Timestamp="1673016716"/>
 				<File Name="Monster" Hash="1707377324" Timestamp="1673093846"/>
@@ -78,7 +78,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2942349195" Timestamp="1674836606"/>
+				<File Name="" Hash="3199024189" Timestamp="1675093958"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

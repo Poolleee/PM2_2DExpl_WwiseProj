@@ -121,7 +121,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Cave.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Cave_Ambient\Cave.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -148,7 +148,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Jungle" ID="{454DBBCA-D6EA-44B3-8A11-E520E275DB52}" ShortID="812547468">
 															<Language>SFX</Language>
-															<AudioFile>Jungle.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Cave_Ambient\Jungle.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -173,13 +173,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="WaterDrip" ID="{FE0D284B-9EA9-4E3E-B174-8058DBA537C6}" ShortID="991633987">
+														<AudioFileSource Name="WaterDrip  " ID="{FE0D284B-9EA9-4E3E-B174-8058DBA537C6}" ShortID="991633987">
 															<Language>SFX</Language>
-															<AudioFile>WaterDrip  .wav</AudioFile>
+															<AudioFile>Ambients_Layer\Cave_Ambient\WaterDrip  .wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="WaterDrip" ID="{FE0D284B-9EA9-4E3E-B174-8058DBA537C6}" Platform="Linked"/>
+														<ActiveSource Name="WaterDrip  " ID="{FE0D284B-9EA9-4E3E-B174-8058DBA537C6}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="WaterDrip long distance" ID="{8741E7CE-11E0-4547-941F-0907E7C4803E}" ShortID="430470747">
@@ -202,7 +202,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="WaterDrip long distance" ID="{23FB07C3-3722-4499-A743-62EB9F3E8214}" ShortID="691962003">
 															<Language>SFX</Language>
-															<AudioFile>WaterDrip long distance.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Cave_Ambient\WaterDrip long distance.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -236,7 +236,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Wind inside wav.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Cave_Ambient\Wind inside wav.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -292,7 +292,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Audio tracks\Jungle.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Jungle_Ambient\Jungle.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -327,7 +327,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Audio tracks\Wind outside.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Jungle_Ambient\Wind outside.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -382,7 +382,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="18.5272260273973"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Ambiente Caverna.wav</AudioFile>
+															<AudioFile>Ambients_Layer\Temple_Ambient\Ambiente Caverna.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -407,13 +407,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Inetferenze 2" ID="{AC309344-3C7F-4444-A52B-D52A36A1CDAB}" ShortID="169891168">
+														<AudioFileSource Name="Inetferenze 2 " ID="{AC309344-3C7F-4444-A52B-D52A36A1CDAB}" ShortID="169891168">
 															<Language>SFX</Language>
-															<AudioFile>Inetferenze 2 .wav</AudioFile>
+															<AudioFile>Ambients_Layer\Temple_Ambient\Inetferenze 2 .wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Inetferenze 2" ID="{AC309344-3C7F-4444-A52B-D52A36A1CDAB}" Platform="Linked"/>
+														<ActiveSource Name="Inetferenze 2 " ID="{AC309344-3C7F-4444-A52B-D52A36A1CDAB}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Interferenze" ID="{C56BD4BF-E989-4BEA-9DEB-FF6D5CB81161}" ShortID="118131371">
@@ -434,13 +434,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Interferenze" ID="{18EC9402-A97D-4219-B275-4AF22832206E}" ShortID="553431403">
+														<AudioFileSource Name="Interferenze " ID="{18EC9402-A97D-4219-B275-4AF22832206E}" ShortID="553431403">
 															<Language>SFX</Language>
-															<AudioFile>Interferenze .wav</AudioFile>
+															<AudioFile>Ambients_Layer\Temple_Ambient\Interferenze .wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Interferenze" ID="{18EC9402-A97D-4219-B275-4AF22832206E}" Platform="Linked"/>
+														<ActiveSource Name="Interferenze " ID="{18EC9402-A97D-4219-B275-4AF22832206E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Noise" ID="{2D9D3D8A-2E60-479D-B8F7-D10EE9C7EAC4}" ShortID="782338140">
@@ -461,13 +461,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Noise" ID="{5E507D57-8A81-46EE-B533-0249AB7C3EAE}" ShortID="320643832">
+														<AudioFileSource Name="Machinery_Noise" ID="{5E507D57-8A81-46EE-B533-0249AB7C3EAE}" ShortID="320643832">
 															<Language>SFX</Language>
-															<AudioFile>Noise .wav</AudioFile>
+															<AudioFile>Spaceship_Layer\Machinery_Noise .wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Noise" ID="{5E507D57-8A81-46EE-B533-0249AB7C3EAE}" Platform="Linked"/>
+														<ActiveSource Name="Machinery_Noise" ID="{5E507D57-8A81-46EE-B533-0249AB7C3EAE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Wind inside" ID="{F4DA3CF5-FEFB-41B4-B70E-4AA2AD30AB11}" ShortID="454767552">
@@ -488,13 +488,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Wind inside" ID="{8DAC6845-F962-4431-B580-716297EC358A}" ShortID="316117290">
+														<AudioFileSource Name="Wind inside " ID="{8DAC6845-F962-4431-B580-716297EC358A}" ShortID="316117290">
 															<Language>SFX</Language>
-															<AudioFile>Wind inside .wav</AudioFile>
+															<AudioFile>Ambients_Layer\Cave_Ambient\Wind inside .wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Wind inside" ID="{8DAC6845-F962-4431-B580-716297EC358A}" Platform="Linked"/>
+														<ActiveSource Name="Wind inside " ID="{8DAC6845-F962-4431-B580-716297EC358A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

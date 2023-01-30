@@ -111,7 +111,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758].wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="670420355"/>
 															</ConvertedFileIDList>
@@ -140,7 +140,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-1.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="106389539"/>
 															</ConvertedFileIDList>
@@ -169,7 +169,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-2.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="1040375403"/>
 															</ConvertedFileIDList>
@@ -198,7 +198,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-3.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-3.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="628943079"/>
 															</ConvertedFileIDList>
@@ -246,7 +246,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154056].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154056].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -272,7 +272,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154057].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154057].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -298,7 +298,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154057]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154057]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -324,7 +324,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154057]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Crunch_Layer [2023-01-05 154057]-2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -400,17 +400,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1_1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" ShortID="28917133">
+														<AudioFileSource Name="Verso 1.1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" ShortID="28917133">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.590753424657534"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Verso 1.1.wav</AudioFile>
+															<AudioFile>Monsters\MonsterCries\Verso 1.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1_1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1.1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Verso 1_01" ID="{14443E76-15A2-4AF0-B231-812D0EB96E97}" ShortID="898718913">
@@ -462,18 +462,18 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1_1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" ShortID="320048743">
+														<AudioFileSource Name="Verso 1.1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" ShortID="320048743">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.98416095890411"/>
 																<Property Name="TrimEnd" Type="Real64" Value="3.08219178082192"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Verso 1.1.wav</AudioFile>
+															<AudioFile>Monsters\MonsterCries\Verso 1.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1_1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1.1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -582,7 +582,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -612,7 +612,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -642,7 +642,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -672,7 +672,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -722,7 +722,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -748,7 +748,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -774,7 +774,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -800,7 +800,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -843,7 +843,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114518]-1" ID="{43175CDB-5B03-4C6C-A9A2-5E44748741B6}" ShortID="839237341">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0595443108750349"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5.95443108750349E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.147816140154692"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -853,7 +853,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114518]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -872,12 +872,12 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]" ID="{02261768-E7F6-4061-80B9-645D601858BB}" ShortID="863951813">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0475309849967384"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.75309849967384E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.158784829000093"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -896,7 +896,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-1" ID="{D8D1A3F8-4455-4C25-A286-6F6683C3F152}" ShortID="379577754">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0945396514770292"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="9.45396514770292E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.183333799273134"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -906,7 +906,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -925,7 +925,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-3" ID="{5FD46644-05B9-4536-9021-B324FF0E3B04}" ShortID="606457">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0830097769701488"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="8.30097769701488E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.194785318236884"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -935,7 +935,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-3.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -954,12 +954,12 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-4" ID="{EEA70108-3118-40E8-AE18-422802321FF4}" ShortID="1028910035">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0851663405088063"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="8.51663405088063E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.245360171465847"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-4.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-4.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -988,7 +988,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-5.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-5.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1038,7 +1038,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758].wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="670420355"/>
 															</ConvertedFileIDList>
@@ -1067,7 +1067,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-1.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="106389539"/>
 															</ConvertedFileIDList>
@@ -1096,7 +1096,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-2.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="1040375403"/>
 															</ConvertedFileIDList>
@@ -1125,7 +1125,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-3.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Chomp_Layer\Freeze Chomp_Layer [2023-01-05 155758]-3.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="628943079"/>
 															</ConvertedFileIDList>
@@ -1174,18 +1174,18 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1_2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" ShortID="772395436">
+														<AudioFileSource Name="Verso 1.2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" ShortID="772395436">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.346746575342466"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.52825342465754"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Verso 1.2.wav</AudioFile>
+															<AudioFile>Monsters\MonsterCries\Verso 1.2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1_2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1.2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Verso 2_2" ID="{2E8E923E-74B7-4CCA-937F-446A7CA38B85}" ShortID="49500071">
@@ -1198,17 +1198,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 2_2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" ShortID="46784495">
+														<AudioFileSource Name="Verso 2.2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" ShortID="46784495">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.47367591557171"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Verso 2.2.wav</AudioFile>
+															<AudioFile>Monsters\MonsterCries\Verso 2.2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 2_2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" Platform="Linked"/>
+														<ActiveSource Name="Verso 2.2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Silence" ID="{5CD370C7-126C-407B-9A5A-60960606F29B}" ShortID="227978615">
@@ -1412,13 +1412,13 @@
 																			<Language>SFX</Language>
 																			<AudioFile>Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" ShortID="835444098">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" ShortID="835444098">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{87D06A6A-5C6D-4DC8-A1C3-87249DEC2409}" ShortID="1044727265">
@@ -1433,7 +1433,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{4A5BD529-D30D-4B85-AEA3-6DB80ECCC8D7}" ShortID="40570339">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1452,7 +1452,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{38343D9D-A39D-4D7D-A1CB-6FA764B3FF02}" ShortID="117209022">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1471,7 +1471,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{FB914E1B-25E0-4F61-91E9-699DC0BEA43F}" ShortID="876680329">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1490,7 +1490,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{EBCB9294-7C1A-487F-BA1D-F7B69FC05152}" ShortID="1043816177">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1509,7 +1509,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{27895AC2-2B45-434B-A9BE-381BC21108BF}" ShortID="59040415">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1528,7 +1528,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{A4CF9B11-CBDE-4832-BEC1-55F144481737}" ShortID="476867856">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1547,7 +1547,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{810FF3E2-E87F-4B1B-865B-3ADCE58CABC7}" ShortID="404233408">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1566,7 +1566,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{560EB756-E449-4853-879D-634A414A046B}" ShortID="695429139">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1585,7 +1585,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{652BE7B1-E2F2-4F49-A90E-24711DA8F9D0}" ShortID="1070541155">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1623,7 +1623,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (1)" ID="{A63E3D40-7DF6-48BD-8EE2-72915171C6D8}" ShortID="558542029">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1642,7 +1642,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (10)" ID="{6ACC591B-A7AB-48C2-84B0-8475C0FF5130}" ShortID="228807589">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1661,7 +1661,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (11)" ID="{2BD8841C-D20C-4750-A4B6-13780ACEB724}" ShortID="905436095">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1680,7 +1680,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (12)" ID="{8AEED156-4ECA-4BDF-ABE7-4A75142A277F}" ShortID="122317972">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1699,7 +1699,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (2)" ID="{21F2AC4E-A3ED-4211-8FFD-50A9F61D4AAA}" ShortID="529837406">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1718,7 +1718,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (3)" ID="{6EC5F5B0-8727-4858-8524-84DA61F0A2F2}" ShortID="510935856">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1737,7 +1737,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (4)" ID="{2176E331-8AE1-4D12-BA22-940831B288C4}" ShortID="272335160">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1756,7 +1756,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (5)" ID="{C3F14196-BC58-4A0C-A746-EE8594AFF299}" ShortID="674711717">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1775,7 +1775,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (6)" ID="{6B1A0FB4-286D-4C60-8F0D-5FC826A8BA7C}" ShortID="415944724">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1794,7 +1794,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (7)" ID="{C4D816B1-657A-4E8C-ADA1-C82108173DEE}" ShortID="949421747">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1813,7 +1813,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (8)" ID="{0CC7C7FE-32B7-4017-99BD-147800484A45}" ShortID="772860383">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1832,7 +1832,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (9)" ID="{4F6FC4A5-E9C4-44DF-9ABD-D62A3625E84D}" ShortID="913232689">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1949,16 +1949,16 @@
 																				<File ID="54902986"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" ShortID="814533556">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" ShortID="814533556">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="835444098"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{FE0785C8-E289-46E9-A2E0-B61826AD0651}" ShortID="135139438">
@@ -1973,7 +1973,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{396FE60C-322B-44FF-B5EB-9B0C5A57DE05}" ShortID="833415028">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="40570339"/>
 																			</ConvertedFileIDList>
@@ -1995,7 +1995,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{83B5DE74-7759-4139-8991-A8AF55A43792}" ShortID="53916638">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="117209022"/>
 																			</ConvertedFileIDList>
@@ -2017,7 +2017,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{3E0BFCA4-FD94-411E-93F6-DEFF329CBA78}" ShortID="748966263">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="876680329"/>
 																			</ConvertedFileIDList>
@@ -2039,7 +2039,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{C31E0105-3713-4E87-9E19-5C93B88CB17A}" ShortID="143186493">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="1043816177"/>
 																			</ConvertedFileIDList>
@@ -2061,7 +2061,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{CD74D25E-91E1-464A-BEB6-D29134C96692}" ShortID="947884230">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="59040415"/>
 																			</ConvertedFileIDList>
@@ -2083,7 +2083,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{620B6BA8-1260-40C9-B72F-ADD2F1340274}" ShortID="829261156">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="476867856"/>
 																			</ConvertedFileIDList>
@@ -2105,7 +2105,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{A46A1B14-D871-41FD-BB1D-27BA44D2D892}" ShortID="750487075">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="404233408"/>
 																			</ConvertedFileIDList>
@@ -2127,7 +2127,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{E0BE43D9-41FF-4255-8B74-DDD0E77D402F}" ShortID="990208208">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="695429139"/>
 																			</ConvertedFileIDList>
@@ -2149,7 +2149,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{67678D25-9842-4045-8757-CB5125464734}" ShortID="957746797">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="1070541155"/>
 																			</ConvertedFileIDList>
@@ -2190,7 +2190,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (1)" ID="{8B6B0A6C-315F-4FAC-BB2B-EF03A046BAB8}" ShortID="1051803105">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="558542029"/>
 																			</ConvertedFileIDList>
@@ -2212,7 +2212,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (10)" ID="{463ADB67-7014-4B30-B623-F69F0825D881}" ShortID="862885031">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="228807589"/>
 																			</ConvertedFileIDList>
@@ -2234,7 +2234,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (11)" ID="{EC58C858-04FD-4F4A-9422-3171EC3E9BFC}" ShortID="894130059">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="905436095"/>
 																			</ConvertedFileIDList>
@@ -2256,7 +2256,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (12)" ID="{C8DE16C1-7EB3-4ADF-A8DA-A4C55489C2B5}" ShortID="571688926">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="122317972"/>
 																			</ConvertedFileIDList>
@@ -2278,7 +2278,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (2)" ID="{D11FAB29-0E55-4EE6-8E4B-5F201450C8D4}" ShortID="285437803">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="529837406"/>
 																			</ConvertedFileIDList>
@@ -2300,7 +2300,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (3)" ID="{53EAD708-0492-4ABB-9560-0CB55E44049D}" ShortID="534168357">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="510935856"/>
 																			</ConvertedFileIDList>
@@ -2322,7 +2322,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (4)" ID="{54BEB39C-EAAF-4D03-8065-37299470E854}" ShortID="91309604">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="272335160"/>
 																			</ConvertedFileIDList>
@@ -2344,7 +2344,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (5)" ID="{EB991A29-DDCE-419E-8A06-6E201BA50247}" ShortID="112325712">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="674711717"/>
 																			</ConvertedFileIDList>
@@ -2366,7 +2366,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (6)" ID="{A6FABFFC-4DD9-4112-ACD9-24759510C190}" ShortID="550573801">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="415944724"/>
 																			</ConvertedFileIDList>
@@ -2388,7 +2388,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (7)" ID="{23BB4CBF-BDB0-423C-BDF3-0FDD6C3EC869}" ShortID="281723390">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="949421747"/>
 																			</ConvertedFileIDList>
@@ -2410,7 +2410,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (8)" ID="{14040682-20D9-44B2-B534-0F7BDE1080ED}" ShortID="961759380">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="772860383"/>
 																			</ConvertedFileIDList>
@@ -2432,7 +2432,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (9)" ID="{01099593-760D-4ADF-A695-B4BB15AD1D59}" ShortID="213775953">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="913232689"/>
 																			</ConvertedFileIDList>
@@ -2495,7 +2495,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]" ID="{7CB5DAEA-F24E-4C36-9DF7-5287CCD712CF}" ShortID="1009439260">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2514,7 +2514,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-1" ID="{F9326CA7-8703-4364-879A-A666548511BD}" ShortID="432549851">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2533,7 +2533,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-2" ID="{5FB918DE-E60E-49D8-AC53-B133E835E449}" ShortID="843832869">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2552,7 +2552,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-3" ID="{713EFFCF-F1C8-46AF-9E87-BE22373DD096}" ShortID="253676449">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-3.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2571,7 +2571,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]" ID="{68300EDA-6257-4EBE-AEA6-26E70D82B381}" ShortID="236728202">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2590,7 +2590,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-1" ID="{1B5049AC-C896-4D31-A29F-E833D25A61BF}" ShortID="132476315">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2609,7 +2609,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-2" ID="{BE160D65-D8CB-44D4-B225-8835B36492C9}" ShortID="1072562380">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2628,7 +2628,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-3" ID="{7FBCF6EB-86D4-488C-845A-3F0F29E55EF6}" ShortID="944046925">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-3.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2647,7 +2647,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-4" ID="{650951D0-9BF9-4899-ABCA-2A95FFDDD5E1}" ShortID="307308033">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-4.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-4.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2734,7 +2734,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]" ID="{4A99577C-F7C1-4F00-A012-8D2AFA000031}" ShortID="221847698">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803].wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="1009439260"/>
 															</ConvertedFileIDList>
@@ -2756,7 +2756,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-1" ID="{7EA61E51-E12D-4326-B97C-BBCD31B454D3}" ShortID="802401181">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-1.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="432549851"/>
 															</ConvertedFileIDList>
@@ -2778,7 +2778,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-2" ID="{9C61C834-5072-47D5-9A0C-960A60BB149B}" ShortID="714751274">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-2.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="843832869"/>
 															</ConvertedFileIDList>
@@ -2800,7 +2800,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-3" ID="{1BD34FE0-CCB2-4A44-B773-5ED444E9A48B}" ShortID="714222960">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-3.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135803]-3.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="253676449"/>
 															</ConvertedFileIDList>
@@ -2822,7 +2822,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]" ID="{4C221885-4BF4-43AD-9C0E-51F85AFE7943}" ShortID="159750279">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804].wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804].wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="236728202"/>
 															</ConvertedFileIDList>
@@ -2844,7 +2844,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-1" ID="{C3921F68-CBB6-40C2-A61F-C225A567167C}" ShortID="384282502">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-1.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-1.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="132476315"/>
 															</ConvertedFileIDList>
@@ -2866,7 +2866,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-2" ID="{BDA3F8E5-EF60-4CD8-BFF1-D622CB772AEA}" ShortID="324178024">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-2.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-2.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="1072562380"/>
 															</ConvertedFileIDList>
@@ -2888,7 +2888,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-3" ID="{938ED096-79C5-41F0-B5E3-DC5BDDC21F7A}" ShortID="698781283">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-3.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-3.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="944046925"/>
 															</ConvertedFileIDList>
@@ -2910,7 +2910,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-4" ID="{1DD2ABE4-1CA0-4EDB-9FAD-448F833FAC6E}" ShortID="436963211">
 															<Language>SFX</Language>
-															<AudioFile>Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-4.wav</AudioFile>
+															<AudioFile>Monsters\Monster_Footstep_Layer\Freeze 51-Movement,tiny monster_01_G_RX [2023-01-05 135804]-4.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="307308033"/>
 															</ConvertedFileIDList>
@@ -3051,16 +3051,16 @@
 																				<File ID="54902986"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" ShortID="113541342">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" ShortID="113541342">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="835444098"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{D56C2544-3815-4FFF-A19D-E375EEEA52BE}" ShortID="36970326">
@@ -3075,7 +3075,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{D768D4F4-6571-4772-85AD-3C512CC4AD78}" ShortID="616777411">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="40570339"/>
 																			</ConvertedFileIDList>
@@ -3097,7 +3097,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{EE3E43AC-C8F2-4D43-941E-46E44B6D3BB1}" ShortID="427570708">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="117209022"/>
 																			</ConvertedFileIDList>
@@ -3119,7 +3119,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{2FF5D4F9-A4F1-4F2E-971F-C52673EEDAF6}" ShortID="610672526">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="876680329"/>
 																			</ConvertedFileIDList>
@@ -3141,7 +3141,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{79EAF8D8-C516-4B6E-9C14-8F9EEE992A46}" ShortID="808450923">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="1043816177"/>
 																			</ConvertedFileIDList>
@@ -3163,7 +3163,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{D1040271-858D-4EEF-9B70-38E58D3A81D6}" ShortID="690124300">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="59040415"/>
 																			</ConvertedFileIDList>
@@ -3185,7 +3185,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{1F28EA07-7759-4387-9503-C83616DB0C6B}" ShortID="830788547">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="476867856"/>
 																			</ConvertedFileIDList>
@@ -3207,7 +3207,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{3A13F8E4-843D-496A-8462-6DDDA6C2838E}" ShortID="866783912">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="404233408"/>
 																			</ConvertedFileIDList>
@@ -3229,7 +3229,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{1FB2A9DD-4946-4D22-B1D5-BC5D7312B619}" ShortID="488276471">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="695429139"/>
 																			</ConvertedFileIDList>
@@ -3251,7 +3251,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{41822441-60A8-4330-A8F0-D14FBBD3130A}" ShortID="632663044">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="1070541155"/>
 																			</ConvertedFileIDList>
@@ -3292,7 +3292,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (1)" ID="{3AA21F1F-B8C1-4025-A19F-BB60E53B4B27}" ShortID="983075602">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="558542029"/>
 																			</ConvertedFileIDList>
@@ -3314,7 +3314,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (10)" ID="{E41A57E3-3107-49C1-A1FC-993FCD16C437}" ShortID="527612781">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="228807589"/>
 																			</ConvertedFileIDList>
@@ -3336,7 +3336,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (11)" ID="{13AA05BC-C97C-4020-9F54-10875D12CAD1}" ShortID="931697952">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="905436095"/>
 																			</ConvertedFileIDList>
@@ -3358,7 +3358,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (12)" ID="{228B7B96-01B8-457F-94F5-4F0C2FDDB95A}" ShortID="591879441">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="122317972"/>
 																			</ConvertedFileIDList>
@@ -3380,7 +3380,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (2)" ID="{9ED4728A-41B4-42E6-88C3-E176D0512161}" ShortID="880718990">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="529837406"/>
 																			</ConvertedFileIDList>
@@ -3402,7 +3402,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (3)" ID="{B2A5EBDC-B2E6-4B74-A4E4-2737EFF7D602}" ShortID="1072560118">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="510935856"/>
 																			</ConvertedFileIDList>
@@ -3424,7 +3424,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (4)" ID="{74221ED8-6716-468C-B4A9-1C1A078A7430}" ShortID="665113566">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="272335160"/>
 																			</ConvertedFileIDList>
@@ -3446,7 +3446,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (5)" ID="{5049EBDD-E228-4410-BA95-47FE873ED3E0}" ShortID="829793310">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="674711717"/>
 																			</ConvertedFileIDList>
@@ -3468,7 +3468,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (6)" ID="{4F82031E-9F43-431C-AEB2-7FB207621933}" ShortID="122713301">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="415944724"/>
 																			</ConvertedFileIDList>
@@ -3490,7 +3490,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (7)" ID="{333E16EC-6198-48FD-8449-ACC6ED77A9D7}" ShortID="319026709">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="949421747"/>
 																			</ConvertedFileIDList>
@@ -3512,7 +3512,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (8)" ID="{3A76A71A-319B-4E17-B2A9-C3E96F63BBD5}" ShortID="664622533">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="772860383"/>
 																			</ConvertedFileIDList>
@@ -3534,7 +3534,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (9)" ID="{2A908E3C-1A5E-43B8-B851-18508C7892F4}" ShortID="558684931">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="913232689"/>
 																			</ConvertedFileIDList>
@@ -3649,16 +3649,16 @@
 																				<File ID="54902986"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" ShortID="825177464">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" ShortID="825177464">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="835444098"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{388916D3-56FF-4566-AF14-98BF4C0DE520}" ShortID="802425199">
@@ -3673,7 +3673,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{EBF92142-6E62-42F4-A489-744C1015BB13}" ShortID="65753326">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="40570339"/>
 																			</ConvertedFileIDList>
@@ -3695,7 +3695,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{3567DAC5-463D-4497-8F41-E96DC459D098}" ShortID="365896520">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="117209022"/>
 																			</ConvertedFileIDList>
@@ -3717,7 +3717,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{6246A40B-93DC-4DBF-9E10-C180A67B1F50}" ShortID="974609787">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="876680329"/>
 																			</ConvertedFileIDList>
@@ -3739,7 +3739,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{CC89215A-BC25-4CEF-9C80-7E65DDE4A688}" ShortID="738105501">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="1043816177"/>
 																			</ConvertedFileIDList>
@@ -3761,7 +3761,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{1C503806-AD9F-402F-A7AC-7FB8BE688DC8}" ShortID="199283003">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="59040415"/>
 																			</ConvertedFileIDList>
@@ -3783,7 +3783,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{35AC6647-E2AA-4954-B344-47D43DCBD38E}" ShortID="817279917">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="476867856"/>
 																			</ConvertedFileIDList>
@@ -3805,7 +3805,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{19C2DF72-B479-4D79-8A5B-ACF9AF191915}" ShortID="402034861">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="404233408"/>
 																			</ConvertedFileIDList>
@@ -3827,7 +3827,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{24F9146B-BCBF-42FD-986A-4E7023963918}" ShortID="1006871565">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="695429139"/>
 																			</ConvertedFileIDList>
@@ -3849,7 +3849,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{8A5CF7FF-5663-4BB8-8420-9CF30D674733}" ShortID="279007794">
 																			<Language>SFX</Language>
-																			<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
+																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="1070541155"/>
 																			</ConvertedFileIDList>
@@ -3890,7 +3890,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (1)" ID="{061DA280-F0D4-4954-A362-9F119CFE6FA6}" ShortID="246349832">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (1).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="558542029"/>
 																			</ConvertedFileIDList>
@@ -3912,7 +3912,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (10)" ID="{FEBF2BE0-0E5D-4A33-946C-979F281E20EB}" ShortID="701531748">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (10).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="228807589"/>
 																			</ConvertedFileIDList>
@@ -3934,7 +3934,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (11)" ID="{00BF0713-ECAA-4BD9-B68A-690DB8DA9EBF}" ShortID="404834216">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (11).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="905436095"/>
 																			</ConvertedFileIDList>
@@ -3956,7 +3956,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (12)" ID="{2A2676FF-AA12-4B89-8B08-59A6BC3904F0}" ShortID="762177436">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (12).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="122317972"/>
 																			</ConvertedFileIDList>
@@ -3978,7 +3978,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (2)" ID="{3D5B3EBD-E6C4-4EDE-B25E-E56049091FF1}" ShortID="788945494">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (2).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="529837406"/>
 																			</ConvertedFileIDList>
@@ -4000,7 +4000,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (3)" ID="{FD903B3D-B8BA-436A-A918-4F6741D74BA1}" ShortID="440510660">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (3).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="510935856"/>
 																			</ConvertedFileIDList>
@@ -4022,7 +4022,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (4)" ID="{9B320E6F-33FD-4F36-AAEC-AC63C5360C35}" ShortID="120510066">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (4).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="272335160"/>
 																			</ConvertedFileIDList>
@@ -4044,7 +4044,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (5)" ID="{F8C0E9BD-9678-4C61-8DC7-FAD766494ED7}" ShortID="902073830">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (5).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="674711717"/>
 																			</ConvertedFileIDList>
@@ -4066,7 +4066,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (6)" ID="{E7D64F6E-8483-4D20-845A-C1951F32F493}" ShortID="837782329">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (6).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="415944724"/>
 																			</ConvertedFileIDList>
@@ -4088,7 +4088,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (7)" ID="{E816E2A4-1211-4C5A-A487-5A746B9355A6}" ShortID="365334143">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (7).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="949421747"/>
 																			</ConvertedFileIDList>
@@ -4110,7 +4110,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (8)" ID="{B05C797D-5902-49AC-BB0E-4E7CBE6F5472}" ShortID="708070686">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (8).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="772860383"/>
 																			</ConvertedFileIDList>
@@ -4132,7 +4132,7 @@
 																	<ChildrenList>
 																		<AudioFileSource Name="Monster_footstep (9)" ID="{6A227692-7CC1-4DE4-8E24-D8F33F555489}" ShortID="268407818">
 																			<Language>SFX</Language>
-																			<AudioFile>Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
+																			<AudioFile>Monsters\Monster_Footstep_Layer\Monster_footstep (9).wav</AudioFile>
 																			<ConvertedFileIDList>
 																				<File ID="913232689"/>
 																			</ConvertedFileIDList>
@@ -4246,7 +4246,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1_1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" ShortID="45116365">
+														<AudioFileSource Name="Verso 1.1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" ShortID="45116365">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.125742082855089"/>
 																<Property Name="FadeInShape" Type="int16" Value="9"/>
@@ -4257,11 +4257,11 @@
 																<Property Name="TrimEnd" Type="Real64" Value="0.610096816762063"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Verso 1.1.wav</AudioFile>
+															<AudioFile>Monsters\MonsterCries\Verso 1.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1_1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1.1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Verso 1_04" ID="{D32686A3-DC38-4770-A67C-7F5D650C7395}" ShortID="977593377">
@@ -4281,7 +4281,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1_1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" ShortID="971020027">
+														<AudioFileSource Name="Verso 1.1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" ShortID="971020027">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.192740420734069"/>
 																<Property Name="FadeInShape" Type="int16" Value="9"/>
@@ -4297,11 +4297,11 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Verso 1.1.wav</AudioFile>
+															<AudioFile>Monsters\MonsterCries\Verso 1.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1_1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1.1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Silence" ID="{E668AA12-5C0A-493F-AE89-D43E6D3D4945}" ShortID="319772365">
@@ -4430,7 +4430,7 @@
 																<Property Name="FadeInDuration" Type="Real64" Value="0.112030013532865"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.165183148799809"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0789302368072458"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.89302368072458E-02"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.498174516777701"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
@@ -4439,7 +4439,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Vomiti mostro\Vomito 1.wav</AudioFile>
+															<AudioFile>Monsters\Vomiti mostro\Vomito 1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4460,7 +4460,7 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.143835616438356"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0639269406392694"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.39269406392694E-02"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.527397260273973"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
@@ -4469,7 +4469,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Vomiti mostro\Vomito 2.wav</AudioFile>
+															<AudioFile>Monsters\Vomiti mostro\Vomito 2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4488,7 +4488,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 3" ID="{E9012F0F-2C08-4E82-A56B-8C706BBFE2E5}" ShortID="607556784">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0639269406392694"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="6.39269406392694E-02"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.383561643835616"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.687214611872146"/>
@@ -4500,7 +4500,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Vomiti mostro\Vomito 3.wav</AudioFile>
+															<AudioFile>Monsters\Vomiti mostro\Vomito 3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4519,10 +4519,10 @@
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 4" ID="{0885D175-9325-4162-90B1-D721E66EF8B1}" ShortID="508317646">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0958904109589041"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="9.58904109589041E-02"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.223744292237443"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0719178082191781"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.19178082191781E-02"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.591324200913244"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
@@ -4531,7 +4531,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
+															<AudioFile>Monsters\Vomiti mostro\Vomito 4.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4568,7 +4568,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Vomiti mostro\Vomito 5.wav</AudioFile>
+															<AudioFile>Monsters\Vomiti mostro\Vomito 5.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4587,7 +4587,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 4" ID="{C73F8854-9AED-41A2-8AF2-A8F7CD614A6B}" ShortID="53736898">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0958904109589041"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="9.58904109589041E-02"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.223744292237443"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.695205479452055"/>
@@ -4599,7 +4599,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
+															<AudioFile>Monsters\Vomiti mostro\Vomito 4.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4690,7 +4690,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Verso 1_1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" ShortID="404826502">
+																<AudioFileSource Name="Verso 1.1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" ShortID="404826502">
 																	<PropertyList>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.19263698630137"/>
 																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
@@ -4698,11 +4698,11 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="0.648544520547945"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Verso 1.1.wav</AudioFile>
+																	<AudioFile>Monsters\MonsterCries\Verso 1.1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Verso 1_1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" Platform="Linked"/>
+																<ActiveSource Name="Verso 1.1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Verso 2_2" ID="{AA2F5A9E-748D-4CC7-985A-CE2D3D170F12}" ShortID="198328684">
@@ -4722,13 +4722,13 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Verso 2_2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" ShortID="674471062">
+																<AudioFileSource Name="Verso 2.2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" ShortID="674471062">
 																	<Language>SFX</Language>
-																	<AudioFile>Verso 2.2.wav</AudioFile>
+																	<AudioFile>Monsters\MonsterCries\Verso 2.2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Verso 2_2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" Platform="Linked"/>
+																<ActiveSource Name="Verso 2.2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -4772,7 +4772,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 1.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4798,7 +4798,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 2.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4828,7 +4828,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 3.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 3.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4857,7 +4857,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 4.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4895,7 +4895,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 5.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 5.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4926,7 +4926,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 4.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 4.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4956,7 +4956,7 @@
 																		</Property>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Vomiti mostro\Vomito 1.wav</AudioFile>
+																	<AudioFile>Monsters\Vomiti mostro\Vomito 1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -4976,6 +4976,14 @@
 								<Sound Name="AcidBall" ID="{78298C35-A37A-484F-960C-C48DCAF5E164}" ShortID="533160178">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -4983,6 +4991,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>10</Value>

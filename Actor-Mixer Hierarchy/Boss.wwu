@@ -92,7 +92,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="1.51407604137545"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Footstep_Layer\Column_Hit 9 (Congela) [2023-01-14 171600].wav</AudioFile>
+													<AudioFile>Boss\Boss_Footstep_Layer\Column_Hit 9 (Congela) [2023-01-14 171600].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -123,7 +123,7 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Footstep_Layer\Industry,MachineStrating,MONO_01_G_RX [2023-01-14 171605].wav</AudioFile>
+													<AudioFile>Boss\Boss_Footstep_Layer\Industry,MachineStrating,MONO_01_G_RX [2023-01-14 171605].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -159,7 +159,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Boss - Movement [2023-01-14 171007]" ID="{6DB94E62-A981-4C8C-8484-5074CD1BBC32}" ShortID="1004680194">
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss - Movement [2023-01-14 171007].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss - Movement [2023-01-14 171007].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -178,7 +178,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Boss - Movement [2023-01-14 171122]" ID="{5BADBD9A-0949-4D4F-A5D4-81E7CE94B255}" ShortID="468751453">
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss - Movement [2023-01-14 171122].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss - Movement [2023-01-14 171122].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -197,7 +197,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Boss - Movement [2023-01-14 171257]" ID="{68128DC0-621E-4553-8F35-2845411FCB53}" ShortID="418160804">
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss - Movement [2023-01-14 171257].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss - Movement [2023-01-14 171257].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -216,7 +216,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Boss - Movement [2023-01-14 171352]" ID="{DC040083-D205-49EA-A3E1-A8006D8E9ED7}" ShortID="323246554">
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss - Movement [2023-01-14 171352].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss - Movement [2023-01-14 171352].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -264,7 +264,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss_Footstep_Sub_Layer [2023-01-14 170535].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss_Footstep_Sub_Layer [2023-01-14 170535].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -289,7 +289,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="1.95047619047619"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss_Footstep_Sub_Layer 0002 [2023-01-14 170404].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss_Footstep_Sub_Layer 0002 [2023-01-14 170404].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -314,7 +314,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss_Footstep_Sub_Layer 2 [2023-01-14 170730].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss_Footstep_Sub_Layer 2 [2023-01-14 170730].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -339,7 +339,7 @@
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Footstep_Layer\Boss_Footstep_Sub_Layer 3 [2023-01-14 170807].wav</AudioFile>
+															<AudioFile>Boss\Boss_Footstep_Layer\Boss_Footstep_Sub_Layer 3 [2023-01-14 170807].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -525,7 +525,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze Sub_Operator [2023-01-15 093214]" ID="{68B85D18-8549-476C-AF46-43851749DFBC}" ShortID="331314067">
 													<Language>SFX</Language>
-													<AudioFile>Boss_Footstep_Layer\Freeze Sub_Operator [2023-01-15 093214].wav</AudioFile>
+													<AudioFile>Boss\Boss_Footstep_Layer\Freeze Sub_Operator [2023-01-15 093214].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -594,7 +594,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="1.33001339576927"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss - Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss - Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -620,7 +620,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Boss - Voice (Character)" ID="{AC50609E-F0CE-4989-8FD0-2D7747C54050}" ShortID="963885558">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0178873389045868"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.78873389045868E-02"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.34495736650825"/>
 														<Property Name="FadeOutShape" Type="int16" Value="7"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -628,7 +628,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="5.70725575150544"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss - Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss - Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -654,7 +654,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Boss - Voice (Character)" ID="{C14C0A5F-84F9-4573-819D-717FEA806795}" ShortID="378015452">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0178873389045868"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.78873389045868E-02"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.867632187962005"/>
 														<Property Name="FadeOutShape" Type="int16" Value="1"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -662,7 +662,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="7.79599077949542"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss - Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss - Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -760,7 +760,7 @@
 												<Property Name="TrimEnd" Type="Real64" Value="2.03254123567235"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Attacks_Layer\Energy_Granade_Generate 0001 [2023-01-17 174755].wav</AudioFile>
+											<AudioFile>Boss\Boss_Attacks_Layer\Energy_Granade_Generate 0001 [2023-01-17 174755].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -806,7 +806,7 @@
 												<Property Name="TrimBegin" Type="Real64" Value="0.98239493057497"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Attacks_Layer\Energy_Granade_Generate 0001 [2023-01-17 174755].wav</AudioFile>
+											<AudioFile>Boss\Boss_Attacks_Layer\Energy_Granade_Generate 0001 [2023-01-17 174755].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -873,7 +873,7 @@
 														<Property Name="TrimBegin" Type="Real64" Value="0.248252725747833"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -919,7 +919,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="1.84490712266642"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Footstep_Layer\Freeze Sub_Operator [2023-01-15 093214].wav</AudioFile>
+													<AudioFile>Boss\Boss_Footstep_Layer\Freeze Sub_Operator [2023-01-15 093214].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -979,7 +979,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="0.917966623655767"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+															<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1008,7 +1008,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="3.07858806401019"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+															<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1038,7 +1038,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="5.32239735628983"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+															<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1090,7 +1090,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="0.772341813437704"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Energy_Granade_Detonate 0001 [2023-01-17 172017].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1155,7 +1155,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="1.01619001025068"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1189,7 +1189,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="1.01619001025068"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 													<ConvertedFileIDList>
 														<File ID="736160412"/>
 													</ConvertedFileIDList>
@@ -1226,7 +1226,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="3.25778562109775"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1260,7 +1260,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="4.33375151430435"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1294,7 +1294,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="5.39477343677197"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1328,7 +1328,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="6.54545918367347"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1362,7 +1362,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="7.60648110614109"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Boss - Sick Voice (Character).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1404,7 +1404,7 @@
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Hit_Layer\Freeze 123-Granulator II [2023-01-18 103534].wav</AudioFile>
+											<AudioFile>Boss\Boss_Hit_Layer\Freeze 123-Granulator II [2023-01-18 103534].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1482,7 +1482,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="0.659811217774672"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Metal, Impact, Metal Grill Impact With Rattle SND55008 1.wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Metal, Impact, Metal Grill Impact With Rattle SND55008 1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1528,7 +1528,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="6.933845866197"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Metal, Impact, Metal Grill Impact With Rattle SND55008 1.wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Metal, Impact, Metal Grill Impact With Rattle SND55008 1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1569,7 +1569,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="14.0957397633915"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Metal, Impact, Metal Grill Impact With Rattle SND55008 1.wav</AudioFile>
+													<AudioFile>Boss\Boss_Hit_Layer\Metal, Impact, Metal Grill Impact With Rattle SND55008 1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1618,7 +1618,7 @@
 												<Property Name="TrimEnd" Type="Real64" Value="7.92816536203521"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Hit_Layer\Freeze 118-Electricity, Electromagnetic, Backing Up File Data, Glitch, Click, Squeal SND52830 [2023-01-18 092054].wav</AudioFile>
+											<AudioFile>Boss\Boss_Hit_Layer\Freeze 118-Electricity, Electromagnetic, Backing Up File Data, Glitch, Click, Squeal SND52830 [2023-01-18 092054].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1647,7 +1647,7 @@
 												<Property Name="TrimEnd" Type="Real64" Value="7.99108730935296"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Hit_Layer\Freeze 119-RAW_Air,Compressed_02_G [2023-01-18 092054].wav</AudioFile>
+											<AudioFile>Boss\Boss_Hit_Layer\Freeze 119-RAW_Air,Compressed_02_G [2023-01-18 092054].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1735,7 +1735,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="2.0918535085267"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1762,7 +1762,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="4.40665103140557"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1789,7 +1789,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="6.77510763209394"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1816,7 +1816,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="9.10443582870128"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1843,7 +1843,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="11.3334749790327"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1870,7 +1870,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="13.3316634050881"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1897,7 +1897,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="16.0479507967571"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1923,7 +1923,7 @@
 														<Property Name="TrimBegin" Type="Real64" Value="16.0688748739353"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1972,12 +1972,12 @@
 									<ChildrenList>
 										<AudioFileSource Name="Boss_Electric Attack_Charge 0001 [2023-01-16 141610]" ID="{A58F4E96-3BA5-4AD9-862B-93B481847D51}" ShortID="851083580">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0247706023048488"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.47706023048488E-02"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.15006367843941"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0001 [2023-01-16 141610].wav</AudioFile>
+											<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0001 [2023-01-16 141610].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2046,14 +2046,14 @@
 									<ChildrenList>
 										<AudioFileSource Name="Beam_Attack 0001 [2023-01-14 192159]" ID="{B6DD756E-B57B-42F1-85DB-C9F5D4A311FB}" ShortID="1047871444">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0044814186737776"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.4814186737776E-03"/>
 												<Property Name="FadeInShape" Type="int16" Value="8"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0187651609295942"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.87651609295942E-02"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.8618943751467"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Attacks_Layer\Beam_Attack 0001 [2023-01-14 192159].wav</AudioFile>
+											<AudioFile>Boss\Boss_Attacks_Layer\Beam_Attack 0001 [2023-01-14 192159].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2102,12 +2102,12 @@
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.66348709346752"/>
 												<Property Name="FadeInShape" Type="int16" Value="8"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0187651609295942"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.87651609295942E-02"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.857513411844"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Attacks_Layer\Beam_Attack 0001 [2023-01-14 192159].wav</AudioFile>
+											<AudioFile>Boss\Boss_Attacks_Layer\Beam_Attack 0001 [2023-01-14 192159].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2225,7 +2225,7 @@
 																<Property Name="TrimBegin" Type="Real64" Value="0.370724070450098"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Boss_Attacks_Layer\EnergyBallHit SubLayer 0002 [2023-01-16 171818].wav</AudioFile>
+															<AudioFile>Boss\Boss_Attacks_Layer\EnergyBallHit SubLayer 0002 [2023-01-16 171818].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2289,7 +2289,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="1.00720529307613"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2323,7 +2323,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="2.20326157860404"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2357,7 +2357,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="7.99217400055913"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2391,7 +2391,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="3.06106475320722"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\EnergyBallHit 0001 [2023-01-16 171654].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2474,7 +2474,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="3.07752570351522"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2520,7 +2520,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="5.41915276529885"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2566,7 +2566,7 @@
 																		<Property Name="TrimEnd" Type="Real64" Value="9.97752011223761"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
+																	<AudioFile>Boss\Boss_Attacks_Layer\Boss_Electric Attack_Charge 0002 [2023-01-16 141804].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2610,7 +2610,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="3.83806355418881"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Attacks_Layer\Freeze EnergyBallStatic [2023-01-16 171318].wav</AudioFile>
+													<AudioFile>Boss\Boss_Attacks_Layer\Freeze EnergyBallStatic [2023-01-16 171318].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2709,7 +2709,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss - Shield (Defense)_01" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" ShortID="364228143">
+												<AudioFileSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" ShortID="364228143">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="3927.276"/>
 														<Property Name="LoopBegin" Type="Real64" Value="3.27272959183673"/>
@@ -2718,11 +2718,11 @@
 														<Property Name="TrimEnd" Type="Real64" Value="18.2465882722952"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Shield_Layer\Boss - Shield (Defense).wav</AudioFile>
+													<AudioFile>Boss\Boss_Shield_Layer\Boss - Shield (Defense).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Boss - Shield (Defense)_01" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" Platform="Linked"/>
+												<ActiveSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{2EAA5B0D-EB2D-436B-8D7E-22FA39A7CD8F}" ShortID="260999986">
@@ -2771,7 +2771,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
 												</AudioFileSource>
-												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
+												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="9012.134"/>
 														<Property Name="LoopBegin" Type="Real64" Value="6.8540962114726"/>
@@ -2779,11 +2779,11 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Boss_Shield_Layer\Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
+													<AudioFile>Boss\Boss_Shield_Layer\Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" Platform="Linked"/>
+												<ActiveSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2821,7 +2821,7 @@
 												<Property Name="TrimEnd" Type="Real64" Value="2.49793433355077"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Shield_Layer\Boss_Shield_Activate 0001 [2023-01-17 154115].wav</AudioFile>
+											<AudioFile>Boss\Boss_Shield_Layer\Boss_Shield_Activate 0001 [2023-01-17 154115].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2855,7 +2855,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Boss_Shield_Activate 0001 [2023-01-17 153022]" ID="{81A06938-FB32-414D-A76C-413A599A0108}" ShortID="385093905">
 											<Language>SFX</Language>
-											<AudioFile>Boss_Shield_Layer\Boss_Shield_Activate 0001 [2023-01-17 153022].wav</AudioFile>
+											<AudioFile>Boss\Boss_Shield_Layer\Boss_Shield_Activate 0001 [2023-01-17 153022].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2951,7 +2951,7 @@
 												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Boss_Hit_Layer\ShieldHit 0001 [2023-01-17 144112].wav</AudioFile>
+											<AudioFile>Boss\Boss_Hit_Layer\ShieldHit 0001 [2023-01-17 144112].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2981,12 +2981,12 @@
 								<AudioFileSource Name="Animazione 1 boss" ID="{B6AEB0EC-522C-493F-9C92-AF4C526B8C71}" ShortID="675799043">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.223744292237443"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0548481880509311"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="5.48481880509311E-02"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="12.6333659810643"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Animazione 1 boss.wav</AudioFile>
+									<AudioFile>Boss\Boss_Animation_Layer\Animazione 1 boss.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
@@ -3015,7 +3015,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Animazione boss 2" ID="{0091DA7C-26C1-4386-8D01-EE859F46C35B}" ShortID="141248964">
 											<Language>SFX</Language>
-											<AudioFile>Animazione boss 2.wav</AudioFile>
+											<AudioFile>Boss\Boss_Animation_Layer\Animazione boss 2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>

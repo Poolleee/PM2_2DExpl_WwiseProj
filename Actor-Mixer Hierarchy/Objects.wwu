@@ -446,6 +446,9 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Acid_Dive" ID="{1B960299-0158-4582-86C1-7C3774B752D2}" ShortID="667395915">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -828,7 +831,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.180750500094424"/>
 														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0694314657954363"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.94314657954363E-02"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.353473628336456"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -866,9 +869,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze PressurePad_UI_Layer [2023-01-04 123050]" ID="{680716E5-BF05-44E3-9F4C-0687D268E24B}" ShortID="104273023">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0031760394924374"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.1760394924374E-03"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0725195684106539"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.25195684106539E-02"/>
 														<Property Name="VolumeOffset" Type="Real64">
 															<ValueList>
 																<Value>21</Value>
@@ -923,7 +926,7 @@
 												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Accensione porta.wav</AudioFile>
+											<AudioFile>items_Layer\Accensione porta.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -982,7 +985,7 @@
 														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Pick chiave.wav</AudioFile>
+													<AudioFile>items_Layer\Pick chiave.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1015,7 +1018,7 @@
 														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Freeze Pickup_Chiave_Diegetic_Layer [2023-01-04 155525].wav</AudioFile>
+													<AudioFile>movingPlatform_Layer\Freeze Pickup_Chiave_Diegetic_Layer [2023-01-04 155525].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1070,7 +1073,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{83830D3E-8905-4A88-B077-68B5A5AD2C85}" ShortID="898853568">
+												<AudioFileSource Name="melee_Swing_lightsaber_Layer" ID="{83830D3E-8905-4A88-B077-68B5A5AD2C85}" ShortID="898853568">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.131188068840587"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.622498589694789"/>
@@ -1085,11 +1088,11 @@
 														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>3-Audio 0001 [2023-01-06 101700].wav</AudioFile>
+													<AudioFile>Ellen\Combat_Layer\melee_Swing_lightsaber_Layer.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{83830D3E-8905-4A88-B077-68B5A5AD2C85}" Platform="Linked"/>
+												<ActiveSource Name="melee_Swing_lightsaber_Layer" ID="{83830D3E-8905-4A88-B077-68B5A5AD2C85}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pick bastone" ID="{BA0B1403-5F56-46DC-AA52-77CA64D67CC9}" ShortID="80928052">
@@ -1111,7 +1114,7 @@
 														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Pick bastone.wav</AudioFile>
+													<AudioFile>items_Layer\Pick bastone.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1176,21 +1179,21 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="554367__nox-sound__foley-impact-smash-tiles-stereo" ID="{532047DB-6FE5-4877-85F0-9FF3AC7E3781}" ShortID="629672710">
+														<AudioFileSource Name="foley-impact-smash-tiles-stereo" ID="{532047DB-6FE5-4877-85F0-9FF3AC7E3781}" ShortID="629672710">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.930176940639269"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.46170662100457"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>554367__nox-sound__foley-impact-smash-tiles-stereo.wav</AudioFile>
+															<AudioFile>items_Layer\foley-impact-smash-tiles-stereo.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="291650129"/>
 															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="554367__nox-sound__foley-impact-smash-tiles-stereo" ID="{532047DB-6FE5-4877-85F0-9FF3AC7E3781}" Platform="Linked"/>
+														<ActiveSource Name="foley-impact-smash-tiles-stereo" ID="{532047DB-6FE5-4877-85F0-9FF3AC7E3781}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="554367__nox-sound__foley-impact-smash-tiles-stereo_02" ID="{233BF2A3-2B85-4802-96CD-AEDE8F81464A}" ShortID="230825678">
@@ -1203,7 +1206,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="554367__nox-sound__foley-impact-smash-tiles-stereo" ID="{0EBDDD06-045E-4C6A-AA86-3F3B5A2CB242}" ShortID="669580565">
+														<AudioFileSource Name="foley-impact-smash-tiles-stereo" ID="{0EBDDD06-045E-4C6A-AA86-3F3B5A2CB242}" ShortID="669580565">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.614581192922375"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1211,11 +1214,11 @@
 																<Property Name="TrimEnd" Type="Real64" Value="4.43495077054795"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>554367__nox-sound__foley-impact-smash-tiles-stereo.wav</AudioFile>
+															<AudioFile>items_Layer\foley-impact-smash-tiles-stereo.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="554367__nox-sound__foley-impact-smash-tiles-stereo" ID="{0EBDDD06-045E-4C6A-AA86-3F3B5A2CB242}" Platform="Linked"/>
+														<ActiveSource Name="foley-impact-smash-tiles-stereo" ID="{0EBDDD06-045E-4C6A-AA86-3F3B5A2CB242}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1262,7 +1265,7 @@
 														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Vaso vita.wav</AudioFile>
+													<AudioFile>items_Layer\Vaso vita.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1274,6 +1277,14 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Activating_Crystal" ID="{0B9877C0-A98A-4900-9588-39621F319309}" ShortID="835243160">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1323,7 +1334,7 @@
 												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Hit cristallo.wav</AudioFile>
+											<AudioFile>items_Layer\Hit cristallo.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1458,7 +1469,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Hit cristallo 3" ID="{A45DFA5F-EE3E-412D-AF6C-80DC16BD8B5B}" ShortID="565945592">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00799086757990869"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="7.99086757990869E-03"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.239726027397261"/>
 														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1513,7 +1524,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Totem singolo" ID="{BFB4736F-AA5D-436C-B5DA-D2D3AFA8D951}" ShortID="731205976">
 											<Language>SFX</Language>
-											<AudioFile>Totem singolo.wav</AudioFile>
+											<AudioFile>items_Layer\Totem singolo.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>

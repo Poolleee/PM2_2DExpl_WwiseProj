@@ -25,7 +25,7 @@
 							<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+							<ObjectRef Name="UIMenu" ID="{168A87E0-8802-4723-9A79-4231070D5D52}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -62,7 +62,7 @@
 												<Property Name="TrimEnd" Type="Real64" Value="0.299657534246582"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Click mouse.wav</AudioFile>
+											<AudioFile>UI_Layer\Click mouse.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -106,6 +106,19 @@
 						</BlendContainer>
 						<Sound Name="Highlighted_Button" ID="{A93CFFA7-69B9-4C7B-A62D-50F751BA4F98}" ShortID="396957694">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>12</Value>

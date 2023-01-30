@@ -127,7 +127,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213024]-1" ID="{26531C3C-1796-409C-A5E3-97AB1825B99C}" ShortID="277837109">
 													<Language>SFX</Language>
-													<AudioFile>Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213024]-1.wav</AudioFile>
+													<AudioFile>Ellen\Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213024]-1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -146,7 +146,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-1" ID="{7D817155-04EE-431A-BF65-B3F994C9E6C3}" ShortID="693673091">
 													<Language>SFX</Language>
-													<AudioFile>Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-1.wav</AudioFile>
+													<AudioFile>Ellen\Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -165,7 +165,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-2" ID="{DE302E19-383F-440E-9B14-8EC4DE14B4E2}" ShortID="917520107">
 													<Language>SFX</Language>
-													<AudioFile>Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-2.wav</AudioFile>
+													<AudioFile>Ellen\Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -184,7 +184,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-3" ID="{66E4B0AA-EAC8-4479-9151-47D16367A694}" ShortID="781275804">
 													<Language>SFX</Language>
-													<AudioFile>Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-3.wav</AudioFile>
+													<AudioFile>Ellen\Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]-3.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -203,7 +203,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025]" ID="{63385129-8E85-40AD-B628-6E2251657E5A}" ShortID="331450007">
 													<Language>SFX</Language>
-													<AudioFile>Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025].wav</AudioFile>
+													<AudioFile>Ellen\Arm_Movement_Layer\Freeze 9-RAW_Motor,Electrical,Servo_01_NVG_RX [2022-12-19 213025].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -251,7 +251,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-1" ID="{85DF7A09-CBE3-48E7-A019-BA8FF08D5237}" ShortID="637919573">
 													<Language>SFX</Language>
-													<AudioFile>Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-1.wav</AudioFile>
+													<AudioFile>Ellen\Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -270,7 +270,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-2" ID="{AAAA1F87-634C-457B-9154-7E66719D2A0B}" ShortID="999672271">
 													<Language>SFX</Language>
-													<AudioFile>Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-2.wav</AudioFile>
+													<AudioFile>Ellen\Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -289,7 +289,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-3" ID="{B6426E5F-9361-4A34-8385-5FDD858EDDD0}" ShortID="450960776">
 													<Language>SFX</Language>
-													<AudioFile>Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-3.wav</AudioFile>
+													<AudioFile>Ellen\Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]-3.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -308,7 +308,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401]" ID="{2B0B54C4-4284-4579-A4A0-AB77B281FF46}" ShortID="560434160">
 													<Language>SFX</Language>
-													<AudioFile>Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401].wav</AudioFile>
+													<AudioFile>Ellen\Cloth_Movement_Layer\Freeze 11-RAW_Cloth,Movent_02_VG_RX [2022-12-19 220401].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -485,13 +485,13 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																</AudioFileSource>
-																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" ShortID="213033432">
+																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" ShortID="213033432">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" Platform="Linked"/>
+																<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{0B2E151C-D24C-41E2-9E4A-186D24441AFE}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{69D3CD37-4C0B-4F5E-8E5C-0A4B307C7A78}" ShortID="65862405">
@@ -506,7 +506,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{EC1527A1-ABDB-42F2-9869-FB9816523A05}" ShortID="286451042">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -525,7 +525,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2" ID="{578874C4-626D-4111-9D5F-73AAF5EDB3F7}" ShortID="543093990">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -544,7 +544,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3" ID="{F47E3B8C-82FD-45E4-82FF-4185B1A3F63C}" ShortID="364511688">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-3.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -563,7 +563,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4" ID="{86732AD6-1DBA-4220-BCCD-120FBAF01F71}" ShortID="696199848">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-4.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -582,7 +582,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5" ID="{091EBEA0-1E59-4B0F-B3C3-D38B649BA405}" ShortID="703533166">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-5.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -601,7 +601,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6" ID="{DAAF4BEF-47F9-485C-B19E-DF96A5A8828C}" ShortID="816279401">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-6.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -620,7 +620,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7" ID="{0DD8F1CA-1571-446E-A25B-9334727AE9EB}" ShortID="453383055">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-7.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -639,7 +639,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8" ID="{EC67BA67-B971-49C9-9C01-2FA32712E5D9}" ShortID="266414310">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-8.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -658,7 +658,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9" ID="{FFE000B4-3BE7-464B-956B-81A63999A7EE}" ShortID="719626316">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-9.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -748,7 +748,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]" ID="{647A53CA-E683-4239-8631-DC306A165F83}" ShortID="671521257">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743].wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -767,7 +767,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1" ID="{C4B86A64-3974-49E9-9695-C120025AD8FE}" ShortID="802163195">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -786,7 +786,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2" ID="{D63207B7-46CE-494C-AC18-9C5AE58CD473}" ShortID="913433546">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -805,7 +805,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3" ID="{275ED8F7-D903-463B-82F4-98D5519F8BA7}" ShortID="74167825">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122743]-3.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -824,7 +824,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]" ID="{DDBB4F5B-D4C5-428C-8A5E-50C747A13B23}" ShortID="571584703">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744].wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744].wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -843,7 +843,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1" ID="{6B8A4C15-45AB-4166-A32B-40DC06D639BA}" ShortID="386887836">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -862,7 +862,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2" ID="{1DB7CD96-6AB9-42FF-AE02-EBA1D8A37437}" ShortID="590148228">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -881,7 +881,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3" ID="{9C254E3D-10C1-4384-874C-123775292E81}" ShortID="310944723">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-3.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -900,7 +900,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4" ID="{5463E786-DAD2-4728-8E2A-F74FD29B792E}" ShortID="841553862">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-4.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -919,7 +919,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5" ID="{B1531477-31EF-43F7-9496-7ADBA48A020C}" ShortID="1001671458">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-5.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -938,7 +938,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6" ID="{920C87C8-4424-4E9D-8681-DDCCF4AF1A91}" ShortID="1015461931">
 																	<Language>SFX</Language>
-																	<AudioFile>Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6.wav</AudioFile>
+																	<AudioFile>Ellen\Footstep_Layer\Freeze 8-RAW_Footstep,carpet_01_NG_RX [2022-12-19 122744]-6.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -1049,7 +1049,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]" ID="{2F5C969C-29E7-496E-8639-8A7DF713AE34}" ShortID="537611582">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911].wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911].wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="507129541"/>
 															</ConvertedFileIDList>
@@ -1071,7 +1071,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1" ID="{E48C6A16-9617-4D07-AFBF-3853AAAA33A7}" ShortID="130296481">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-1.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="4617718"/>
 															</ConvertedFileIDList>
@@ -1093,7 +1093,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2" ID="{A3B13554-5DCE-49BD-ADA2-567F62BDD9F2}" ShortID="772508546">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-2.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="139408472"/>
 															</ConvertedFileIDList>
@@ -1115,7 +1115,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3" ID="{6A340B42-4E30-45B8-B8A2-56D8F336738E}" ShortID="562815035">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-3.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="21964351"/>
 															</ConvertedFileIDList>
@@ -1137,7 +1137,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4" ID="{F2BDC85B-4D3F-4E3C-B453-5BC0E53FC7B1}" ShortID="880777622">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181911]-4.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="1018540249"/>
 															</ConvertedFileIDList>
@@ -1159,7 +1159,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]" ID="{31B629ED-5895-4B80-8178-48377741921A}" ShortID="420171241">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912].wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912].wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="683599138"/>
 															</ConvertedFileIDList>
@@ -1181,7 +1181,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1" ID="{FE62C864-4885-411C-AD00-C135D5DAD639}" ShortID="947084502">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-1.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="334311878"/>
 															</ConvertedFileIDList>
@@ -1203,7 +1203,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2" ID="{2F00582E-1118-4991-828D-02B6B38D438D}" ShortID="72735525">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-2.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="551249143"/>
 															</ConvertedFileIDList>
@@ -1225,7 +1225,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3" ID="{81BD3B97-B18A-43C5-8160-9D166AA16FD9}" ShortID="1064757370">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-3.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="289513068"/>
 															</ConvertedFileIDList>
@@ -1247,7 +1247,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4" ID="{9D8630AA-88E1-44C6-AA65-A042E35F10FD}" ShortID="699960265">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-4.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="847402154"/>
 															</ConvertedFileIDList>
@@ -1269,7 +1269,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5" ID="{6AE947F1-B977-41B6-BF5C-792AA98F23C8}" ShortID="825536718">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-5.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="863182881"/>
 															</ConvertedFileIDList>
@@ -1291,7 +1291,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6" ID="{CF9013DA-23ED-40DC-ABF0-E3C80150ECD2}" ShortID="959967335">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-6.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="783805604"/>
 															</ConvertedFileIDList>
@@ -1313,7 +1313,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7" ID="{E6A3EE8E-6715-4E9A-A124-3EF0E2FF1C14}" ShortID="264456716">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-7.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="17824775"/>
 															</ConvertedFileIDList>
@@ -1335,7 +1335,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8" ID="{72C66174-89D5-4212-A389-56BB524F7C08}" ShortID="880689517">
 															<Language>SFX</Language>
-															<AudioFile>Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8.wav</AudioFile>
+															<AudioFile>Ellen\Footstep_Layer\Freeze 12-RAW_Footstep,Concrete_04_VG_RX2 [2022-12-21 181912]-8.wav</AudioFile>
 															<ConvertedFileIDList>
 																<File ID="220548099"/>
 															</ConvertedFileIDList>
@@ -1442,7 +1442,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="8.23707017053397E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655].wav</AudioFile>
+													<AudioFile>Ellen\Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1466,7 +1466,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="0.105360637405647"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-1.wav</AudioFile>
+													<AudioFile>Ellen\Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1490,7 +1490,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="9.89726027397258E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-4.wav</AudioFile>
+													<AudioFile>Ellen\Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1514,7 +1514,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="0.117207622775137"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190656]-1.wav</AudioFile>
+													<AudioFile>Ellen\Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190656]-1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1641,7 +1641,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Gore_Layer [2023-01-03 114518]" ID="{549F7919-AA9B-4460-89B6-EECC01DC87B5}" ShortID="758355657">
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1660,7 +1660,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Gore_Layer [2023-01-03 114518]-1" ID="{32EA0170-288A-4856-AEA8-1F32E466371A}" ShortID="1013288574">
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1679,7 +1679,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Gore_Layer [2023-01-03 114519]" ID="{55795558-280C-494A-B8B1-522E8CD0961C}" ShortID="853617757">
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1698,7 +1698,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Gore_Layer [2023-01-03 114519]-1" ID="{641F835E-98F8-4303-A9CD-AC4FF4EA478B}" ShortID="277573532">
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Gore_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1748,7 +1748,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1774,7 +1774,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1800,7 +1800,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1826,7 +1826,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Main_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1879,7 +1879,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114518]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114518]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1903,7 +1903,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="0.158784829000093"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519].wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519].wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1932,7 +1932,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-1.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1961,7 +1961,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-3.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1985,7 +1985,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="0.245360171465847"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-4.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-4.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2014,7 +2014,7 @@
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-5.wav</AudioFile>
+															<AudioFile>Ellen\Hit_Layer\Freeze Hit_Stab_Layer [2023-01-03 114519]-5.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2103,7 +2103,7 @@
 												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Gunshot.wav</AudioFile>
+											<AudioFile>Ellen\Combat_Layer\Gunshot.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2161,7 +2161,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7" ID="{42B8FD14-0AFD-4C97-9A6B-4902715B2F1B}" ShortID="260261987">
 															<Language>SFX</Language>
-															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7.wav</AudioFile>
+															<AudioFile>Ellen\Combat_Layer\Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-7.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2180,7 +2180,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9" ID="{079E6F38-690C-4AA3-B2CB-2D22D9DA125F}" ShortID="893690268">
 															<Language>SFX</Language>
-															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9.wav</AudioFile>
+															<AudioFile>Ellen\Combat_Layer\Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-9.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2199,7 +2199,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11" ID="{A10AB442-1A15-40A9-A4C6-EBDC441A4200}" ShortID="1065468746">
 															<Language>SFX</Language>
-															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11.wav</AudioFile>
+															<AudioFile>Ellen\Combat_Layer\Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-11.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2218,7 +2218,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12" ID="{CCE8032A-2568-4E06-95CD-D8C815947729}" ShortID="371309703">
 															<Language>SFX</Language>
-															<AudioFile>Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12.wav</AudioFile>
+															<AudioFile>Ellen\Combat_Layer\Whoosh_Layer\Freeze 13-RAW_Stick,Whoosh_02_G_RX [2022-12-20 175115]-12.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2276,7 +2276,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="0.744052385508694"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hit bastone.wav</AudioFile>
+													<AudioFile>Ellen\Combat_Layer\Hit bastone.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2347,7 +2347,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" ShortID="830001286">
+												<AudioFileSource Name="melee_Swing_lightsaber_Layer" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" ShortID="830001286">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="9.73230221300723E-02"/>
 														<Property Name="FadeInShape" Type="int16" Value="8"/>
@@ -2358,11 +2358,11 @@
 														<Property Name="TrimEnd" Type="Real64" Value="3.30294929580222"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>3-Audio 0001 [2023-01-06 101700].wav</AudioFile>
+													<AudioFile>Ellen\Combat_Layer\melee_Swing_lightsaber_Layer.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="3-Audio 0001 [2023-01-06 101700]" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" Platform="Linked"/>
+												<ActiveSource Name="melee_Swing_lightsaber_Layer" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2423,7 +2423,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="1.18908867722604"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2450,7 +2450,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="2.16769060322885"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2477,7 +2477,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="4.54422997026639"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2504,7 +2504,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="5.4489843270427"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2531,7 +2531,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="11.0908587970891"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2558,7 +2558,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="14.4599521836391"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2585,7 +2585,7 @@
 														<Property Name="TrimEnd" Type="Real64" Value="15.0632503496005"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Angry SND62165 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2609,7 +2609,7 @@
 														<Property Name="TrimBegin" Type="Real64" Value="7.48419663242009E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154.wav</AudioFile>
+													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2733,7 +2733,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="1.10150791952054"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2774,7 +2774,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="2.39883946917807"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2815,7 +2815,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="2.98631035958903"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2856,7 +2856,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="6.07085482594184"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2897,7 +2897,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="8.4204160958904"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2938,7 +2938,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="14.1482572773972"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3045,7 +3045,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="3.33840410958904"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3085,7 +3085,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="5.7763176369863"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3125,7 +3125,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="9.44416952054795"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3165,7 +3165,7 @@
 																<Property Name="TrimEnd" Type="Real64" Value="10.5423287671233"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
+															<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Short, Breathy SND62144.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>

@@ -412,7 +412,7 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Freeze 35-RAW_Debris,Sand_01_G_RX [2023-01-06 170954].wav</AudioFile>
+													<AudioFile>movingPlatform_Layer\Freeze 35-RAW_Debris,Sand_01_G_RX [2023-01-06 170954].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -572,7 +572,7 @@
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Freeze 36-RAW_Debris,RockFragment_01_NVG_RX [2023-01-06 170956].wav</AudioFile>
+													<AudioFile>movingPlatform_Layer\Freeze 36-RAW_Debris,RockFragment_01_NVG_RX [2023-01-06 170956].wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -620,7 +620,7 @@
 												<Property Name="TrimBegin" Type="Real64" Value="0.586043802216491"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Freeze 61-Operator [2023-01-06 165625].wav</AudioFile>
+											<AudioFile>movingPlatform_Layer\Freeze 61-Operator [2023-01-06 165625].wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -736,7 +736,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Chiave ronzio avvicinamento" ID="{DC37ECC0-5EB4-4AC8-9D30-80044A554875}" ShortID="879396411">
+								<AudioFileSource Name="Infopost ronzio avvicinamento" ID="{DC37ECC0-5EB4-4AC8-9D30-80044A554875}" ShortID="879396411">
 									<PropertyList>
 										<Property Name="CrossfadeDuration" Type="Real64" Value="1789.474"/>
 										<Property Name="LoopBegin" Type="Real64" Value="2.80821917808219"/>
@@ -745,11 +745,11 @@
 										<Property Name="TrimEnd" Type="Real64" Value="9.33219178082192"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Chiave ronzio avvicinamento.wav</AudioFile>
+									<AudioFile>items_Layer\Infopost ronzio avvicinamento.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Chiave ronzio avvicinamento" ID="{DC37ECC0-5EB4-4AC8-9D30-80044A554875}" Platform="Linked"/>
+								<ActiveSource Name="Infopost ronzio avvicinamento" ID="{DC37ECC0-5EB4-4AC8-9D30-80044A554875}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Accensione porta" ID="{E65A738E-EBEB-44EB-B315-BC72C62CD4D0}" ShortID="855982499">
@@ -787,7 +787,7 @@
 										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Accensione porta.wav</AudioFile>
+									<AudioFile>items_Layer\Accensione porta.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
