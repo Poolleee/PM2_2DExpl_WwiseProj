@@ -2717,6 +2717,8 @@
 												<AudioFileSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" ShortID="364228143">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="3927.276"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.70361266424378"/>
+														<Property Name="FadeInShape" Type="int16" Value="8"/>
 														<Property Name="LoopBegin" Type="Real64" Value="3.27272959183673"/>
 														<Property Name="LoopEnd" Type="Real64" Value="15.8256650125804"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -2766,19 +2768,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{F1F3EEE5-5CEA-4773-8EDC-0B63168193C8}" ShortID="1037735663">
-													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="6788.361"/>
-														<Property Name="LoopBegin" Type="Real64" Value="6.09252996575342"/>
-														<Property Name="LoopEnd" Type="Real64" Value="39.2206616545377"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
-												</AudioFileSource>
 												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="9012.134"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.66548186001712"/>
 														<Property Name="LoopBegin" Type="Real64" Value="6.8540962114726"/>
 														<Property Name="LoopEnd" Type="Real64" Value="37.3929026648116"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>

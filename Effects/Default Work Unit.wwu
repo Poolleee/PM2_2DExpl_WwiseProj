@@ -206,6 +206,15 @@
 	</ReflectData>
 </PluginData>
 				</Effect>
+				<Effect Name="New_Wwise_Meter" ID="{32EBA411-CEB0-4679-94C2-C2A23303AB15}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="Hold" Type="Real32" Value="0.1"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Side_Chain_SFX_Volume" ID="{FF49CDA1-FF4A-4872-804C-B6C79257AD01}"/>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

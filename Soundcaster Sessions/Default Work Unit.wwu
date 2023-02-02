@@ -208,6 +208,10 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Side_Chain_SFX_Volume" ID="{FF49CDA1-FF4A-4872-804C-B6C79257AD01}"/>
+							<Value>-0.417391304347824</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
 							<Value>75</Value>
 						</RTPCValue>
@@ -239,8 +243,8 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
 						<CurrentStateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
-						<CurrentStateRef Name="exit" ID="{219C132F-7D7F-4FBC-B70A-0A48EB2E3D42}"/>
-						<CurrentStateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+						<CurrentStateRef Name="Stage2" ID="{BA2CB8CE-4D06-427B-9BE4-34F5C5D46671}"/>
+						<CurrentStateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="AlienTile" ID="{3E5218F0-D16A-482A-BA4C-71E6BBCF54FD}"/>

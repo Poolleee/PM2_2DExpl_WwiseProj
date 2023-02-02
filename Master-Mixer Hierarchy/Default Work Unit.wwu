@@ -10,11 +10,6 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="BypassEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{8C1E45EF-99BA-43F1-AEB1-C9404010AE6D}" ShortID="91135906">
@@ -48,588 +43,656 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{F0F79862-4C92-471F-9676-E0BC71A86599}" WorkUnitID="{C62DDAEA-1939-46C1-9AF6-B2BD075F0E58}"/>
 						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
-							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-						</Reference>
-						<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<ObjectRef Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Reverbs" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{3D38ED8A-E67D-4742-BFF0-386EDC95A1B3}" ShortID="133482070">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{2DA25199-C54C-4E01-904E-EC64CF578497}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-							<ChildrenList>
-								<Bus Name="Cave" ID="{A9DA2192-5E72-4E3C-B96A-521AFFB837FC}">
-									<ChildrenList>
-										<AuxBus Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-13</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
-														<CustomState Name="" ID="{6315C502-4503-4BD1-813E-E66D694B9A38}" ShortID="718709090"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
-														<CustomState Name="" ID="{66F51E24-6E70-4D56-95ED-30B4166C7052}" ShortID="325784368">
-															<PropertyList>
-																<Property Name="BusVolume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
-														<CustomState Name="" ID="{862F95B0-5EF0-4B90-8892-F0A3BB144E55}" ShortID="636629745">
-															<PropertyList>
-																<Property Name="BusVolume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-										</AuxBus>
-									</ChildrenList>
-								</Bus>
-								<Bus Name="Jungle" ID="{ACCE492A-B9FC-42B2-99BD-7806E3D9389D}">
-									<ChildrenList>
-										<AuxBus Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
-														<CustomState Name="" ID="{9033505D-4E7D-49F9-9241-DEEE06DD80EE}" ShortID="586697647">
-															<PropertyList>
-																<Property Name="BusVolume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
-														<CustomState Name="" ID="{C054391D-D913-4291-B758-9853FFDC3106}" ShortID="944985550">
-															<PropertyList>
-																<Property Name="BusVolume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
-														<CustomState Name="" ID="{12B33057-433F-46C1-9099-7875D5AAA7EE}" ShortID="396425755"/>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-										</AuxBus>
-									</ChildrenList>
-								</Bus>
-								<Bus Name="Temple" ID="{7CDF381B-C590-4F49-86DD-BB207BFE0FD8}">
-									<ChildrenList>
-										<AuxBus Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-13</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
-														<CustomState Name="" ID="{6C40131F-FF8E-497A-AE1E-369DB1927E64}" ShortID="252379735">
-															<PropertyList>
-																<Property Name="BusVolume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
-														<CustomState Name="" ID="{E9F02EF2-3C30-413A-BCEC-86C0524F6F57}" ShortID="886900155"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
-														<CustomState Name="" ID="{10837C3E-A299-4431-AE32-C439A6EB7C41}" ShortID="544414711">
-															<PropertyList>
-																<Property Name="BusVolume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-										</AuxBus>
-									</ChildrenList>
-								</Bus>
-								<Bus Name="External" ID="{0EBD1920-1701-4D95-9D41-7C4BC40712DB}">
-									<ChildrenList>
-										<AuxBus Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}">
-											<PropertyList>
-												<Property Name="OutputBusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{A3A57D69-ED21-45C6-B033-91D56884FC7F}" ShortID="1064817706">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{0CC53839-508F-4736-8B8A-2E05F2D79EBC}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-5.57507</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>24.78261</XPos>
-																		<YPos>-5.86954</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>39.56522</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-										</AuxBus>
-									</ChildrenList>
-								</Bus>
-							</ChildrenList>
-						</Bus>
-						<Bus Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{B01115A0-A53F-4517-9BA2-9E62F56D6BF6}" ShortID="811103077">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Music_Volume" ID="{3F01C171-CA21-4678-B086-7648507D6A07}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{C39BD2FF-C2A9-4CD2-8417-C02C939F7F5A}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
-										<CustomState Name="" ID="{B4C682AE-AD58-4F48-B322-DEB4D738D5EC}" ShortID="130856908"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
-										<CustomState Name="" ID="{8A190DAF-3839-47BE-8072-D60E2B36D021}" ShortID="498963904">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="46"/>
-												<Property Name="Volume" Type="Real64" Value="-10"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</Bus>
-						<Bus Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}">
+						<Bus Name="Main Bus" ID="{6E03EA2E-80DC-4583-BFFA-12726F4AE684}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{3BAF2506-4315-4B28-87DA-C43A97779683}" ShortID="681825936">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{386F8194-C552-4539-8F41-3CA25CF1E843}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
-									<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
-									<ObjectRef Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 							<ChildrenList>
-								<Bus Name="DUCKING" ID="{7F46492E-0B17-45CF-9E8E-98C27419A2A2}">
-									<DuckingList>
-										<DuckItem>
-											<BusRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}"/>
-											<DuckingParam>
-												<Volume>-5</Volume>
-												<FadeInTime>0.5</FadeInTime>
-												<FadeOutTime>0.5</FadeOutTime>
-												<FadeCurve>FadeLinear</FadeCurve>
-											</DuckingParam>
-										</DuckItem>
-									</DuckingList>
+								<Bus Name="Ambiences" ID="{4E6714E1-6864-46FE-854F-11DDCF0B2E33}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1C57B548-E647-43C8-9E1B-04E6DC5A3A8F}" ShortID="499111514">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2062EEC3-0E5E-432F-810E-9DEA6EF6C906}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1.43478</XPos>
+																<YPos>-6.48219</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-6.28163</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>39.34782</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{CB13E6F6-4A53-4C58-BD4C-E5FA80C09585}" ShortID="205798471">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{84C0D399-DE86-4180-9075-2103D2A0CC18}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>2.6087</XPos>
+																<YPos>73</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>25.21739</XPos>
+																<YPos>57</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{6341972B-673D-4D2D-92A8-810F2E6177A8}" ShortID="21713214">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5EF36508-07DD-4AAC-90BB-D63CDAEED459}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Boss SFX" ID="{AFAA62B4-A117-46D3-9AB6-EC28B6B74619}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1B3277F4-E1B1-4218-BC74-75CACBF6D706}" ShortID="821733124">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BA7AA961-1F5D-48F6-AEF7-C56ADDACB887}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="New_Wwise_Meter" ID="{32EBA411-CEB0-4679-94C2-C2A23303AB15}" WorkUnitID="{462F39D1-3CAF-4DC5-A224-FBF91AE92381}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+												<CustomState Name="" ID="{5DDBDD7C-DE65-44FF-A0BD-DA43B9142493}" ShortID="17996676"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+												<CustomState Name="" ID="{DDA0FBAF-7542-4787-8641-9F3299E98BA7}" ShortID="290984577">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{A1434ECA-5136-4492-AA01-98780E99B484}" ShortID="803624214">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Side_Chain_SFX_Volume" ID="{FF49CDA1-FF4A-4872-804C-B6C79257AD01}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{80A0C85D-E908-4417-86D9-2A408104B305}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>-0.05929</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-13.56521</XPos>
+																<YPos>-0.01921</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-7.09564</XPos>
+																<YPos>-4.65638</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-10.09119</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B01115A0-A53F-4517-9BA2-9E62F56D6BF6}" ShortID="811103077">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Music_Volume" ID="{3F01C171-CA21-4678-B086-7648507D6A07}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C39BD2FF-C2A9-4CD2-8417-C02C939F7F5A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList/>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+												<CustomState Name="" ID="{B4C682AE-AD58-4F48-B322-DEB4D738D5EC}" ShortID="130856908"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+												<CustomState Name="" ID="{8A190DAF-3839-47BE-8072-D60E2B36D021}" ShortID="498963904">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="46"/>
+														<Property Name="Volume" Type="Real64" Value="-10"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="New Audio Bus" ID="{43D13501-1506-4EEF-A8DD-E7B6BCFAF99B}"/>
+								<Bus Name="Reverbs" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{3D38ED8A-E67D-4742-BFF0-386EDC95A1B3}" ShortID="133482070">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2DA25199-C54C-4E01-904E-EC64CF578497}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Cave" ID="{A9DA2192-5E72-4E3C-B96A-521AFFB837FC}">
+											<ChildrenList>
+												<AuxBus Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>-13</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+																<CustomState Name="" ID="{6315C502-4503-4BD1-813E-E66D694B9A38}" ShortID="718709090"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+																<CustomState Name="" ID="{66F51E24-6E70-4D56-95ED-30B4166C7052}" ShortID="325784368">
+																	<PropertyList>
+																		<Property Name="BusVolume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+																<CustomState Name="" ID="{862F95B0-5EF0-4B90-8892-F0A3BB144E55}" ShortID="636629745">
+																	<PropertyList>
+																		<Property Name="BusVolume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Jungle" ID="{ACCE492A-B9FC-42B2-99BD-7806E3D9389D}">
+											<ChildrenList>
+												<AuxBus Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+																<CustomState Name="" ID="{9033505D-4E7D-49F9-9241-DEEE06DD80EE}" ShortID="586697647">
+																	<PropertyList>
+																		<Property Name="BusVolume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+																<CustomState Name="" ID="{C054391D-D913-4291-B758-9853FFDC3106}" ShortID="944985550">
+																	<PropertyList>
+																		<Property Name="BusVolume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+																<CustomState Name="" ID="{12B33057-433F-46C1-9099-7875D5AAA7EE}" ShortID="396425755"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Temple" ID="{7CDF381B-C590-4F49-86DD-BB207BFE0FD8}">
+											<ChildrenList>
+												<AuxBus Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>-13</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Ambient_Background" ID="{808DEA3B-FC74-43BF-A7BB-F2FE2344A99A}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+																<CustomState Name="" ID="{6C40131F-FF8E-497A-AE1E-369DB1927E64}" ShortID="252379735">
+																	<PropertyList>
+																		<Property Name="BusVolume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+																<CustomState Name="" ID="{E9F02EF2-3C30-413A-BCEC-86C0524F6F57}" ShortID="886900155"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Jungle" ID="{46537B3B-7CC1-4B83-992A-81977667CA55}"/>
+																<CustomState Name="" ID="{10837C3E-A299-4431-AE32-C439A6EB7C41}" ShortID="544414711">
+																	<PropertyList>
+																		<Property Name="BusVolume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="External" ID="{0EBD1920-1701-4D95-9D41-7C4BC40712DB}">
+											<ChildrenList>
+												<AuxBus Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}">
+													<PropertyList>
+														<Property Name="OutputBusVolume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{A3A57D69-ED21-45C6-B033-91D56884FC7F}" ShortID="1064817706">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{0CC53839-508F-4736-8B8A-2E05F2D79EBC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.57507</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>24.78261</XPos>
+																				<YPos>-5.86954</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39.56522</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>180</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BypassEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{3BAF2506-4315-4B28-87DA-C43A97779683}" ShortID="681825936">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{386F8194-C552-4539-8F41-3CA25CF1E843}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+											<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="DUCKING" ID="{7F46492E-0B17-45CF-9E8E-98C27419A2A2}">
+											<DuckingList>
+												<DuckItem>
+													<BusRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}"/>
+													<DuckingParam>
+														<Volume>-5</Volume>
+														<FadeInTime>0.5</FadeInTime>
+														<FadeOutTime>0.5</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+											</DuckingList>
+										</Bus>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+												<CustomState Name="" ID="{A7FA6EAE-CE1A-46E9-9A76-3FE44FCAE81C}" ShortID="975404747"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+												<CustomState Name="" ID="{AC2A85B8-0AD5-4D78-945D-FFE4B281D18E}" ShortID="880856774">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="UIMenu" ID="{168A87E0-8802-4723-9A79-4231070D5D52}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0690681A-55CA-4CBA-9248-DDE6BE98A879}" ShortID="412052672">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CDA27CC5-0322-4484-A399-6425310AB75E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 								</Bus>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
-										<CustomState Name="" ID="{A7FA6EAE-CE1A-46E9-9A76-3FE44FCAE81C}" ShortID="975404747"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
-										<CustomState Name="" ID="{AC2A85B8-0AD5-4D78-945D-FFE4B281D18E}" ShortID="880856774">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</Bus>
-						<Bus Name="Ambiences" ID="{4E6714E1-6864-46FE-854F-11DDCF0B2E33}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{1C57B548-E647-43C8-9E1B-04E6DC5A3A8F}" ShortID="499111514">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{2062EEC3-0E5E-432F-810E-9DEA6EF6C906}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1.43478</XPos>
-														<YPos>-6.48219</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>25</XPos>
-														<YPos>-6.28163</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>39.34782</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>180</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-								<Property Name="Lowpass" Type="int16">
-									<RTPCList>
-										<RTPC Name="" ID="{CB13E6F6-4A53-4C58-BD4C-E5FA80C09585}" ShortID="205798471">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{84C0D399-DE86-4180-9075-2103D2A0CC18}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>2.6087</XPos>
-														<YPos>73</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>25.21739</XPos>
-														<YPos>57</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>40</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>180</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{6341972B-673D-4D2D-92A8-810F2E6177A8}" ShortID="21713214">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{5EF36508-07DD-4AAC-90BB-D63CDAEED459}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-						</Bus>
-						<Bus Name="UIMenu" ID="{168A87E0-8802-4723-9A79-4231070D5D52}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{0690681A-55CA-4CBA-9248-DDE6BE98A879}" ShortID="412052672">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{CDA27CC5-0322-4484-A399-6425310AB75E}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-						</Bus>
-						<Bus Name="New Audio Bus" ID="{43D13501-1506-4EEF-A8DD-E7B6BCFAF99B}"/>
-						<Bus Name="Boss SFX" ID="{AFAA62B4-A117-46D3-9AB6-EC28B6B74619}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{1B3277F4-E1B1-4218-BC74-75CACBF6D706}" ShortID="821733124">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}" WorkUnitID="{FEB87A98-DF00-4440-86AD-7439A183D868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{BA7AA961-1F5D-48F6-AEF7-C56ADDACB887}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
-									<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
-										<CustomState Name="" ID="{5DDBDD7C-DE65-44FF-A0BD-DA43B9142493}" ShortID="17996676"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
-										<CustomState Name="" ID="{DDA0FBAF-7542-4787-8641-9F3299E98BA7}" ShortID="290984577">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>

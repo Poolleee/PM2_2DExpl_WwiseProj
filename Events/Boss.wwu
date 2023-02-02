@@ -176,9 +176,6 @@
 						<Event Name="Boss_Shield_On" ID="{671E99B0-7D3B-4080-BEA5-8B99A7D22EE5}">
 							<ChildrenList>
 								<Action Name="" ID="{A8AF039D-B233-4015-B14F-71159C33B34C}" ShortID="656749502">
-									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
