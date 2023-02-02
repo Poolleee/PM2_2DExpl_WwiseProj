@@ -902,11 +902,7 @@
 							<ChildrenList>
 								<Sound Name="Accensione porta" ID="{368322F1-E3F1-44C8-B4D3-429B4A16304A}" ShortID="954311926">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -949,7 +945,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1357,15 +1353,10 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>42</Value>
+												<Value>59</Value>
 											</ValueList>
 										</Property>
 										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
-										</Property>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -1374,7 +1365,7 @@
 										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>350</Value>
+												<Value>730</Value>
 											</ValueList>
 										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -1383,9 +1374,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{E386D1F1-DB8C-4B69-9ACE-245E901F5D4D}">
@@ -1422,7 +1410,6 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.351598173515982"/>
 														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.415525114155251"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Hit dei cristalli\Hit cristallo 1.wav</AudioFile>
@@ -1447,7 +1434,6 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.343607305936073"/>
 														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.439497716894976"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Hit dei cristalli\Hit cristallo 2.wav</AudioFile>
@@ -1458,6 +1444,20 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Hit cristallo 3" ID="{582C237C-B431-461F-8379-375901D2FEB5}" ShortID="894026277">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -1473,7 +1473,6 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.239726027397261"/>
 														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.35958904109589"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Hit dei cristalli\Hit cristallo 3.wav</AudioFile>

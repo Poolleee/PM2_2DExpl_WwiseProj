@@ -400,7 +400,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1.1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" ShortID="28917133">
+														<AudioFileSource Name="Verso 1_1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" ShortID="28917133">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.590753424657534"/>
@@ -410,7 +410,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1.1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1_1" ID="{E8E45281-E46B-45AA-91DF-8381BB82B0A2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Verso 1_01" ID="{14443E76-15A2-4AF0-B231-812D0EB96E97}" ShortID="898718913">
@@ -462,7 +462,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1.1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" ShortID="320048743">
+														<AudioFileSource Name="Verso 1_1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" ShortID="320048743">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.98416095890411"/>
@@ -473,7 +473,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1.1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1_1" ID="{18B76836-37B5-49FE-ADB6-5A275FDE7CFA}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1174,7 +1174,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1.2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" ShortID="772395436">
+														<AudioFileSource Name="Verso 1_2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" ShortID="772395436">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.346746575342466"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1185,7 +1185,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1.2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1_2" ID="{33FFDAA5-0B34-4051-AF97-ACBFFE9112C3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Verso 2_2" ID="{2E8E923E-74B7-4CCA-937F-446A7CA38B85}" ShortID="49500071">
@@ -1198,7 +1198,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 2.2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" ShortID="46784495">
+														<AudioFileSource Name="Verso 2_2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" ShortID="46784495">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.47367591557171"/>
@@ -1208,7 +1208,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 2.2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" Platform="Linked"/>
+														<ActiveSource Name="Verso 2_2" ID="{A2F34867-9F40-40BA-90C9-598464B21171}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Silence" ID="{5CD370C7-126C-407B-9A5A-60960606F29B}" ShortID="227978615">
@@ -1412,13 +1412,13 @@
 																			<Language>SFX</Language>
 																			<AudioFile>Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" ShortID="835444098">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" ShortID="835444098">
 																			<Language>SFX</Language>
 																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{FC8FFDD2-2229-4DEC-A377-DB86A6B0CBD1}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{87D06A6A-5C6D-4DC8-A1C3-87249DEC2409}" ShortID="1044727265">
@@ -1949,7 +1949,7 @@
 																				<File ID="54902986"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" ShortID="814533556">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" ShortID="814533556">
 																			<Language>SFX</Language>
 																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																			<ConvertedFileIDList>
@@ -1958,7 +1958,7 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{54C4940B-EC9F-4CDD-861B-9AF4ED752F99}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{FE0785C8-E289-46E9-A2E0-B61826AD0651}" ShortID="135139438">
@@ -3051,7 +3051,7 @@
 																				<File ID="54902986"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" ShortID="113541342">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" ShortID="113541342">
 																			<Language>SFX</Language>
 																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																			<ConvertedFileIDList>
@@ -3060,7 +3060,7 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{AC19DB97-0359-4672-8535-F51D986590A0}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{D56C2544-3815-4FFF-A19D-E375EEEA52BE}" ShortID="36970326">
@@ -3649,7 +3649,7 @@
 																				<File ID="54902986"/>
 																			</ConvertedFileIDList>
 																		</AudioFileSource>
-																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" ShortID="825177464">
+																		<AudioFileSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" ShortID="825177464">
 																			<Language>SFX</Language>
 																			<AudioFile>Ellen\Footstep_Layer\Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657].wav</AudioFile>
 																			<ConvertedFileIDList>
@@ -3658,7 +3658,7 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" Platform="Linked"/>
+																		<ActiveSource Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]_01" ID="{C3AAFF6D-03AB-4646-996C-9D9B819DC50B}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Freeze 7-RAW_Footstep,Grass_04_G_RX [2022-12-19 122657]-1" ID="{388916D3-56FF-4566-AF14-98BF4C0DE520}" ShortID="802425199">
@@ -4246,7 +4246,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1.1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" ShortID="45116365">
+														<AudioFileSource Name="Verso 1_1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" ShortID="45116365">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.125742082855089"/>
 																<Property Name="FadeInShape" Type="int16" Value="9"/>
@@ -4261,7 +4261,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1.1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1_1" ID="{8B760346-4322-4E2E-A64D-C804A4E728B0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Verso 1_04" ID="{D32686A3-DC38-4770-A67C-7F5D650C7395}" ShortID="977593377">
@@ -4281,7 +4281,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Verso 1.1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" ShortID="971020027">
+														<AudioFileSource Name="Verso 1_1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" ShortID="971020027">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.192740420734069"/>
 																<Property Name="FadeInShape" Type="int16" Value="9"/>
@@ -4301,7 +4301,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Verso 1.1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" Platform="Linked"/>
+														<ActiveSource Name="Verso 1_1" ID="{7EFC4249-B94B-4C04-9A4D-E8E20C40243F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Silence" ID="{E668AA12-5C0A-493F-AE89-D43E6D3D4945}" ShortID="319772365">
@@ -4690,7 +4690,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Verso 1.1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" ShortID="404826502">
+																<AudioFileSource Name="Verso 1_1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" ShortID="404826502">
 																	<PropertyList>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.19263698630137"/>
 																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
@@ -4702,7 +4702,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Verso 1.1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" Platform="Linked"/>
+																<ActiveSource Name="Verso 1_1" ID="{080F3A64-1086-4A7B-B606-016B8C104645}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Verso 2_2" ID="{AA2F5A9E-748D-4CC7-985A-CE2D3D170F12}" ShortID="198328684">
@@ -4722,13 +4722,13 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Verso 2.2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" ShortID="674471062">
+																<AudioFileSource Name="Verso 2_2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" ShortID="674471062">
 																	<Language>SFX</Language>
 																	<AudioFile>Monsters\MonsterCries\Verso 2.2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Verso 2.2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" Platform="Linked"/>
+																<ActiveSource Name="Verso 2_2" ID="{EF12C556-F9F7-4F5A-852E-2E2342D673DB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>

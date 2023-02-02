@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Effect Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
-								<Property Name="Ratio" Type="Real32" Value="3"/>
+								<Property Name="Ratio" Type="Real32" Value="5.4"/>
 								<Property Name="Threshold" Type="Real32" Value="-20"/>
 							</PropertyList>
 						</Effect>
@@ -53,10 +53,10 @@
 						</Effect>
 						<Effect Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
-								<Property Name="AttackTime" Type="Real32" Value="0.001"/>
-								<Property Name="Ratio" Type="Real32" Value="25.8"/>
-								<Property Name="ReleaseTime" Type="Real32" Value="0.77"/>
-								<Property Name="Threshold" Type="Real32" Value="-35"/>
+								<Property Name="AttackTime" Type="Real32" Value="0.01"/>
+								<Property Name="Ratio" Type="Real32" Value="18.5"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+								<Property Name="Threshold" Type="Real32" Value="-24.8"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Pumping_and_Breathing_1" ID="{87BE3270-3D27-45BB-9E46-7F2D9380F523}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
@@ -156,9 +156,9 @@
 						</Effect>
 						<Effect Name="Brick_Wall_Minus_6dB_Peak_Slow_Release" ID="{E0BA4DE6-A10C-49AF-A3E4-C5F71BA79EE6}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<PropertyList>
-								<Property Name="Ratio" Type="Real32" Value="50"/>
+								<Property Name="Ratio" Type="Real32" Value="4.4"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
-								<Property Name="Threshold" Type="Real32" Value="-6"/>
+								<Property Name="Threshold" Type="Real32" Value="-11.7"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Extreme_Limiting_1" ID="{8F08A8A7-3313-4E5D-9EBD-2B1B564DE411}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
@@ -273,10 +273,9 @@
 										<Effect Name="High_Freq_Cut_4" ID="{E8D0C6ED-E60F-4F25-850D-99FC6A22A700}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-												<Property Name="FilterTypeBand2" Type="int32" Value="4"/>
 												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-												<Property Name="FrequencyBand2" Type="Real32" Value="10000"/>
-												<Property Name="FrequencyBand3" Type="Real32" Value="14500"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="6957"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="9828"/>
 												<Property Name="GainBand2" Type="Real32" Value="-4"/>
 												<Property Name="GainBand3" Type="Real32" Value="-3"/>
 												<Property Name="OnOffBand1" Type="bool" Value="False"/>

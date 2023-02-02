@@ -11,6 +11,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -20,7 +25,7 @@
 							<ObjectRef Name="Mono Mid SFX" ID="{B1802859-7ECE-48EF-97D3-46AEDD0E8090}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+							<ObjectRef Name="Boss SFX" ID="{AFAA62B4-A117-46D3-9AB6-EC28B6B74619}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
 							<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
@@ -2771,7 +2776,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
 												</AudioFileSource>
-												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
+												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="9012.134"/>
 														<Property Name="LoopBegin" Type="Real64" Value="6.8540962114726"/>
@@ -2783,7 +2788,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" Platform="Linked"/>
+												<ActiveSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3025,6 +3030,27 @@
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="UIMenuState" ID="{789AA22E-6011-4F6F-99E1-3BEAEE516FE2}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+								<CustomState Name="" ID="{9950E37E-F717-4F6F-8F48-0607A7F10838}" ShortID="709629489"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Pause" ID="{0CE4FBAC-5515-427B-8666-B31CEBC41E71}"/>
+								<CustomState Name="" ID="{2DAF4E47-B4B7-4353-AA88-55A13A3756ED}" ShortID="420811436">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
