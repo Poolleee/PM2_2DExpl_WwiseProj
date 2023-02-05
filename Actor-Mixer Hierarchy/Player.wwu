@@ -2367,6 +2367,248 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<RandomSequenceContainer Name="Die_Fall" ID="{765D9F0E-A0B1-4FB9-952C-1D4C9D3D7D46}" ShortID="827121414">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{06FF577B-6D49-417D-B783-6F62F9C412A3}" ShortID="114021339">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{BE3AD18C-46C5-4E8A-8007-92023D2AE02C}" ShortID="1068760019">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.53334920804794"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.03370526541096"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="142618486"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{BE3AD18C-46C5-4E8A-8007-92023D2AE02C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132_01" ID="{62A921E1-0AB1-4476-99BE-D0983F01F596}" ShortID="947558537">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{C4D1FAD8-C880-4ED3-B6FC-415EC2E3CC91}" ShortID="326781119">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.209826733732877"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.112983625856164"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.823166416952056"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{C4D1FAD8-C880-4ED3-B6FC-415EC2E3CC91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132_02" ID="{FF80FAAB-AF54-4343-A207-AA1935F85D1D}" ShortID="699831265">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{78FBDE79-A91D-40B0-B92A-81D7EFEC39FC}" ShortID="142618486">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.93757427226027"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.01898897688356"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="752042250"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{78FBDE79-A91D-40B0-B92A-81D7EFEC39FC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132_03" ID="{53BF79DF-B5F9-47CA-9DE8-C9DE4963F457}" ShortID="106646592">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{1E4407AB-9710-4CCB-B0D2-98D95C096DB0}" ShortID="752042250">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.77830543664384"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.52076926369863"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1068760019"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{1E4407AB-9710-4CCB-B0D2-98D95C096DB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132_04" ID="{8DF5670B-20F2-40CA-85A1-CC98DFC1C272}" ShortID="1026636677">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{4466E51E-281F-4335-8C7D-43DDDD5B2BA6}" ShortID="121564920">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.15024946489726"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.89271329195205"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{4466E51E-281F-4335-8C7D-43DDDD5B2BA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132_05" ID="{F0954C04-BE08-4A89-A88F-B8571940E713}" ShortID="1063443447">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{A4F61C2D-F0E6-48F5-A28D-61A035B16F1A}" ShortID="1883948">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.60289608304794"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sports, Gym, Boxing, Body Fall, Canvas Floor, Knock Out SND46121 - Pitch 132" ID="{A4F61C2D-F0E6-48F5-A28D-61A035B16F1A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Voice" ID="{E8CFAAEF-7ECA-47B3-A683-0074D8717428}" ShortID="669413379">
@@ -3174,6 +3416,127 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Die_Player_Voices" ID="{D9B07410-21EF-4359-9DD5-3CEA11D935DF}" ShortID="769879366">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0A946B9C-BDF0-49CE-A31C-BB275E4699A9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A5645759-E4B8-4643-946D-F4D14A8E55D1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2_01" ID="{CFFBF821-8C23-4B73-BFBF-7EDF0C9FEA27}" ShortID="768447647">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2" ID="{8729BA92-4C18-4464-9330-6C1BB54D0FD6}" ShortID="87215493">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.310581121575342"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.429332726883562"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.5072319135274"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.81349957191781"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="633561596"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2" ID="{8729BA92-4C18-4464-9330-6C1BB54D0FD6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2_02" ID="{665FBE19-0083-479D-AB94-0A5C8BBDD7DE}" ShortID="396222527">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Fast SFX" ID="{627F91DB-7D99-4D37-A27C-1F1313F19F73}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1C1F38AC-3F4F-43C4-B854-B3066128BF46}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Jungle_Reverb" ID="{9B2B90EB-CEAD-4895-A25A-E772658EE1DB}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Cave_reverb" ID="{26253A92-4BED-4591-A289-4CF5852F7BA2}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend3">
+													<ObjectRef Name="External_Cave_Reverb" ID="{19BBEF7A-C2E6-4BAA-93D1-31BDA1410D7F}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2" ID="{F90B7748-9170-49EE-96CE-D75D1F8E4047}" ShortID="1039072120">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.337985338184931"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.511545376712329"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.0875417380137"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.43948309075342"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voices, Female, Type 04, Damaged, Combat, Pain, Short, Video Game 01 SND85655 2" ID="{F90B7748-9170-49EE-96CE-D75D1F8E4047}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>

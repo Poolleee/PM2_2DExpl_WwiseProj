@@ -242,7 +242,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
-						<CurrentStateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+						<CurrentStateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
 						<CurrentStateRef Name="Stage2" ID="{BA2CB8CE-4D06-427B-9BE4-34F5C5D46671}"/>
 						<CurrentStateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
 					</CurrentStateList>
@@ -337,7 +337,7 @@
 							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+							<ObjectRef Name="Boss_Shield_Activate" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
@@ -632,10 +632,6 @@
 						<Module>
 							<ObjectRef Name="Pressure_Pad" ID="{80F79EC6-72CC-4C57-838A-9CAE84DFF1CD}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
 							<Position X="5" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="looppush" ID="{84B5E929-EB05-4ECE-BF7B-D2C484A33E6F}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
-							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Sliding_Door" ID="{9157293B-9942-41ED-826B-F5BADEC638CF}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>

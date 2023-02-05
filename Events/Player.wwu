@@ -224,6 +224,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Die" ID="{5083EBFD-FACE-4C33-902B-AAEF5C0AF51B}">
+							<ChildrenList>
+								<Action Name="" ID="{B6C361AB-F6FB-4F30-BF81-3590E4163A9B}" ShortID="440189261">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Die_Fall" ID="{765D9F0E-A0B1-4FB9-952C-1D4C9D3D7D46}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0240AD2F-C166-4DA2-8C2A-7BD6D9646B34}" ShortID="21206111">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Die_Player_Voices" ID="{D9B07410-21EF-4359-9DD5-3CEA11D935DF}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

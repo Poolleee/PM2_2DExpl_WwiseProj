@@ -178,23 +178,7 @@
 								<Action Name="" ID="{A8AF039D-B233-4015-B14F-71159C33B34C}" ShortID="656749502">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{BC98DB1D-036E-4D90-9EE3-2985B83CECC8}" ShortID="77206016">
-									<PropertyList>
-										<Property Name="FadeInCurve" Type="int16" Value="6"/>
-										<Property Name="FadeTime" Type="Real64" Value="2"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Shield Activation" ID="{3D884086-423D-498E-8FB0-B7CCBA49469A}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

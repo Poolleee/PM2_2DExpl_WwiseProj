@@ -215,6 +215,14 @@
 	<GameParameter Name="Side_Chain_SFX_Volume" ID="{FF49CDA1-FF4A-4872-804C-B6C79257AD01}"/>
 </PluginData>
 				</Effect>
+				<Effect Name="box_settings" ID="{5C86D547-5BBD-4D71-A91C-F9503AB83D52}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="Ratio" Type="Real32" Value="10.8"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.01"/>
+						<Property Name="Threshold" Type="Real32" Value="-44.1"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

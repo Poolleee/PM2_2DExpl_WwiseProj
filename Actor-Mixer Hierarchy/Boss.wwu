@@ -2645,187 +2645,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" ShortID="769979269">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Shield Attenution" ID="{B0C1CCED-5D88-4C4B-BB6B-0B3752FB38B8}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-										</Reference>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Boss - Shield (Defense)_01" ID="{667D3B82-8139-4AAF-B44B-0B01ACDBBBBC}" ShortID="807214625">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>74</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Shield Attenution" ID="{B0C1CCED-5D88-4C4B-BB6B-0B3752FB38B8}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" ShortID="364228143">
-													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="3927.276"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.70361266424378"/>
-														<Property Name="FadeInShape" Type="int16" Value="8"/>
-														<Property Name="LoopBegin" Type="Real64" Value="3.27272959183673"/>
-														<Property Name="LoopEnd" Type="Real64" Value="15.8256650125804"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="18.2465882722952"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Boss\Boss_Shield_Layer\Boss - Shield (Defense).wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{2EAA5B0D-EB2D-436B-8D7E-22FA39A7CD8F}" ShortID="260999986">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>77</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>12</Value>
-													</ValueList>
-												</Property>
-												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-29</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
-													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="9012.134"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="2.66548186001712"/>
-														<Property Name="LoopBegin" Type="Real64" Value="6.8540962114726"/>
-														<Property Name="LoopEnd" Type="Real64" Value="37.3929026648116"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Boss\Boss_Shield_Layer\Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
-								<Sound Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" ShortID="151173042">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-										</Reference>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{43EF6179-A2C2-469F-BBB5-6EB0DB8BBE22}" ShortID="800599771">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.438356164383562"/>
-												<Property Name="FadeOutShape" Type="int16" Value="4"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.49793433355077"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Boss\Boss_Shield_Layer\Boss_Shield_Activate 0001 [2023-01-17 154115].wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{43EF6179-A2C2-469F-BBB5-6EB0DB8BBE22}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Boss_Shield_Deactivate" ID="{31FA655A-B2DE-4D6D-85B7-058D220BDA0F}" ShortID="706394662">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -2956,6 +2775,207 @@
 										<ActiveSource Name="ShieldHit 0001 [2023-01-17 144112]" ID="{FDC319BB-301B-4B00-BE14-D55DA5F51C9C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Shield Activation" ID="{3D884086-423D-498E-8FB0-B7CCBA49469A}" ShortID="303904389">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" ShortID="769979269">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Shield Attenution" ID="{B0C1CCED-5D88-4C4B-BB6B-0B3752FB38B8}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Mid SFX" ID="{B1802859-7ECE-48EF-97D3-46AEDD0E8090}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Boss SFX" ID="{AFAA62B4-A117-46D3-9AB6-EC28B6B74619}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Boss - Shield (Defense)_01" ID="{667D3B82-8139-4AAF-B44B-0B01ACDBBBBC}" ShortID="807214625">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>74</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Shield Attenution" ID="{B0C1CCED-5D88-4C4B-BB6B-0B3752FB38B8}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" ShortID="364228143">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="3927.276"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.313823385518592"/>
+																<Property Name="FadeInShape" Type="int16" Value="8"/>
+																<Property Name="LoopBegin" Type="Real64" Value="3.27272959183673"/>
+																<Property Name="LoopEnd" Type="Real64" Value="15.8256650125804"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="18.2465882722952"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Boss\Boss_Shield_Layer\Boss - Shield (Defense).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss - Shield (Defense)" ID="{96E7995D-94B7-413F-8273-7D67373A58FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Electricity, Arc, Spark, Static, Long 02 SND13432" ID="{2EAA5B0D-EB2D-436B-8D7E-22FA39A7CD8F}" ShortID="260999986">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>77</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-29</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Boss_Attenuation" ID="{248EC45F-7AD9-4349-B645-C754A3DF1AED}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" ShortID="560145706">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="9012.134"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.533096372003421"/>
+																<Property Name="LoopBegin" Type="Real64" Value="6.8540962114726"/>
+																<Property Name="LoopEnd" Type="Real64" Value="37.3929026648116"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Boss\Boss_Shield_Layer\Electricity, Arc, Spark, Static, Long 02 SND13432.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Electricity, Arc, Spark, Static, Long 02 SND13432_01" ID="{D05AAA9E-1D81-4C81-994F-D2EF66858E34}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<Sound Name="Boss_Shield_Activate" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" ShortID="151173042">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Shield Attenution" ID="{B0C1CCED-5D88-4C4B-BB6B-0B3752FB38B8}" WorkUnitID="{D1F90AC7-F1D3-448B-BD23-B8819A493435}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Mono Mid SFX" ID="{B1802859-7ECE-48EF-97D3-46AEDD0E8090}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Boss SFX" ID="{AFAA62B4-A117-46D3-9AB6-EC28B6B74619}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Temple_Reverb" ID="{4C6DF5F4-AA02-4A52-9E03-15B08B26D487}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{43EF6179-A2C2-469F-BBB5-6EB0DB8BBE22}" ShortID="800599771">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.187866927592955"/>
+														<Property Name="FadeOutShape" Type="int16" Value="4"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.79908675799087"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Boss\Boss_Shield_Layer\Boss_Shield_Activate 0001 [2023-01-17 154115].wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Boss_Shield_Activate 0001 [2023-01-17 154115]" ID="{43EF6179-A2C2-469F-BBB5-6EB0DB8BBE22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Boss_Shield_Activate" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}"/>
+										<ItemRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<Sound Name="Entrance Animation" ID="{EB37E753-7862-4D55-9951-885FB7CADD22}" ShortID="687636848">

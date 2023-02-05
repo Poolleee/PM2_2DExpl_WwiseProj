@@ -23,6 +23,11 @@
 						<MusicPlaylistContainer Name="Gameplay" ID="{6FA1791A-DA2C-4BB7-990C-6CEA4A088521}" ShortID="649748080">
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="PlaybackSpeed" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="110"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -42,6 +47,11 @@
 								<MusicSegment Name="Gameplay" ID="{35BF479C-42A6-43EE-AEDE-3E0B10AB043D}" ShortID="993379412">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="942551.515149543"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="110"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1622,6 +1632,1342 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
+								<MusicSegment Name="Gameplay_New" ID="{139DB3CA-74FD-4940-9146-7C534C103DFB}" ShortID="993379413">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="349090.909090909"/>
+										<Property Name="Tempo" Type="Real64" Value="110"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Pads_Statici" ID="{224ABD20-A82A-4471-8F17-BF30FCD9A596}" ShortID="228332722">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ambienti Aperti_Pad 4" ID="{EE8093E5-8280-45BE-AF92-887E0A5C542A}" ShortID="1024350948">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Aperti_Pad 4.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Aperti_Pad 6" ID="{67DB38B9-0373-427C-AFE7-77C803A9F0AF}" ShortID="561870564">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Aperti_Pad 6.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Aperti_Pad 3" ID="{13BFF3A1-1BD1-4C65-8E17-DDD9D1558A2B}" ShortID="968521126">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Aperti_Pad 3.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Chiusi_Pad 2" ID="{BA09EE79-C75B-40D9-A7BA-DF3C9B47804F}" ShortID="200310131">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Chiusi_Pad 2.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Chiusi_Pad 3" ID="{CCFD2FD9-2EC2-41DD-B583-4C9253E8AE28}" ShortID="469471765">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Chiusi_Pad 3.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Chiusi_Pad 4" ID="{530FB918-EE2E-48A1-9108-5C71E81B28C3}" ShortID="263710161">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Chiusi_Pad 4.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Chiusi_Pad 1" ID="{689CA86F-F7EC-47F7-B046-8DD592283F6F}" ShortID="506846700">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Chiusi_Pad 1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{31C7E949-3EBA-4CB1-88F4-7E891D7954C2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{082EA4D7-68AB-4587-B02A-8D83750FD344}">
+													<ClipList>
+														<MusicClip Name="Ambienti Aperti_Pad 4" ID="{411F545F-E12E-444F-A0DB-A4CC6D104806}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52363.6363636366"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="21191.8526190554"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{83D211F9-EF3C-452A-80A7-18DAF2EBFFCF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>70.67788</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{893D7F8D-9C30-4E1D-ABF1-82F97CFB8F96}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{2FF11638-4A54-4C4F-B855-3215EB457F70}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.10177</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>-5.10177</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 4" ID="{56A2FD19-02C7-4E2F-A80E-66AB4B421AAE}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="95999.9999999998"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="42642.7425696102"/>
+																<Property Name="PlayAt" Type="Real64" Value="52363.6363636364"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{CA062133-7D85-481B-90A2-993A08C2DB96}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>70.67788</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1198E80C-A82D-4F74-AF07-E51D5C4E3D46}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>80.20757</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{BDC2CA33-D63C-4413-8FA5-946AAFE8A354}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.10177</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>-5.10177</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Chiusi_Pad 3" ID="{92A49A0D-64EA-4047-9C68-C9951D861D7D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="59655.4741543766"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="104727.272727273"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Chiusi_Pad 3" ID="{CCC85A3A-9FA5-4D54-9A24-D5280216D6F9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{8F424A35-1ACA-435D-B167-A58869ECEDE6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>50.75269</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{6F737766-AD08-4E52-BBC8-3FCE0948462E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{0DFEBF95-6DA6-480F-B3FF-740961B06565}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.00178</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>-5.00179</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Chiusi_Pad 4" ID="{03C029C8-E459-4316-A944-97054CB79187}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="134962.536715469"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="157090.909090909"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Chiusi_Pad 4" ID="{2D79585E-9ACE-4A60-8FC0-A9137E8CBC3E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{A0A5CE9A-2E8F-48AB-B53E-C998D0C66E5B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>60.21506</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.636371882086</XPos>
+																				<YPos>60.21506</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{D701CD1D-6249-4265-B33D-27B8AEF13CC4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.03363</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.636371882086</XPos>
+																				<YPos>-5.03363</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 6" ID="{74491662-5E2D-4763-9067-606D54E96D5E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="43188.2048975497"/>
+																<Property Name="PlayAt" Type="Real64" Value="209454.545454545"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{0DC25CD3-B7B0-4872-B86F-DDFDD9349E35}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>30.05517</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>30.05517</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{7D8D51CB-407D-4D64-AE46-593209437A1A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{F71DB9A7-03A8-4E4D-870D-C2A469F12E01}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.00178</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>-5.00178</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{7A3FD8F6-1E1A-4388-BD2C-9E47D43603CD}">
+													<ClipList>
+														<MusicClip Name="Ambienti Aperti_Pad 6" ID="{3868D114-E43C-4F7B-827A-C2C1AF469905}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="23707.0002068433"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{765AAB80-B24C-4461-8360-7FE0F802A446}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>32.11604</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>69.41515</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A4628D7B-CD00-4927-B056-E11DDF95C643}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>80.81949</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>30.58485</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AA21A84D-D5A5-471A-99C3-9F28AA6AE438}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 6" ID="{5083B71D-AC8B-493C-8F84-A1E6B7FA944E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="49909.4741196702"/>
+																<Property Name="FadeInShape" Type="int16" Value="8"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="38965.3588305512"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="PlayAt" Type="Real64" Value="104727.272727273"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FA54634F-8170-47F6-B75F-9039CE59E08B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>30.14079</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>50.07427</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D99A1ECE-9029-4CD6-988B-04B1A03A4975}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{59A1DF87-5258-4DA9-8DAB-4D6F5A3F71BE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Chiusi_Pad 2" ID="{59DE56E8-4F98-472A-89DF-5FD896EBC4AF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="39966.1032895808"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="41759.2711754377"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="PlayAt" Type="Real64" Value="157090.909090909"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Chiusi_Pad 2" ID="{C18E9140-0AAA-4280-A0ED-62C10FAA30A6}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{F66C5110-A5B9-4006-95F2-605D9F85D70F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>50.01965</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.636371882086</XPos>
+																				<YPos>30.96774</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{40780A62-A610-4BA5-AD5F-ABA90E5143C5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.04792</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.636371882086</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{41AB7FDC-6C2B-477E-9992-503DAF8A52E2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="47820.9369430385"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="43774.104449411"/>
+																<Property Name="PlayAt" Type="Real64" Value="244363.636363636"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{4ACB2D50-F6C7-4781-B455-F30FD1B1F296}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>80.81949</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{B6E100BE-82E6-4BDD-9F91-292C60057E18}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{9EA1CA3F-C658-43AB-9272-5E667769E526}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{408F6FF9-7DD1-48F1-BB3A-9F7E711D119D}">
+													<ClipList>
+														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{32377ADF-BB7C-4448-86FF-4FD34F6AC3AB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{E41D3386-999D-43F3-9A8F-6CF45368C734}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>60.21505</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>60.21506</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{04993241-A8CA-48CF-B92D-72B3FDFD1C59}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{20B3E88D-1DCF-4B0F-85AC-2900DA8E2B11}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Chiusi_Pad 1" ID="{9670ACB4-CEA8-4659-811B-C39B2077A8D7}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="-69818.181818182"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="122181.818181818"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="88394.4038842487"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="174545.454545455"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Chiusi_Pad 1" ID="{6DFA376E-041E-42A8-AD01-A472F8E7F486}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{CEF040EF-90E1-4982-8DF7-0A7C157532E5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-69.81818</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>122.18182</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{75733A44-EEFC-431E-AA1E-45E13D966C7D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-69.81818</XPos>
+																				<YPos>80.20757</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>122.18182</XPos>
+																				<YPos>50.75268</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{17008AA7-4011-4896-A9D4-352D8C269DC4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-69.81818</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>122.18182</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{CA49B51D-0986-469E-B88A-CED0308918DC}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52363.6363636363"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="104727.272727273"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{26C08BBC-DBB3-4CC6-B9A1-A8A044002AD3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>59.35484</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>100</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D4BB052C-6E0D-4F86-8B0F-AAE89B9EB686}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{D01DEDEC-E713-4C68-96C6-DBA8738EBB8D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 4" ID="{5920F2CA-586F-4407-A059-D46C11F022C3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="132012.244341479"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="45336.0439630018"/>
+																<Property Name="PlayAt" Type="Real64" Value="209454.545454545"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D321DCA3-3EC4-41A5-85F8-ACD6CBFA32FE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{5CC3F4C9-E7B4-44DE-8694-BA24301A52A6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>80.37544</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FDF1C40F-CF82-4CBF-86FA-1138D7FB5290}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.63636</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pads_Dinamici" ID="{61E9EC2B-6247-44A0-BF91-BD78EF708118}" ShortID="736075608">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ambienti Aperti_Pad 5" ID="{E3626E73-6E62-443E-805F-A37184CF144E}" ShortID="197778339">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Aperti_Pad 5.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Aperti_Pad 1" ID="{FF0463AB-8281-4313-8585-C356091ED006}" ShortID="809783645">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Aperti_Pad 1.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Ambienti Aperti_Pad 2" ID="{F4B3DBE5-252C-43BD-B484-B9199814CAA6}" ShortID="370512981">
+													<Language>SFX</Language>
+													<AudioFile>Ambienti Aperti_Pad 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1EB6FB3A-4411-4E61-9DB2-6B8E03D00EF6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AD613015-16C4-4364-A518-13A5CF6DF9FD}">
+													<ClipList>
+														<MusicClip Name="Ambienti Aperti_Pad 5" ID="{C63C9986-5D73-4910-925B-311D9D7F94F1}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="34909.0909090911"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727272"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="34909.0909090904"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="34909.0909090904"/>
+																<Property Name="PlayAt" Type="Real64" Value="34909.0909090909"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 5" ID="{FDB93548-B7A9-46D1-96E0-B0B77F453ABF}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FABC3189-6993-49E2-B0D8-AB115ACDECCB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{B93380E4-96E1-42BF-ADC2-F503B6434D5B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{5779A629-8E4A-41F3-AD71-8280B28CEEAF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>-15.30713</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 5" ID="{4B3D63FE-A4F2-4B7F-9C14-E97DAE75E2E5}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="94847.7761857538"/>
+																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 5" ID="{FDB93548-B7A9-46D1-96E0-B0B77F453ABF}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D87533AC-0F58-479F-820F-CE49CF3B95EF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>99.99999</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E191E642-8D16-461A-BA74-F787FBA29E74}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{A714AF7D-B405-461A-8C7E-7D03B32DA139}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-15.10444</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{29A49048-9EFA-4DCA-992C-B535DB041FFE}">
+													<ClipList>
+														<MusicClip Name="Ambienti Aperti_Pad 1" ID="{7274186A-0BC7-4C97-B559-18049FB8936D}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="34909.0909090909"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727272"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="34909.0909090906"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="34909.0909090906"/>
+																<Property Name="PlayAt" Type="Real64" Value="34909.0909090909"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 1" ID="{8BF900F0-D1C9-438A-9F07-69E8CAFBF0CD}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{7F772654-4F52-496D-9837-FA71887839D4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>50.6192</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>50.6192</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{8357D870-C89E-4B55-A62F-61E5EC8B2FB8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{8B374B23-1C8F-48FA-9107-8A3BEB77440F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>-9.9977</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{7D2C71DF-7C34-4A0B-B241-4B2306BBE16B}">
+													<ClipList>
+														<MusicClip Name="Ambienti Aperti_Pad 2" ID="{C343ED66-9DE4-4468-832F-77C2656BCE55}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="34909.0909090909"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="69818.1818181817"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="69818.1818181817"/>
+																<Property Name="PlayAt" Type="Real64" Value="34909.0909090909"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 2" ID="{0ADEEAD7-B345-4710-85BB-BEBD88796DDC}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{F26925B2-6F21-4334-B058-11FB477A9A3F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>80.20761</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>60.28158</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{8CCDA921-9255-4F1F-9973-B86C9758FD5A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{46F1C05C-D6A3-4EEB-AD77-6E774B27B3F8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 2" ID="{142B355B-5C09-412A-9661-344343415B07}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="94847.7761857538"/>
+																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 2" ID="{0ADEEAD7-B345-4710-85BB-BEBD88796DDC}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{E7815D55-B0D0-4F99-BA31-7121EE4F0AB1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>100</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{BB8415EE-A0DD-4143-8426-F06C2F65DDCE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{22CE1710-F5D0-4D97-B63E-D98F543FC5BA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-10.14674</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4ADC034A-E3C6-4332-AE36-CEAE2C6B2C6D}"/>
+										<MusicCue Name="Exit Cue" ID="{8F627DCE-5942-4A27-89F2-B1558EC76DC5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="1000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{97B83ED4-DF84-41C6-ACBE-30F2D32529C8}">
@@ -1647,6 +2993,12 @@
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Gameplay" ID="{35BF479C-42A6-43EE-AEDE-3E0B10AB043D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E711E8B9-29C9-40A6-BBD6-EE9567DD63E7}" ShortID="273420195">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Gameplay_New" ID="{139DB3CA-74FD-4940-9146-7C534C103DFB}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -1865,7 +3217,7 @@
 									<ChildrenList>
 										<MusicSegment Name="Boss Music - Intro" ID="{086F8808-3A69-45F2-9192-504099D660B3}" ShortID="1021998743">
 											<PropertyList>
-												<Property Name="EndPosition" Type="Real64" Value="41739.1383219955"/>
+												<Property Name="EndPosition" Type="Real64" Value="68300.4061018347"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1876,16 +3228,49 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="Boss Music - Intro" ID="{B6018B32-99CF-4D0D-A224-8F72F436D47F}" ShortID="789282745">
+												<MusicTrack Name="The Explorer 2D (Intro)_Music (Boss)_110 BPM - A Minore" ID="{7A06210D-4C6E-4867-B881-EF536D4C2240}" ShortID="734691909">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Intro)_Music (Boss)_110 BPM - A Minore" ID="{CC779C1B-8A51-413D-A713-51124FFA0564}" ShortID="234021608">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Intro)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="875784132"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{4ADD3EAD-EED8-431B-8717-6C62829954EB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{A72BF605-7175-4E0C-AA84-8FE25795CD16}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Intro)_Music (Boss)_110 BPM - A Minore" ID="{2411A155-0D6B-4E8E-A290-9A2089791C8A}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="33391.3151927438"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="958.995519433156"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Intro)_Music (Boss)_110 BPM - A Minore" ID="{CC779C1B-8A51-413D-A713-51124FFA0564}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="Boss Music - Intro" ID="{BDC90A53-1CC0-47FB-91C7-F639F5CECF9B}" ShortID="600089060">
 													<PropertyList>
-														<Property Name="IsStreamingEnabled" Type="bool">
+														<Property Name="Inclusion" Type="bool">
 															<ValueList>
-																<Value>True</Value>
-															</ValueList>
-														</Property>
-														<Property Name="IsZeroLantency" Type="bool">
-															<ValueList>
-																<Value>True</Value>
+																<Value>False</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1895,13 +3280,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Boss Music - Intro" ID="{8DD723BD-7745-4D5C-873C-6C9215A38821}" ShortID="852629243">
+														<AudioFileSource Name="Boss Music - Intro" ID="{2A98FE10-60B4-4196-9796-2D9B986E5AD2}" ShortID="543752168">
 															<Language>SFX</Language>
 															<AudioFile>Music\Boss_Music_Layer\Boss Music - Intro.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
-														<MusicTransition Name="Root" ID="{08F5A841-879A-4419-9B63-AEF48D539A5E}">
+														<MusicTransition Name="Root" ID="{652DE0D8-FB5B-4495-8D26-6FA5C77B18C5}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -1909,74 +3294,15 @@
 														</MusicTransition>
 													</TransitionList>
 													<SequenceList>
-														<MusicTrackSequence Name="" ID="{21DEB408-F3DF-4AF8-B534-7AA1F7EF37DA}">
+														<MusicTrackSequence Name="" ID="{9BA78F9A-7112-4736-AB06-EE3B2A8DAB67}">
 															<ClipList>
-																<MusicClip Name="Boss Music - Intro" ID="{CD4533B1-5FD2-4596-8DFE-726ABBC74CCF}">
+																<MusicClip Name="Boss Music - Intro" ID="{2BD48AC9-D2A9-4BCE-890D-DD8598205AC7}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="34909.0909090909"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="41739.1383219955"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="Boss Music - Intro" ID="{8DD723BD-7745-4D5C-873C-6C9215A38821}"/>
-																	<PropertyCurveList>
-																		<PropertyCurve PropertyName="Highpass">
-																			<Curve Name="" ID="{B9D3C5EF-380D-4BC7-BEA4-0BF7B954FEC3}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="1"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>0</XPos>
-																						<YPos>0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>34.90909</XPos>
-																						<YPos>0</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</PropertyCurve>
-																		<PropertyCurve PropertyName="Lowpass">
-																			<Curve Name="" ID="{AE860C2E-2960-441B-AE12-10B19FC8EA4D}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="1"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>0</XPos>
-																						<YPos>0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>34.90909</XPos>
-																						<YPos>0</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</PropertyCurve>
-																		<PropertyCurve PropertyName="Volume">
-																			<Curve Name="" ID="{C07FFF26-9400-44D1-87A5-162276774BE6}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="3"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>0</XPos>
-																						<YPos>0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>34.90909</XPos>
-																						<YPos>0</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</PropertyCurve>
-																	</PropertyCurveList>
+																	<AudioSourceRef Name="Boss Music - Intro" ID="{2A98FE10-60B4-4196-9796-2D9B986E5AD2}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
@@ -2033,7 +3359,7 @@
 									<ChildrenList>
 										<MusicSegment Name="Boss Music - Scudo 1" ID="{D3E9C0B4-C9FB-44EF-9EDD-3C419B1634B3}" ShortID="475538963">
 											<PropertyList>
-												<Property Name="EndPosition" Type="Real64" Value="25043.4920634921"/>
+												<Property Name="EndPosition" Type="Real64" Value="26086.9565217391"/>
 												<Property Name="Tempo" Type="Real64" Value="115"/>
 											</PropertyList>
 											<ReferenceList>
@@ -2047,6 +3373,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 1" ID="{A9BA3212-C31C-4AB7-B410-4B90B27291C1}" ShortID="676059061">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2080,16 +3411,17 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{4C4BCB92-7D91-4BA8-A5D4-DEC16CE78C6B}">
 															<ClipList>
-																<MusicClip Name="Boss Music - Scudo 1" ID="{7D48137A-D176-4154-B110-0E95D0C61B98}">
+																<MusicClip Name="Boss Music - Scudo 1" ID="{E8DC639F-7CE8-44DD-A128-5B8B4B40F109}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="18782.6086956522"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="4.54747350886464E-13"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Boss Music - Scudo 1" ID="{1CD040C4-3CF7-40E6-8225-E275AAF48EC0}"/>
 																	<PropertyCurveList>
 																		<PropertyCurve PropertyName="Highpass">
-																			<Curve Name="" ID="{62820D01-F54C-4904-901A-529758150792}">
+																			<Curve Name="" ID="{99FF0BA1-49DE-4D6A-81F5-D9C1ABAB5E77}">
 																				<PropertyList>
 																					<Property Name="Flags" Type="int32" Value="1"/>
 																				</PropertyList>
@@ -2108,7 +3440,7 @@
 																			</Curve>
 																		</PropertyCurve>
 																		<PropertyCurve PropertyName="Lowpass">
-																			<Curve Name="" ID="{88F56974-E102-49BA-BF66-BF55C315C6F6}">
+																			<Curve Name="" ID="{D2584587-B130-4ADF-917B-30E2969E3A4E}">
 																				<PropertyList>
 																					<Property Name="Flags" Type="int32" Value="1"/>
 																				</PropertyList>
@@ -2127,13 +3459,182 @@
 																			</Curve>
 																		</PropertyCurve>
 																		<PropertyCurve PropertyName="Volume">
-																			<Curve Name="" ID="{868DA53D-9EA7-4A31-928A-7D2A0FC38744}">
+																			<Curve Name="" ID="{A8B23775-C82A-4DD4-914B-4DA08E975F82}">
 																				<PropertyList>
 																					<Property Name="Flags" Type="int32" Value="3"/>
 																				</PropertyList>
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{26BB2B15-191E-4B76-ABDD-243EC1B5B85F}" ShortID="166028148">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{F727F82A-2646-4E0B-B7DF-5D2CCA7ED789}" ShortID="1107693">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+														</AudioFileSource>
+														<AudioFileSource Name="Boss Music - Scudo 1" ID="{06013DD3-A89A-46F6-BD06-F62B8E0BB95F}" ShortID="125300927">
+															<Language>SFX</Language>
+															<AudioFile>Music\Boss_Music_Layer\Boss Music - Scudo 1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="858901904"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{560B6925-13DA-40DD-9649-665F8FE9D1F3}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{F67317DC-DF4D-4DEE-AA98-DE1C4400600B}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{AE9F92B2-468E-4836-AE16-BF1AD163F731}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.105427357601E-15"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="16695.6689342404"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{F727F82A-2646-4E0B-B7DF-5D2CCA7ED789}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{BDFFB4B0-5AC8-4B8D-ACBD-4FD84346A45F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>16.6956689342404</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{B507A1D5-DA38-4E36-83CB-6DE27C1955DC}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>16.6956689342404</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{CD57DAD3-F4E4-4C54-9345-E6F9721E6823}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>16.6956689342404</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+																<MusicClip Name="Boss Music - Scudo 1" ID="{C50B84DE-B950-4486-BA4F-F1EDA9468D25}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="15652.1739130435"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="18782.6086956522"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-2.91038304567337E-11"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Boss Music - Scudo 1" ID="{06013DD3-A89A-46F6-BD06-F62B8E0BB95F}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{EDA8EE0A-D466-4D2D-BB99-74B147635FE8}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>15.65217</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{484D1B8D-02DC-4907-A069-D78232EB389F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>15.65217</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{8D5D60BC-159F-4309-B2A0-6CDAC56C6CB9}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>15.65217</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
@@ -2199,6 +3700,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="boss_Stage2" ID="{2CECBABE-F556-48EF-A249-92715C5C6A0D}" ShortID="559889802">
+									<PropertyList>
+										<Property Name="PlaybackSpeed" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -2223,6 +3731,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 2" ID="{BE5ED708-6BE6-425C-B0CA-386A98F62809}" ShortID="459024621">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2268,6 +3781,47 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{93AA2BD9-BECB-4D08-86C3-49DFDCE97E38}" ShortID="387562874">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{87D5EED0-DA34-4677-9DB3-0D4E665AE4CB}" ShortID="811412384">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="185743656"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{705BCC4F-DD0A-4B18-B979-A49DACFBDB7B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{DA4F6F65-02D1-4585-9696-F09D1674235E}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{CD684133-84A3-4031-AD6E-51E9FD65E67C}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="33391.3151927438"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{87D5EED0-DA34-4677-9DB3-0D4E665AE4CB}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{9C08D964-AAC2-4E75-A215-4E953B2CA17F}">
@@ -2299,6 +3853,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 2" ID="{D5A4096A-834A-4017-9DB4-F38C9A959726}" ShortID="676018602">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2406,6 +3965,100 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{BD0A269C-BCAD-444F-840C-296A60D1FC80}" ShortID="272257332">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{5C618886-4D1F-40D0-8D49-74C3CFC635F7}" ShortID="185743656">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{7EA1751F-5B6A-4714-AEFD-E3AB3B0F50C6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{2075F0F6-E50A-461E-AB1D-97A49B6CFF3E}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{35D5FC9D-FE71-4221-AD69-D5D69679BCD1}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="8347.82608695654"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{5C618886-4D1F-40D0-8D49-74C3CFC635F7}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{C283BB33-4734-4951-A5F5-2FC9CF82D226}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>8.34783</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{9FA7FDAF-6097-4596-9DF1-69225E8ECF5F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>8.34783</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{8C793E93-B2F2-4A5C-B397-74EA76ABDC8B}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>8.34783</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{23F1DAF4-2619-4675-A57C-E5A9738F6EFA}"/>
@@ -2433,6 +4086,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 2" ID="{D456E648-6275-4B37-A52D-89D2829B2742}" ShortID="621781197">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2481,6 +4139,47 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{43A74E7D-2DAC-42D4-97B3-4C7D926DCAF6}" ShortID="405011442">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{D7824AE4-1B72-4F7C-915A-B98428FA720B}" ShortID="1056089598">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="185743656"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{42AE276E-FAC9-4327-872C-C730CDFA925E}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{99D995F9-5666-4CC2-9478-4774752D198A}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{AFDD96CC-3939-47CE-BD61-A10A66B1E526}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="33391.3151927438"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{D7824AE4-1B72-4F7C-915A-B98428FA720B}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{5091B753-A04E-48FD-A077-AC224565AE33}">
@@ -2512,6 +4211,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 2" ID="{D7FB4EB0-DA15-428A-841A-DFCEEAF716CF}" ShortID="765340279">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2555,6 +4259,47 @@
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Boss Music - Scudo 2" ID="{487F120D-2DAB-47F2-A391-47BE1495E1DB}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{9F30669B-29E4-49E0-9CE6-2B7F5ACF7D83}" ShortID="234061904">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{8E1350A6-9001-4F30-86B1-47490EC1E087}" ShortID="761573548">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="185743656"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{B3B6E79D-2447-436D-A161-F3EC9E95AFFB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{739B7347-840D-409F-9EFA-3C4AC4C45724}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{8B7EF206-BC8D-436E-B468-1028E8EADA31}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="33391.3151927438"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{8E1350A6-9001-4F30-86B1-47490EC1E087}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
@@ -2708,6 +4453,18 @@
 																			</PropertyList>
 																			<SegmentRef Name="Boss_Stage2_Section2" ID="{51855E5E-8B43-405B-954B-1B082ABBEAAD}"/>
 																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{A056CA44-BF71-49AF-AA4C-1E63C38A5033}" ShortID="155240661">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<SegmentRef Name="Boss_Stage2_Section2" ID="{51855E5E-8B43-405B-954B-1B082ABBEAAD}"/>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{6D3F6376-3F30-454B-8C1B-41A03BE0E641}" ShortID="129961365">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<SegmentRef Name="Boss_Stage2_Section2" ID="{51855E5E-8B43-405B-954B-1B082ABBEAAD}"/>
+																		</MusicPlaylistItem>
 																		<MusicPlaylistItem Name="" ID="{A6D78288-C4A8-4B58-924E-10984F7FA2DA}" ShortID="203305285">
 																			<PropertyList>
 																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
@@ -2725,6 +4482,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="Boss_Stage3" ID="{D138F564-2897-462F-9CE4-14012125DE65}" ShortID="83479008">
+									<PropertyList>
+										<Property Name="PlaybackSpeed" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -2750,6 +4514,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 3" ID="{7E77B3BB-BBF9-4AF1-B455-8AC07E204F6A}" ShortID="955570177">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2854,6 +4623,108 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{C3464B0E-5F15-4FAA-8F60-A8C397F4CBCE}" ShortID="895899210">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{C6591017-B733-4B9B-A947-7EB83426651A}" ShortID="137023816">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="599935200"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{5F243752-BC14-4E34-AE03-FE35F286E697}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{6AEB6E2E-0777-48CB-8ECB-0167E84490EF}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{A775AD36-F791-44B7-BFCC-09D97A141FC2}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="18782.6086956522"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="27130.4347826087"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-18782.6086956522"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{C6591017-B733-4B9B-A947-7EB83426651A}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{B05D18F0-EBFD-4A4B-9A7D-E2BA96AE84EC}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>27.13043</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{1F98F171-5160-4AFC-9D76-6FB79F9A50BD}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>27.13043</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{88EDDAD9-3FB4-4646-A823-A0F34AE64FB4}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>27.13043</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{2474D56C-EA38-4AAA-B9C0-33526F413CBD}"/>
@@ -2881,6 +4752,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 3" ID="{4F2AA4EE-3430-4665-ADE0-D28CE487D25B}" ShortID="699722822">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2983,6 +4859,100 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{5F308D55-45E7-443B-8C4E-3738295B0746}" ShortID="806445818">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{80450C2E-B1C9-4105-B59B-A1A27B0CC21C}" ShortID="599935200">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{42979684-63A3-4D74-BBFE-B70B33AA20E5}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{D78B2CDA-BE10-4EB0-B37A-B54297BFA2CA}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{1C285C8D-CE44-465A-8553-C94D988B35C1}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="2096.95652173913"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{80450C2E-B1C9-4105-B59B-A1A27B0CC21C}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{C163FA99-4715-4187-BA21-49FB99B712E0}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>2.09696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{6F2E085C-BB46-46A9-8B22-E5686A2536C3}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>2.09696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{30A63DC2-BB45-4EBA-8773-034E3210DC91}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>2.09696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{C19D7D68-0D9F-4F93-A154-96E04A5F2AAE}"/>
@@ -3010,6 +4980,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 3" ID="{69B443E6-C45B-443B-9CFA-D1A2FA105D16}" ShortID="739640254">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -3111,6 +5086,108 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{E1A79A85-184F-4E31-97FC-AACF57CD0F19}" ShortID="111078694">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{C5F55515-C394-44E3-BAE4-F5978F683DC6}" ShortID="285166024">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="599935200"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{7C5E9B73-81FC-479A-B2B3-68C678F13568}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{964DC6FA-9505-4414-8A96-B3486C9D9FD1}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{52C81817-867F-47FA-B67F-27B313A8AA54}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="2086.95652173913"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="10434.7826086957"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-2086.95652173913"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{C5F55515-C394-44E3-BAE4-F5978F683DC6}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{5C101C44-7C73-45F8-8782-BACDAB5B5F7A}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>2.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>10.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{FCDFC182-6298-4195-9BB2-462F09C4ABB6}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>2.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>10.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{24DBF47F-A05B-4302-9CB0-79BA5821A493}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>2.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>10.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{EF173892-7B5F-4272-8381-6D36B5049B95}"/>
@@ -3138,6 +5215,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 3" ID="{F4D7805F-8E24-4B62-8A00-98A8CA23D2EB}" ShortID="128945962">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -3242,13 +5324,115 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{3871C05B-720D-44EF-A104-32596C675313}" ShortID="832846199">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{62A53B26-FF84-4E4E-B8A1-26C478350713}" ShortID="552785146">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="599935200"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{BC461246-75CC-479E-98E6-134E2D1F7B2E}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{992C8A6A-344E-4CA0-9C4A-BD93DBD33992}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{ADDFE461-041D-4C04-8369-42822323EB2F}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="41739.1304347827"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="50086.9565217391"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-41739.1304347827"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{62A53B26-FF84-4E4E-B8A1-26C478350713}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{BB9FCACC-900D-4B08-AB0A-9D2C63D9EA77}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>41.73913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{EEE94582-5F4C-468E-B3CF-58484B8ADAA6}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>41.73913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{3D966D36-8481-485A-A2BA-23D70A70C0C8}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>41.73913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{6216EBA0-334E-466E-8082-0EF6C7DEA670}"/>
 												<MusicCue Name="Exit Cue" ID="{3B8F9F94-8DF1-4778-B881-8D1D9C463863}">
 													<PropertyList>
 														<Property Name="CueType" Type="int16" Value="1"/>
-														<Property Name="TimeMs" Type="Real64" Value="8347.8260869566"/>
+														<Property Name="TimeMs" Type="Real64" Value="8347.82608695652"/>
 													</PropertyList>
 												</MusicCue>
 											</CueList>
@@ -3269,6 +5453,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 3" ID="{877EF701-3DB6-46E3-8A26-BFAA0B320F29}" ShortID="580185670">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -3372,6 +5561,107 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{002DB03B-1DDF-4E5F-B170-21B55F7E2530}" ShortID="277480389">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{9081DAA0-7D1C-4824-BD21-0E3A5AE4E20D}" ShortID="265995292">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="599935200"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{711359C6-14D5-4514-A12C-1E389EB399F5}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{AF4A19A5-69A4-4E86-82BD-A773FB2E8C47}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{4CC8AB45-0DBB-4F0B-AA62-C81F60BB91D8}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="10434.7826086957"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="18782.6086956522"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{9081DAA0-7D1C-4824-BD21-0E3A5AE4E20D}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{716E3C91-46A8-411A-893D-FF748739B0EE}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>10.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{08F80B77-2EDF-4E65-AE08-EF209E1814BB}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>10.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{4A8BC4EC-768D-4EC5-BF3B-D445DB22F65F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>10.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>18.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{FBD9CFF3-8BF1-4486-BB5C-E9DE0EBED657}">
@@ -3403,9 +5693,19 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Scudo 3" ID="{6BF0C66C-A563-4193-9767-1DF2244FA34B}" ShortID="431342514">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3437,10 +5737,10 @@
 																<MusicClip Name="Boss Music - Scudo 3" ID="{D915A1B1-5642-4AC9-A208-D96347B7EC71}">
 																	<PropertyList>
 																		<Property Name="BeginTrimOffset" Type="Real64" Value="50086.9565217392"/>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="70956.5217391305"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="66782.608695652"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-50086.956521739"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-50086.9565217392"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Boss Music - Scudo 3" ID="{9D2FE3EE-E564-41DE-8BCE-360D3230BD78}"/>
 																	<PropertyCurveList>
@@ -3456,7 +5756,7 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>70.95652</XPos>
+																						<XPos>66.78261</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -3475,7 +5775,7 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>70.95652</XPos>
+																						<XPos>66.78261</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -3490,6 +5790,184 @@
 																				<PointList>
 																					<Point>
 																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{5B6D3DA9-2CED-4205-A617-A20B07A95D27}" ShortID="507735817">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{36480813-8E81-43CF-8DEA-F4657D74DB7B}" ShortID="687595483">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="599935200"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Boss Music - Scudo 3" ID="{D5776E60-509C-42FD-8113-5FA27EFE0130}" ShortID="29467127">
+															<Language>SFX</Language>
+															<AudioFile>Music\Boss_Music_Layer\Boss Music - Scudo 3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="737930711"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{0968BCC8-47F3-40D1-82BB-9E69B6BF7479}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{8CE0D67A-09E1-4285-A811-DE18CDB1F6EA}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{FAFBD69A-C268-443C-81AF-887841D8906D}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="54260.8695652174"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="58434.7826086956"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-54260.8695652174"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{36480813-8E81-43CF-8DEA-F4657D74DB7B}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{9FEF5987-1530-42B2-B5D3-3ADEFE1B6FA0}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>54.26087</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>58.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{EAB0DD47-E4A7-4557-B454-9293C151E0C5}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>54.26087</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>58.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{5B981233-9DA9-4B1C-9EAE-93A2CD8173B5}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>54.26087</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>58.43478</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+																<MusicClip Name="Boss Music - Scudo 3" ID="{6D850B26-BC2E-4D41-8A25-A340C31353D6}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="64695.6521739129"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="70956.5217391305"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-50086.956521739"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Boss Music - Scudo 3" ID="{D5776E60-509C-42FD-8113-5FA27EFE0130}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{8EC52513-C7F0-4D84-8586-62AEF7E2B636}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>64.69565</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>70.95652</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{DAD36AB7-468D-4BF5-B4A1-6663CB70BD4A}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>64.69565</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>70.95652</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{8F088BA2-67C7-42FF-8915-9F2D6082B338}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>64.69565</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
@@ -3513,10 +5991,335 @@
 												<MusicCue Name="Exit Cue" ID="{639CA288-7393-49D1-B8A2-6B275E89E9D3}">
 													<PropertyList>
 														<Property Name="CueType" Type="int16" Value="1"/>
-														<Property Name="TimeMs" Type="Real64" Value="16695.6521739131"/>
+														<Property Name="TimeMs" Type="Real64" Value="4192.28168350836"/>
 													</PropertyList>
 												</MusicCue>
 												<MusicCue Name="4bars" ID="{6584A773-FB65-434B-8B10-5AD4F84107F9}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="2"/>
+														<Property Name="TimeMs" Type="Real64" Value="8347.82608695652"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+										<MusicSegment Name="Boss Music - Scudo 3_Section3end" ID="{164E2E9E-3008-42F9-A589-8417599E7EAF}" ShortID="524585848">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="78062.2394679497"/>
+												<Property Name="Tempo" Type="Real64" Value="115"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Boss Music - Scudo 3" ID="{8C7A2E6E-E696-4088-B0A2-4B8023BD77E0}" ShortID="442522033">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss Music - Scudo 3" ID="{4DBBA8CE-43F3-4A16-8AD8-A342134A569E}" ShortID="156844757">
+															<Language>SFX</Language>
+															<AudioFile>Music\Boss_Music_Layer\Boss Music - Scudo 3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="737930711"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{FB598346-4584-4905-A773-D487094CC8BB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{B8634817-D91A-4C62-90CA-B8EA8493D714}">
+															<ClipList>
+																<MusicClip Name="Boss Music - Scudo 3" ID="{246DE182-594E-4E09-9E94-E74E1C720F37}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="50086.9565217392"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="66782.608695652"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-50086.9565217392"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Boss Music - Scudo 3" ID="{4DBBA8CE-43F3-4A16-8AD8-A342134A569E}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{DFCA316C-71EA-4E3B-926A-07C4DAD8D245}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{A7F84F4D-07D0-46AC-9EA8-FD3916AED097}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{191946C0-9C90-4F46-8828-C4A5AA9AB5FF}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.78261</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{6D2A1844-C12F-4440-9001-6B1BE29BCBA4}" ShortID="472953050">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{328F0847-55D5-43BA-9985-62E2F67D981D}" ShortID="496321564">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="599935200"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Boss Music - Scudo 3" ID="{9F7B8998-301C-445F-97D7-24F5263A11F7}" ShortID="827820611">
+															<Language>SFX</Language>
+															<AudioFile>Music\Boss_Music_Layer\Boss Music - Scudo 3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="737930711"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{4AAFB7B1-D8F3-4792-889A-8C15240E9CC2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{236D246D-ADD6-44C6-A393-F4CC0CE0A793}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{A4533342-6B9E-41E1-930A-B21F371CAF13}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="50086.9565217391"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="66782.6303854875"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-50086.9565217391"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{328F0847-55D5-43BA-9985-62E2F67D981D}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{179DA034-994A-40E4-A802-F860AAD93A86}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.7826303854875</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{83A47933-A93E-4FC5-B540-F929C9292098}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.7826303854875</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{D8A3C958-BE39-464D-A607-4AFCAAC5BF9A}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>50.08696</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>66.7826303854875</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+																<MusicClip Name="Boss Music - Scudo 3" ID="{5162C249-05D9-49AC-96E7-A1AA480FDE8B}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="64695.6521739129"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="70956.5217391305"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-50086.956521739"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Boss Music - Scudo 3" ID="{9F7B8998-301C-445F-97D7-24F5263A11F7}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{6F456B19-E922-4DC1-AA47-530C8BFB126B}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>64.69565</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>70.95652</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{94F3C77A-E191-4954-8F4C-B89555C9F350}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>64.69565</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>70.95652</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{0E08D9B6-10DF-470C-B115-2A661996C10C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>64.69565</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>70.95652</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{3EB2C053-8CBB-46A3-873A-70154EDC883C}"/>
+												<MusicCue Name="Exit Cue" ID="{D3E462FB-F293-4179-97B4-EF0412FAE2C4}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="16695.6521739131"/>
+													</PropertyList>
+												</MusicCue>
+												<MusicCue Name="4bars" ID="{003B3C73-E633-4719-B831-C65933A2843C}">
 													<PropertyList>
 														<Property Name="CueType" Type="int16" Value="2"/>
 														<Property Name="TimeMs" Type="Real64" Value="8347.82608695652"/>
@@ -3624,7 +6427,7 @@
 																</MusicPlaylistItem>
 															</ChildrenList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{04FF7BB4-38BB-4D32-BE8F-BE7F0A1CB4F2}" ShortID="727160494">
+														<MusicPlaylistItem Name="" ID="{63331591-0330-458B-B80D-2934DF21177C}" ShortID="43937719">
 															<PropertyList>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
@@ -3643,12 +6446,14 @@
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{9D68DCBC-64C0-4D70-B695-332C96B1B22C}">
 																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
 																					<Property Name="Max" Type="Real64" Value="1"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="PlayMode" Type="int16" Value="1"/>
 															</PropertyList>
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{6B8F1B73-BA38-4363-9087-F9A298D774B4}" ShortID="677753814">
@@ -3657,7 +6462,19 @@
 																	</PropertyList>
 																	<SegmentRef Name="Boss Music - Scudo 3_Section3" ID="{BD36F037-6CC3-4567-AD31-4C4F633723EF}"/>
 																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{C30C8749-ACBC-473E-851F-E8ABAE053185}" ShortID="266738572">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<SegmentRef Name="Boss Music - Scudo 3_Section3" ID="{BD36F037-6CC3-4567-AD31-4C4F633723EF}"/>
+																</MusicPlaylistItem>
 															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{51AFAA9E-7243-496A-BC1A-6B7CED1C6987}" ShortID="34356450">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<SegmentRef Name="Boss Music - Scudo 3_Section3end" ID="{164E2E9E-3008-42F9-A589-8417599E7EAF}"/>
 														</MusicPlaylistItem>
 													</ChildrenList>
 												</MusicPlaylistItem>
@@ -3690,6 +6507,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Outro" ID="{2EFABDAE-68A8-481E-BE6C-42A21B9EE8B6}" ShortID="777383906">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -3794,6 +6616,104 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{3D8CF358-B9C2-4E16-8FD9-85C234C4ADC0}" ShortID="156518427">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{D26562AE-4A43-4A7A-9DEA-792BD0DBFEDF}" ShortID="765319386">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{75B8956B-5C1B-4D34-BE14-1BC72FACCEE2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{6AEA0870-25A4-4E63-91BE-303409A3B153}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{639CB481-92DA-4513-81E8-4C75EB0365B6}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="33391.3043478261"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="208.705366120862"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="2087.00892644256"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="4"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{D26562AE-4A43-4A7A-9DEA-792BD0DBFEDF}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{17745E06-BF24-4E5E-885E-FCCA99ECAD18}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>33.3913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{E5050C9D-0105-48CE-A04F-628B2889C1F6}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>33.3913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{5F7DBA2E-AD0E-42B1-8B0E-C7D82583CC61}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>33.3913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
 											</ChildrenList>
 											<CueList>
 												<MusicCue Name="Entry Cue" ID="{3C1F7A25-371E-409C-8E8A-7AC22019CB5F}"/>
@@ -3821,6 +6741,11 @@
 											<ChildrenList>
 												<MusicTrack Name="Boss Music - Outro" ID="{6B4F866E-B872-442B-8AD2-D28040509A88}" ShortID="515704138">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -3909,6 +6834,110 @@
 																		</PropertyCurve>
 																		<PropertyCurve PropertyName="Volume">
 																			<Curve Name="" ID="{D1BFA61B-097D-4355-BDFF-C1683699774D}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>14.6087</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>33.3913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																	</PropertyCurveList>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{6A8D5C4E-8B02-413F-8DE1-6D7742E10D7C}" ShortID="409149808">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music" ID="{0A919413-CD9E-405A-A4AF-565DBD469872}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{F7404010-D610-42D2-B873-0E1AF824FD0F}" ShortID="1017783193">
+															<Language>SFX</Language>
+															<AudioFile>The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="765319386"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{66D200CD-D7C6-45AC-9439-15A2FCD7111E}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{C8782575-3C32-4E7C-947F-E7F50492333F}">
+															<ClipList>
+																<MusicClip Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{2FDAAFCC-0698-4883-B4D0-B1F71C78A7B7}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="14608.6956521739"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="33391.3043478261"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2092.22026552487"/>
+																		<Property Name="FadeInShape" Type="int16" Value="4"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="2096.06857577775"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="4"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-14608.6956521739"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{F7404010-D610-42D2-B873-0E1AF824FD0F}"/>
+																	<PropertyCurveList>
+																		<PropertyCurve PropertyName="Highpass">
+																			<Curve Name="" ID="{D2FE5770-B00B-4B38-A05B-F62B4CE09848}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>14.6087</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>33.3913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Lowpass">
+																			<Curve Name="" ID="{5E21CD64-5629-48D8-A0C4-78DDD4C70675}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>14.6087</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>33.3913</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</PropertyCurve>
+																		<PropertyCurve PropertyName="Volume">
+																			<Curve Name="" ID="{241B58C8-9979-4DD8-8C01-B10C68296FD0}">
 																				<PropertyList>
 																					<Property Name="Flags" Type="int32" Value="3"/>
 																				</PropertyList>

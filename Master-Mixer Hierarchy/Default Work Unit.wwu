@@ -56,7 +56,6 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
-							<ReferenceList/>
 							<ChildrenList>
 								<Bus Name="Ambiences" ID="{4E6714E1-6864-46FE-854F-11DDCF0B2E33}">
 									<PropertyList>
@@ -318,7 +317,6 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
-									<ReferenceList/>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
@@ -347,7 +345,7 @@
 									<PropertyList>
 										<Property Name="OutputBusHighpass" Type="int16">
 											<ValueList>
-												<Value>25</Value>
+												<Value>38</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
