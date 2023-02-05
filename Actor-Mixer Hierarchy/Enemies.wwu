@@ -39,6 +39,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="41"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -843,7 +848,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114518]-1" ID="{43175CDB-5B03-4C6C-A9A2-5E44748741B6}" ShortID="839237341">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="5.95443108750349E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0595443108750349"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.147816140154692"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -872,7 +877,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]" ID="{02261768-E7F6-4061-80B9-645D601858BB}" ShortID="863951813">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="4.75309849967384E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0475309849967384"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.158784829000093"/>
 															</PropertyList>
@@ -896,7 +901,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-1" ID="{D8D1A3F8-4455-4C25-A286-6F6683C3F152}" ShortID="379577754">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="9.45396514770292E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0945396514770292"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.183333799273134"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -925,7 +930,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-3" ID="{5FD46644-05B9-4536-9021-B324FF0E3B04}" ShortID="606457">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="8.30097769701488E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0830097769701488"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.194785318236884"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -954,7 +959,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-4" ID="{EEA70108-3118-40E8-AE18-422802321FF4}" ShortID="1028910035">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="8.51663405088063E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0851663405088063"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.245360171465847"/>
 															</PropertyList>
@@ -4430,7 +4435,7 @@
 																<Property Name="FadeInDuration" Type="Real64" Value="0.112030013532865"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.165183148799809"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="7.89302368072458E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0789302368072458"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.498174516777701"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
@@ -4460,7 +4465,7 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.143835616438356"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="6.39269406392694E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0639269406392694"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.527397260273973"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
@@ -4488,7 +4493,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 3" ID="{E9012F0F-2C08-4E82-A56B-8C706BBFE2E5}" ShortID="607556784">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="6.39269406392694E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0639269406392694"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.383561643835616"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.687214611872146"/>
@@ -4519,10 +4524,10 @@
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 4" ID="{0885D175-9325-4162-90B1-D721E66EF8B1}" ShortID="508317646">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="9.58904109589041E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0958904109589041"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.223744292237443"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="7.19178082191781E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0719178082191781"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.591324200913244"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
@@ -4587,7 +4592,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Vomito 4" ID="{C73F8854-9AED-41A2-8AF2-A8F7CD614A6B}" ShortID="53736898">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="9.58904109589041E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0958904109589041"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.223744292237443"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.695205479452055"/>

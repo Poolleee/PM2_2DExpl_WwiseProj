@@ -187,6 +187,11 @@
 												<Value>16</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{1B3277F4-E1B1-4218-BC74-75CACBF6D706}" ShortID="821733124">
