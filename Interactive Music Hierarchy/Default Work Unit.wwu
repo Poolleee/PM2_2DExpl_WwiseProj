@@ -26,7 +26,7 @@
 								<Property Name="Tempo" Type="Real64" Value="110"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-26</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -39,9 +39,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Gameplay" ID="{35BF479C-42A6-43EE-AEDE-3E0B10AB043D}" ShortID="993379412">
+								<MusicSegment Name="Gameplay_gAMEPLAY" ID="{35BF479C-42A6-43EE-AEDE-3E0B10AB043D}" ShortID="993379412">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="942551.515149543"/>
+										<Property Name="EndPosition" Type="Real64" Value="1047272.72727273"/>
 										<Property Name="Tempo" Type="Real64" Value="110"/>
 									</PropertyList>
 									<ReferenceList>
@@ -55,7 +55,17 @@
 									<ChildrenList>
 										<MusicTrack Name="Pads_Statici" ID="{21C2A38F-F825-4D57-B68B-A00E1A465800}" ShortID="228332721">
 											<PropertyList>
+												<Property Name="IsZeroLantency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -65,31 +75,31 @@
 											<ChildrenList>
 												<AudioFileSource Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}" ShortID="1024350947">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Aperti_Pad 4.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Aperti_Pad 4.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}" ShortID="561870563">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Aperti_Pad 6.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Aperti_Pad 6.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}" ShortID="968521125">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Aperti_Pad 3.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Aperti_Pad 3.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Chiusi_Pad 2" ID="{C18E9140-0AAA-4280-A0ED-62C10FAA30A6}" ShortID="200310130">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Chiusi_Pad 2.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Chiusi_Pad 2.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Chiusi_Pad 3" ID="{CCC85A3A-9FA5-4D54-9A24-D5280216D6F9}" ShortID="469471764">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Chiusi_Pad 3.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Chiusi_Pad 3.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Chiusi_Pad 4" ID="{2D79585E-9ACE-4A60-8FC0-A9137E8CBC3E}" ShortID="263710160">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Chiusi_Pad 4.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Chiusi_Pad 4.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Chiusi_Pad 1" ID="{6DFA376E-041E-42A8-AD01-A472F8E7F486}" ShortID="506846699">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Chiusi_Pad 1.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Chiusi_Pad 1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -105,9 +115,9 @@
 													<ClipList>
 														<MusicClip Name="Ambienti Aperti_Pad 4" ID="{1DF3426C-26C0-4724-A82D-FD87D6804EC9}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52363.6363636366"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="47259.5314729477"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="21191.8526190554"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}"/>
 															<PropertyCurveList>
@@ -119,12 +129,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>60.21505</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
+																				<XPos>52.36364</XPos>
+																				<YPos>70.67788</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -138,11 +148,11 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>100</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>52.36364</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -157,12 +167,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.10177</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
+																				<XPos>52.36364</XPos>
+																				<YPos>-5.10177</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -172,8 +182,9 @@
 														</MusicClip>
 														<MusicClip Name="Ambienti Aperti_Pad 4" ID="{8DF9B5F3-EA99-455F-AE5C-23E23539913A}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
-																<Property Name="PlayAt" Type="Real64" Value="279272.727272727"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="95999.9999999998"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="42642.7425696102"/>
+																<Property Name="PlayAt" Type="Real64" Value="52363.6363636364"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}"/>
 															<PropertyCurveList>
@@ -185,11 +196,11 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>60.21505</YPos>
+																				<YPos>70.67788</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
+																				<XPos>96</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -208,8 +219,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>30.10752</YPos>
+																				<XPos>96</XPos>
+																				<YPos>80.20757</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -223,12 +234,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.10177</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
+																				<XPos>96</XPos>
+																				<YPos>-5.10177</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -238,10 +249,10 @@
 														</MusicClip>
 														<MusicClip Name="Ambienti Chiusi_Pad 3" ID="{2E75CF59-E7C5-44BC-8DE7-F2D49EE5620D}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
 																<Property Name="FadeInDuration" Type="Real64" Value="59655.4741543766"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="349090.909090909"/>
+																<Property Name="PlayAt" Type="Real64" Value="104727.272727273"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Chiusi_Pad 3" ID="{CCC85A3A-9FA5-4D54-9A24-D5280216D6F9}"/>
 															<PropertyCurveList>
@@ -257,7 +268,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>139.63636</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -276,7 +287,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>139.63636</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -291,12 +302,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.00178</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
+																				<XPos>139.63636</XPos>
+																				<YPos>-5.00179</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -307,9 +318,9 @@
 														<MusicClip Name="Ambienti Chiusi_Pad 4" ID="{EA3A7332-B7A3-44F0-BDCE-9595C548A0CF}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="130248.402390148"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="134962.536715469"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="558545.454545454"/>
+																<Property Name="PlayAt" Type="Real64" Value="157090.909090909"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Chiusi_Pad 4" ID="{2D79585E-9ACE-4A60-8FC0-A9137E8CBC3E}"/>
 															<PropertyCurveList>
@@ -332,14 +343,33 @@
 																		</PointList>
 																	</Curve>
 																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{D701CD1D-6249-4265-B33D-27B8AEF13CC4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.03363</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.636371882086</XPos>
+																				<YPos>-5.03363</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
 															</PropertyCurveList>
 														</MusicClip>
 														<MusicClip Name="Ambienti Aperti_Pad 6" ID="{8FC3D468-791F-4B44-9640-74AF4395920B}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="663272.727272727"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="43188.2048975497"/>
+																<Property Name="PlayAt" Type="Real64" Value="209454.545454545"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}"/>
 															<PropertyCurveList>
@@ -351,12 +381,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>30.05517</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
+																				<XPos>139.63636</XPos>
+																				<YPos>30.05517</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -370,11 +400,11 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>70.53763</YPos>
+																				<YPos>100</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>139.63636</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -389,12 +419,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.00178</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
+																				<XPos>139.63636</XPos>
+																				<YPos>-5.00178</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -408,7 +438,7 @@
 													<ClipList>
 														<MusicClip Name="Ambienti Aperti_Pad 6" ID="{A01CCD13-F950-4364-9E46-2487C623C72B}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="23707.0002068433"/>
 															</PropertyList>
@@ -426,7 +456,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>69.41515</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -445,7 +475,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>30.58485</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -460,12 +490,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.04793</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-5.04793</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -478,9 +508,9 @@
 																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
 																<Property Name="FadeInDuration" Type="Real64" Value="49909.4741196702"/>
 																<Property Name="FadeInShape" Type="int16" Value="8"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="33241.0528640898"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="38965.3588305512"/>
 																<Property Name="FadeOutShape" Type="int16" Value="1"/>
-																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
+																<Property Name="PlayAt" Type="Real64" Value="104727.272727273"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}"/>
 															<PropertyCurveList>
@@ -530,12 +560,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.04793</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.04793</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -546,10 +576,10 @@
 														<MusicClip Name="Ambienti Chiusi_Pad 2" ID="{C850D65F-AF45-4294-ACB9-4283EDFB1121}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="139636.371882086"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="32331.0025247953"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="39966.1032895808"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="41759.2711754377"/>
 																<Property Name="FadeOutShape" Type="int16" Value="1"/>
-																<Property Name="PlayAt" Type="Real64" Value="279272.727272727"/>
+																<Property Name="PlayAt" Type="Real64" Value="157090.909090909"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Chiusi_Pad 2" ID="{C18E9140-0AAA-4280-A0ED-62C10FAA30A6}"/>
 															<PropertyCurveList>
@@ -561,7 +591,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>50.7527</YPos>
+																				<YPos>50.01965</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -572,14 +602,33 @@
 																		</PointList>
 																	</Curve>
 																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{40780A62-A610-4BA5-AD5F-ABA90E5143C5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.04792</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>139.636371882086</XPos>
+																				<YPos>-5.04793</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
 															</PropertyCurveList>
 														</MusicClip>
 														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{7CAF30BC-AE20-4744-AD3E-394AF011FB9B}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="418909.090909091"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="138278.462884659"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="418909.090909091"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="47820.9369430385"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="43774.104449411"/>
+																<Property Name="PlayAt" Type="Real64" Value="244363.636363636"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
 															<PropertyCurveList>
@@ -595,7 +644,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>418.90909</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>80.81949</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -614,7 +663,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>418.90909</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -629,80 +678,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-5.04793</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>418.90909</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="Ambienti Aperti_Pad 6" ID="{34C1F32F-B192-4975-BC53-0D6CDB3CB117}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="768000"/>
-															</PropertyList>
-															<AudioSourceRef Name="Ambienti Aperti_Pad 6" ID="{D19D937E-2228-49D7-B08D-8FBFF1F6AD5A}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{0822AFEA-82A4-4349-BCCC-D194EE452EED}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{E3ADEB2A-9DD8-425B-80C2-C6B76123578A}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>70.32851</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{096DB02F-2A66-428B-87CD-E15DDCB91D40}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-5.04793</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -716,7 +697,7 @@
 													<ClipList>
 														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{5E764F77-9DEE-4080-AFBB-36760C163898}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -734,7 +715,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>60.21506</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -753,7 +734,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -772,75 +753,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{971516ED-49AB-49D1-A0BF-4AEEFD7B424D}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="209454.545454545"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
-															</PropertyList>
-															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{7D1A59DD-4756-44BF-8BAD-9154D4023D3F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>59.35484</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>209.45455</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{0F50BC64-21DB-4FF4-90E5-684AE76E4685}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>209.45455</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{27952000-0EB9-431C-95E9-2F11764EC01F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>209.45455</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -852,10 +765,10 @@
 														<MusicClip Name="Ambienti Chiusi_Pad 1" ID="{38E04C29-6936-4457-B2D7-E47E07ACF0A2}">
 															<PropertyList>
 																<Property Name="BeginTrimOffset" Type="Real64" Value="-69818.181818182"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="122181.818181818"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="88394.4038842487"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="279272.727272727"/>
+																<Property Name="PlayAt" Type="Real64" Value="174545.454545455"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Chiusi_Pad 1" ID="{6DFA376E-041E-42A8-AD01-A472F8E7F486}"/>
 															<PropertyCurveList>
@@ -871,7 +784,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>122.18182</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -886,11 +799,11 @@
 																		<PointList>
 																			<Point>
 																				<XPos>-69.81818</XPos>
-																				<YPos>80.86021</YPos>
+																				<YPos>80.20757</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>122.18182</XPos>
 																				<YPos>50.75268</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -909,7 +822,75 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>122.18182</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{971516ED-49AB-49D1-A0BF-4AEEFD7B424D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52363.6363636363"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="104727.272727273"/>
+															</PropertyList>
+															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{7D1A59DD-4756-44BF-8BAD-9154D4023D3F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>59.35484</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>100</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{0F50BC64-21DB-4FF4-90E5-684AE76E4685}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{27952000-0EB9-431C-95E9-2F11764EC01F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.36364</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -920,9 +901,10 @@
 														</MusicClip>
 														<MusicClip Name="Ambienti Aperti_Pad 4" ID="{4103E9B0-F4F9-4B8D-A2FE-A83D8701F3F9}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="418909.090909091"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="132012.244341479"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="45336.0439630018"/>
+																<Property Name="PlayAt" Type="Real64" Value="209454.545454545"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 4" ID="{F39995B1-3CB6-494D-A24E-42DA3D01EFF9}"/>
 															<PropertyCurveList>
@@ -938,7 +920,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>139.63636</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -957,7 +939,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>139.63636</XPos>
 																				<YPos>80.37544</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -976,75 +958,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="Ambienti Aperti_Pad 3" ID="{3B384993-9303-4A9E-8973-681031C628A3}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="628363.636363636"/>
-															</PropertyList>
-															<AudioSourceRef Name="Ambienti Aperti_Pad 3" ID="{CC7BF2EC-39AF-4FA8-A8A9-8F5985B5EE0F}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{2DB657FA-0ACE-4DE7-8D45-A2959B0A594C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{0BBEA5EF-E2D1-4693-A7FC-852D93F42E9F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>100</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{18E280DA-6B5F-42F6-9E93-259EE9007D2C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>279.27273</XPos>
+																				<XPos>139.63636</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1059,7 +973,17 @@
 										</MusicTrack>
 										<MusicTrack Name="Pads_Dinamici" ID="{FFB61EA7-3204-44E3-8456-1688CC398DAA}" ShortID="736075607">
 											<PropertyList>
+												<Property Name="IsZeroLantency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -1069,15 +993,15 @@
 											<ChildrenList>
 												<AudioFileSource Name="Ambienti Aperti_Pad 5" ID="{FDB93548-B7A9-46D1-96E0-B0B77F453ABF}" ShortID="197778338">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Aperti_Pad 5.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Aperti_Pad 5.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Aperti_Pad 1" ID="{8BF900F0-D1C9-438A-9F07-69E8CAFBF0CD}" ShortID="809783644">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Aperti_Pad 1.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Aperti_Pad 1.wav</AudioFile>
 												</AudioFileSource>
 												<AudioFileSource Name="Ambienti Aperti_Pad 2" ID="{0ADEEAD7-B345-4710-85BB-BEBD88796DDC}" ShortID="370512980">
 													<Language>SFX</Language>
-													<AudioFile>Music\GameplayMusic_Layer\Ambienti Aperti_Pad 2.wav</AudioFile>
+													<AudioFile>Music\Gameplay_Music_New\Ambienti Aperti_Pad 2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -1093,10 +1017,11 @@
 													<ClipList>
 														<MusicClip Name="Ambienti Aperti_Pad 5" ID="{49BE3068-2BCD-4614-8EE6-9CA600E8D084}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="34909.0909090911"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727272"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="34909.0909090904"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="34909.0909090904"/>
+																<Property Name="PlayAt" Type="Real64" Value="34909.0909090909"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 5" ID="{FDB93548-B7A9-46D1-96E0-B0B77F453ABF}"/>
 															<PropertyCurveList>
@@ -1107,12 +1032,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>100</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1126,13 +1051,13 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>100</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
-																				<YPos>61.19493</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1145,13 +1070,13 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-10.03427</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>-15.30713</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
-																				<YPos>-10.03427</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1161,10 +1086,9 @@
 														</MusicClip>
 														<MusicClip Name="Ambienti Aperti_Pad 5" ID="{22DF9B49-D919-44C3-B82E-55FC828655EC}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="69818.1818181816"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="418909.090909091"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="94847.7761857538"/>
+																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 5" ID="{FDB93548-B7A9-46D1-96E0-B0B77F453ABF}"/>
 															<PropertyCurveList>
@@ -1180,8 +1104,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>69.81818</XPos>
-																				<YPos>0</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>99.99999</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1195,12 +1119,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>50.23465</YPos>
+																				<YPos>100</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>69.81818</XPos>
-																				<YPos>60.28158</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1214,81 +1138,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-10.03427</YPos>
+																				<YPos>-15.10444</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>69.81818</XPos>
-																				<YPos>-10.03427</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="Ambienti Aperti_Pad 5" ID="{95325BE9-CCD8-4B36-96D2-789787616DAF}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="124773.685299175"/>
-																<Property Name="FadeOutShape" Type="int16" Value="1"/>
-																<Property Name="PlayAt" Type="Real64" Value="558545.454545454"/>
-															</PropertyList>
-															<AudioSourceRef Name="Ambienti Aperti_Pad 5" ID="{FDB93548-B7A9-46D1-96E0-B0B77F453ABF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{2FDF9FA0-FBE4-4B79-B655-07CB996F5ACD}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{597B3172-E9E1-43C0-A708-52DF34AEF822}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>65.7617</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{B7EE1E53-3115-496D-9AA2-1076A0FF3552}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-10.03428</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>-10.03427</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1302,13 +1157,33 @@
 													<ClipList>
 														<MusicClip Name="Ambienti Aperti_Pad 1" ID="{D54563F7-7566-4FDC-A522-E0C553E4A075}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="34909.0909090909"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727272"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="34909.0909090906"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="34909.0909090906"/>
+																<Property Name="PlayAt" Type="Real64" Value="34909.0909090909"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 1" ID="{8BF900F0-D1C9-438A-9F07-69E8CAFBF0CD}"/>
 															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{7F772654-4F52-496D-9837-FA71887839D4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>34.90909</XPos>
+																				<YPos>50.6192</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>104.72727</XPos>
+																				<YPos>50.6192</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
 																<PropertyCurve PropertyName="Lowpass">
 																	<Curve Name="" ID="{4D8074DE-469D-4E11-B5E9-9BD7A35218A0}">
 																		<PropertyList>
@@ -1316,81 +1191,32 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>40.63179</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>100</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="Ambienti Aperti_Pad 1" ID="{EDFE27D1-3B5F-4310-A3C8-6028695BD8E0}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="279272.727272727"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="558545.454545454"/>
-															</PropertyList>
-															<AudioSourceRef Name="Ambienti Aperti_Pad 1" ID="{8BF900F0-D1C9-438A-9F07-69E8CAFBF0CD}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{0E86521F-3340-4437-9DB2-866922BC6B61}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>70.77251</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>50.67871</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{F44947C5-78B4-42A8-9D13-B21C64CDF749}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>70.32854</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
 																	</Curve>
 																</PropertyCurve>
 																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{22DA98A8-C74F-4B4C-8DC9-6A388D0E8B0B}">
+																	<Curve Name="" ID="{8B374B23-1C8F-48FA-9107-8A3BEB77440F}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>-9.9977</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>279.27273</XPos>
-																				<YPos>0</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1404,10 +1230,11 @@
 													<ClipList>
 														<MusicClip Name="Ambienti Aperti_Pad 2" ID="{3B6F578E-7DC5-4DBB-8C5B-1B6EB796041F}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.371882086"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="34909.0909090909"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="69818.1818181817"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="69818.1818181817"/>
+																<Property Name="PlayAt" Type="Real64" Value="34909.0909090909"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 2" ID="{0ADEEAD7-B345-4710-85BB-BEBD88796DDC}"/>
 															<PropertyCurveList>
@@ -1418,12 +1245,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>60.28158</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>80.20761</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>60.28158</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1437,12 +1264,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
+																				<XPos>34.90909</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1456,13 +1283,13 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-3.0027</YPos>
+																				<XPos>34.90909</XPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>139.636371882086</XPos>
-																				<YPos>-3.0027</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1472,10 +1299,10 @@
 														</MusicClip>
 														<MusicClip Name="Ambienti Aperti_Pad 2" ID="{EED64E75-6B7C-4F64-BA54-A6FB9A09A2D4}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="69818.1818181817"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="418909.090909091"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="94847.7761857538"/>
+																<Property Name="PlayAt" Type="Real64" Value="139636.363636364"/>
 															</PropertyList>
 															<AudioSourceRef Name="Ambienti Aperti_Pad 2" ID="{0ADEEAD7-B345-4710-85BB-BEBD88796DDC}"/>
 															<PropertyCurveList>
@@ -1491,8 +1318,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>69.81818</XPos>
-																				<YPos>0</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>100</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1510,7 +1337,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>69.81818</XPos>
+																				<XPos>104.72727</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1525,81 +1352,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-3.0027</YPos>
+																				<YPos>-10.14674</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>69.81818</XPos>
-																				<YPos>-3.0027</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="Ambienti Aperti_Pad 2" ID="{6882890A-756A-44E7-9D03-EA36DEF889FC}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="139636.363636364"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="135893.153077388"/>
-																<Property Name="FadeInShape" Type="int16" Value="8"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="139636.363636364"/>
-																<Property Name="PlayAt" Type="Real64" Value="698181.818181818"/>
-															</PropertyList>
-															<AudioSourceRef Name="Ambienti Aperti_Pad 2" ID="{0ADEEAD7-B345-4710-85BB-BEBD88796DDC}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{13A213E6-4230-46F7-92DC-C74D0CAC7954}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>70.3285</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>70.32848</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{B1C40337-138A-42B8-BD8B-361750C19522}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{3CFC3F94-0196-4740-A2D6-59C6AFA1B1B6}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-3.0027</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>139.63636</XPos>
-																				<YPos>-3.05737</YPos>
+																				<XPos>104.72727</XPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1642,11 +1400,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{1CB0E0D2-5735-41E3-A2AD-BA3D27D436D4}" ShortID="594753282">
+										<MusicPlaylistItem Name="" ID="{6481C79E-1AA4-4E1E-BF10-06F34102AD91}" ShortID="636524019">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Gameplay" ID="{35BF479C-42A6-43EE-AEDE-3E0B10AB043D}"/>
+											<SegmentRef Name="Gameplay_gAMEPLAY" ID="{35BF479C-42A6-43EE-AEDE-3E0B10AB043D}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -1876,7 +1634,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="The Explorer 2D (Intro)_Music (Boss)_110 BPM - A Minore" ID="{7A06210D-4C6E-4867-B881-EF536D4C2240}" ShortID="734691909">
+												<MusicTrack Name="The Explorer 2D (Intro)_Music (Boss)_115 BPM - A Minore" ID="{7A06210D-4C6E-4867-B881-EF536D4C2240}" ShortID="734691909">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
@@ -2064,7 +1829,7 @@
 																		<Property Name="EndTrimOffset" Type="Real64" Value="18782.6086956522"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="4.54747350886464E-013"/>
+																		<Property Name="PlayAt" Type="Real64" Value="4.54747350886464E-13"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Boss Music - Scudo 1" ID="{1CD040C4-3CF7-40E6-8225-E275AAF48EC0}"/>
 																	<PropertyCurveList>
@@ -2131,7 +1896,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{26BB2B15-191E-4B76-ABDD-243EC1B5B85F}" ShortID="166028148">
+												<MusicTrack Name="The Explorer 2D (Scudo 1)_Music (Boss)_115 BPM - A Minore" ID="{26BB2B15-191E-4B76-ABDD-243EC1B5B85F}" ShortID="166028148">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
@@ -2163,7 +1935,7 @@
 															<ClipList>
 																<MusicClip Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{AE9F92B2-468E-4836-AE16-BF1AD163F731}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.105427357601E-015"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.105427357601E-15"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="16695.6689342404"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="The Explorer 2D (Scudo 1)_Music (Boss)_110 BPM - A Minore" ID="{F727F82A-2646-4E0B-B7DF-5D2CCA7ED789}"/>
@@ -2233,7 +2005,7 @@
 																		<Property Name="EndTrimOffset" Type="Real64" Value="18782.6086956522"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-2.91038304567337E-011"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-2.91038304567337E-11"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Boss Music - Scudo 1" ID="{06013DD3-A89A-46F6-BD06-F62B8E0BB95F}"/>
 																	<PropertyCurveList>
@@ -2422,7 +2194,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{93AA2BD9-BECB-4D08-86C3-49DFDCE97E38}" ShortID="387562874">
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_115 BPM - A Minore" ID="{93AA2BD9-BECB-4D08-86C3-49DFDCE97E38}" ShortID="387562874">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -2606,7 +2385,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{BD0A269C-BCAD-444F-840C-296A60D1FC80}" ShortID="272257332">
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_115 BPM - A Minore" ID="{BD0A269C-BCAD-444F-840C-296A60D1FC80}" ShortID="272257332">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
@@ -2780,7 +2566,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{43A74E7D-2DAC-42D4-97B3-4C7D926DCAF6}" ShortID="405011442">
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_115 BPM - A Minore" ID="{43A74E7D-2DAC-42D4-97B3-4C7D926DCAF6}" ShortID="405011442">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -2905,7 +2698,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_110 BPM - A Minore" ID="{9F30669B-29E4-49E0-9CE6-2B7F5ACF7D83}" ShortID="234061904">
+												<MusicTrack Name="The Explorer 2D (Scudo 2)_Music (Boss)_115 BPM - A Minore" ID="{9F30669B-29E4-49E0-9CE6-2B7F5ACF7D83}" ShortID="234061904">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -3257,7 +3057,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{C3464B0E-5F15-4FAA-8F60-A8C397F4CBCE}" ShortID="895899210">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{C3464B0E-5F15-4FAA-8F60-A8C397F4CBCE}" ShortID="895899210">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -3493,7 +3300,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{5F308D55-45E7-443B-8C4E-3738295B0746}" ShortID="806445818">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{5F308D55-45E7-443B-8C4E-3738295B0746}" ShortID="806445818">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
@@ -3720,7 +3534,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{E1A79A85-184F-4E31-97FC-AACF57CD0F19}" ShortID="111078694">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{E1A79A85-184F-4E31-97FC-AACF57CD0F19}" ShortID="111078694">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -3958,7 +3779,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{3871C05B-720D-44EF-A104-32596C675313}" ShortID="832846199">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{3871C05B-720D-44EF-A104-32596C675313}" ShortID="832846199">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -4195,7 +4023,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{002DB03B-1DDF-4E5F-B170-21B55F7E2530}" ShortID="277480389">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{002DB03B-1DDF-4E5F-B170-21B55F7E2530}" ShortID="277480389">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -4441,7 +4276,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{5B6D3DA9-2CED-4205-A617-A20B07A95D27}" ShortID="507735817">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{5B6D3DA9-2CED-4205-A617-A20B07A95D27}" ShortID="507735817">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -4766,7 +4608,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_110 BPM - A Minore" ID="{6D2A1844-C12F-4440-9001-6B1BE29BCBA4}" ShortID="472953050">
+												<MusicTrack Name="The Explorer 2D (Scudo 3)_Music (Boss)_115 BPM - A Minore" ID="{6D2A1844-C12F-4440-9001-6B1BE29BCBA4}" ShortID="472953050">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -5250,7 +5099,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{3D8CF358-B9C2-4E16-8FD9-85C234C4ADC0}" ShortID="156518427">
+												<MusicTrack Name="The Explorer 2D (Outro)_Music (Boss)_115 BPM - A Minore" ID="{3D8CF358-B9C2-4E16-8FD9-85C234C4ADC0}" ShortID="156518427">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -5491,7 +5347,14 @@
 														</MusicTrackSequence>
 													</SequenceList>
 												</MusicTrack>
-												<MusicTrack Name="The Explorer 2D (Outro)_Music (Boss)_110 BPM - A Minore" ID="{6A8D5C4E-8B02-413F-8DE1-6D7742E10D7C}" ShortID="409149808">
+												<MusicTrack Name="The Explorer 2D (Outro)_Music (Boss)_115 BPM - A Minore" ID="{6A8D5C4E-8B02-413F-8DE1-6D7742E10D7C}" ShortID="409149808">
+													<PropertyList>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Stereo Long Ambiences" ID="{83010BC7-F97B-45DC-B555-3CFBE3EF31E0}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
