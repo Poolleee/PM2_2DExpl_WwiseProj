@@ -229,14 +229,28 @@
 								<Action Name="" ID="{B6C361AB-F6FB-4F30-BF81-3590E4163A9B}" ShortID="440189261">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Die_Fall" ID="{765D9F0E-A0B1-4FB9-952C-1D4C9D3D7D46}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+											<ObjectRef Name="Hit_Layer" ID="{A4B67878-AB55-41B7-A821-E7E1BBF9BBD9}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{0240AD2F-C166-4DA2-8C2A-7BD6D9646B34}" ShortID="21206111">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.05"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Die_Player_Voices" ID="{D9B07410-21EF-4359-9DD5-3CEA11D935DF}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Fall" ID="{C31BC587-49D1-418F-80C8-619D510A3B58}">
+							<ChildrenList>
+								<Action Name="" ID="{C8BBD952-D394-4043-89AA-9859442DCAEE}" ShortID="352661330">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Die_Fall" ID="{765D9F0E-A0B1-4FB9-952C-1D4C9D3D7D46}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

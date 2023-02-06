@@ -350,7 +350,7 @@
 									<PropertyList>
 										<Property Name="OutputBusHighpass" Type="int16">
 											<ValueList>
-												<Value>38</Value>
+												<Value>40</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">

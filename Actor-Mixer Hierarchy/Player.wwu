@@ -1439,7 +1439,7 @@
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.049233063088249"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.0823707017053397"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.23707017053397E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ellen\Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655].wav</AudioFile>
@@ -1461,7 +1461,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-1" ID="{D6E95297-05CF-4055-B4FC-2D29EB265827}" ShortID="777394419">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0421442549622589"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="4.21442549622589E-02"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.105360637405647"/>
 													</PropertyList>
@@ -1485,9 +1485,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-4" ID="{EF312603-7D5A-47C4-8173-1640C028C26B}" ShortID="666105232">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0553775277234182"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="5.53775277234182E-02"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.0989726027397258"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.89726027397258E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ellen\Jump_Whoosh\Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190655]-4.wav</AudioFile>
@@ -1509,7 +1509,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Freeze 14-RAW_Stick,Whoosh_02_G_RX [2022-12-20 190656]-1" ID="{4B1286A8-4BD5-4B75-A75C-F4CC43BCBEE4}" ShortID="978861603">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0356718851924331"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.56718851924331E-02"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.117207622775137"/>
 													</PropertyList>
@@ -1869,7 +1869,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114518]-1" ID="{896A9C5D-5E2F-433F-B483-09B80C5C5BBA}" ShortID="440193771">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0595443108750349"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5.95443108750349E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.147816140154692"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -1898,7 +1898,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]" ID="{E5F7364D-2198-4C83-9310-CD92FEB114AD}" ShortID="816904439">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0475309849967384"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.75309849967384E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.158784829000093"/>
 															</PropertyList>
@@ -1922,7 +1922,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-1" ID="{84BD6E5D-D1DD-4BF1-965D-DA3698A884B5}" ShortID="1069929472">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0945396514770292"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="9.45396514770292E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.183333799273134"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -1951,7 +1951,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-3" ID="{8A16B89F-F03B-4E66-8980-63B9AF85CB2A}" ShortID="747798891">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0830097769701488"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="8.30097769701488E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.194785318236884"/>
 																<Property Name="VolumeOffset" Type="Real64">
@@ -1980,7 +1980,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Freeze Hit_Stab_Layer [2023-01-03 114519]-4" ID="{D1A841EF-09E4-4BC9-A58C-C02F666F46A5}" ShortID="413536092">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0851663405088063"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="8.51663405088063E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.245360171465847"/>
 															</PropertyList>
@@ -2090,7 +2090,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Gunshot" ID="{D1C7D38A-5B0C-42A2-9F4F-73635E5A0262}" ShortID="818340302">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0191786918090501"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.91786918090501E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.470925789652442"/>
 												<Property Name="FadeOutShape" Type="int16" Value="0"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -2272,7 +2272,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.431506849315068"/>
 														<Property Name="FadeOutShape" Type="int16" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0878995433789954"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.78995433789954E-02"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.744052385508694"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2349,7 +2349,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="melee_Swing_lightsaber_Layer" ID="{674F905C-B599-4BCD-BCC0-86A36DA8BEEB}" ShortID="830001286">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0973230221300723"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="9.73230221300723E-02"/>
 														<Property Name="FadeInShape" Type="int16" Value="8"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.177914344031807"/>
 														<Property Name="FadeOutShape" Type="int16" Value="1"/>
@@ -2381,7 +2381,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2846,9 +2846,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154" ID="{CB831185-22C7-488B-B061-3B5B777F429D}" ShortID="105010494">
 													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="0.0870255422374429"/>
+														<Property Name="LoopBegin" Type="Real64" Value="8.70255422374429E-02"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0748419663242009"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.48419663242009E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ellen\Ellen Voices\Voices, Efforts, Female, Fight, Minor Pain, Grunts SND62154.wav</AudioFile>
@@ -2969,9 +2969,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{695D7274-05D1-47F1-B176-FB3BCD4A62C2}" ShortID="1001376757">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0339476660596344"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="3.39476660596344E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0586368777393685"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.86368777393685E-02"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.10150791952054"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -3010,7 +3010,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{E63656C8-5AD6-4D3B-8157-52E8DBEE8437}" ShortID="1028601295">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0656076667988419"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="6.56076667988419E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.31970045705358"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.39883946917807"/>
@@ -3051,7 +3051,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{FB20E8B5-C26D-4034-9F1B-F831CE817F75}" ShortID="966066401">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0872035237867941"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="8.72035237867941E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="2.65738866933473"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.98631035958903"/>
@@ -3092,7 +3092,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{5E5E50A0-1313-44D7-9B6A-17261388E7BB}" ShortID="258065035">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0926161562976979"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="9.26161562976979E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="5.35204284520303"/>
 																<Property Name="TrimEnd" Type="Real64" Value="6.07085482594184"/>
@@ -3133,7 +3133,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{9639A4D3-63A9-4D58-AF05-4EF7118E9115}" ShortID="732092373">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0656076667988419"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="6.56076667988419E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="8.09450142369772"/>
 																<Property Name="TrimEnd" Type="Real64" Value="8.4204160958904"/>
@@ -3174,7 +3174,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Voices, Efforts, Female, Battle Scream, Martial Arts, Fast Stabs SND64351" ID="{E87DF360-B5DC-4013-985B-2447A62A4AC4}" ShortID="882894668">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0920538439201763"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="9.20538439201763E-02"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="13.7342787742879"/>
 																<Property Name="TrimEnd" Type="Real64" Value="14.1482572773972"/>
@@ -3434,9 +3434,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{A5645759-E4B8-4643-946D-F4D14A8E55D1}">

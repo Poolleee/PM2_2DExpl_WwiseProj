@@ -151,6 +151,31 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{8C433AED-F6CF-4EE9-825D-3B894AA947F5}" ShortID="226335215">
+									<PropertyList>
+										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Die_Fall" ID="{765D9F0E-A0B1-4FB9-952C-1D4C9D3D7D46}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{89643844-9E40-4D7C-8EB0-4BBF6FB9EB57}" ShortID="470610593">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Die_Fall" ID="{765D9F0E-A0B1-4FB9-952C-1D4C9D3D7D46}" WorkUnitID="{76778161-0590-4C1C-A498-9DB6946FA7D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Object_Acid_Dive" ID="{FAECCEFE-7D4E-4469-8C7B-B19197386B98}">
@@ -238,6 +263,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="HealthVase" ID="{35723A6B-9155-410D-B429-51ED5F3B573B}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sliding_Bridge" ID="{A4EC5BEB-DC1C-4390-A437-996788DD793D}">
+					<ChildrenList>
+						<Action Name="" ID="{72864A18-D997-463A-9414-FAAA1280F0B0}" ShortID="508956037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sliding_Bridge" ID="{5BD21E15-4824-44F9-84D2-FFB4FC34C85B}" WorkUnitID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

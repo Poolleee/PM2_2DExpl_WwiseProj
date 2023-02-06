@@ -9,25 +9,6 @@
 				<WorkUnit Name="Objects" ID="{C2854F63-589E-4BA3-9FCF-FD2CD48C1A08}" PersistMode="Reference"/>
 				<WorkUnit Name="Enemies" ID="{08169943-202E-4884-AE0F-87C3453CE2B3}" PersistMode="Reference"/>
 				<WorkUnit Name="Boss" ID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}" PersistMode="Reference"/>
-				<Sound Name="Freeze 2-Freeze 8-Freeze Pushable_Box [2023-02-03 121915]" ID="{E2A7B92F-7DE2-4DE6-9B8A-B325F09D3B3C}" ShortID="606000756">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B236F38-8240-4F27-BD6F-D48FE9B29504}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Freeze 2-Freeze 8-Freeze Pushable_Box [2023-02-03 121915]" ID="{92ED2918-54CD-4326-B54A-DB7BDA7FA563}" ShortID="260665036">
-							<Language>SFX</Language>
-							<AudioFile>Stone_Box_layer\Freeze 2-Freeze 8-Freeze Pushable_Box [2023-02-03 121915].wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Freeze 2-Freeze 8-Freeze Pushable_Box [2023-02-03 121915]" ID="{92ED2918-54CD-4326-B54A-DB7BDA7FA563}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
