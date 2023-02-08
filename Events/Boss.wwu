@@ -148,8 +148,9 @@
 							<ChildrenList>
 								<Action Name="" ID="{C4A34EE0-22AD-4AE0-B3A7-C0F08F1236DC}" ShortID="449821723">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="ActionType" Type="int16" Value="4"/>
 										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -171,6 +172,17 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{7334A5FB-5E2B-4935-96B8-9DE97C980504}" ShortID="380714591">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Shield_Activate" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Boss_Shield_On" ID="{671E99B0-7D3B-4080-BEA5-8B99A7D22EE5}">
@@ -178,7 +190,43 @@
 								<Action Name="" ID="{A8AF039D-B233-4015-B14F-71159C33B34C}" ShortID="656749502">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Shield Activation" ID="{3D884086-423D-498E-8FB0-B7CCBA49469A}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+											<ObjectRef Name="Boss_Shield_Activate" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8975EE7D-6B33-46F7-9935-CC8A596A2060}" ShortID="530684089">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DD3EFF94-92BA-4632-B22C-BBFD69C4F292}" ShortID="999918131">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ShieldOn" ID="{43E37C10-9863-4F39-AE22-C960431CFFCC}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A61D7B8C-0F3B-41F9-8F52-238825426E3D}" ShortID="346175846">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Shield_Activate" ID="{858F524C-7EAA-4319-9A9A-4E14C214F690}" WorkUnitID="{31ED0E6B-285D-49DC-88B0-B41C623F26BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

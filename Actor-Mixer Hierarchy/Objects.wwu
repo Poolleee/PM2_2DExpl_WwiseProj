@@ -698,6 +698,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<BlendContainer Name="Object_Acid_Dive" ID="{68B01057-3E83-4060-BB52-9E380E64DCD8}" ShortID="23970209">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{359405E6-806E-406A-94E3-5B7E3F43F4D5}"/>
@@ -731,7 +738,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-8</Value>
+														<Value>-6</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -765,7 +772,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Water, Impact, Underwater, Heavy Impact, Short 01 SND12430 1" ID="{7A78A2EE-7809-4E1F-B113-E8825FB8060E}" ShortID="424605712">
 													<Language>SFX</Language>
-													<AudioFile>Water, Impact, Underwater, Heavy Impact, Short 01 SND12430 1.wav</AudioFile>
+													<AudioFile>Acid_Layer\Water, Impact, Underwater, Heavy Impact, Short 01 SND12430 1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -813,7 +820,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>6</Value>
+														<Value>3</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>

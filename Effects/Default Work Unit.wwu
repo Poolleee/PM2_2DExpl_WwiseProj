@@ -223,6 +223,7 @@
 						<Property Name="Threshold" Type="Real32" Value="-44.1"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="SideChainCompress" ID="{7FD6DAD3-A4B4-4E97-B81F-4DD2B8A7BCE6}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

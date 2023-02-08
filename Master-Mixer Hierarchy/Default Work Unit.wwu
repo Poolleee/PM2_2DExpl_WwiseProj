@@ -278,14 +278,14 @@
 																<SegmentShape>Exp1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>-7.09564</XPos>
-																<YPos>-4.65638</YPos>
+																<XPos>-5</XPos>
+																<YPos>-2</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-10.09119</YPos>
+																<YPos>-5</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -322,6 +322,7 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
+									<ReferenceList/>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
@@ -345,7 +346,6 @@
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
-								<Bus Name="New Audio Bus" ID="{43D13501-1506-4EEF-A8DD-E7B6BCFAF99B}"/>
 								<Bus Name="Reverbs" ID="{7E9C68BC-2672-4E19-B39A-3B30842972E8}">
 									<PropertyList>
 										<Property Name="OutputBusHighpass" Type="int16">

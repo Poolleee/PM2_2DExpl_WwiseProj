@@ -242,7 +242,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
-						<CurrentStateRef Name="Cave" ID="{DB1722BA-8E79-40DE-A4EE-C85320DB23B2}"/>
+						<CurrentStateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
 						<CurrentStateRef Name="Stage2" ID="{BA2CB8CE-4D06-427B-9BE4-34F5C5D46671}"/>
 						<CurrentStateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
 					</CurrentStateList>
@@ -949,6 +949,101 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Grass" ID="{C6283AD8-5754-4100-A1EA-1719BE76976D}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="BOSS_Shieldtest" ID="{68CA14F6-3FB8-44DA-B4C1-EAC088692813}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Boss_Shield_On" ID="{671E99B0-7D3B-4080-BEA5-8B99A7D22EE5}" WorkUnitID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boss_Shield_Off" ID="{38D806F9-F372-4374-BDA9-6C625AC26286}" WorkUnitID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boss_shield_Hit" ID="{293A3C81-13B6-481B-A6F9-A4F017C1E6B5}" WorkUnitID="{20597F18-53F0-42B8-95C0-93251CEDE5D5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume" ID="{3F01C171-CA21-4678-B086-7648507D6A07}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Side_Chain_SFX_Volume" ID="{FF49CDA1-FF4A-4872-804C-B6C79257AD01}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Global_volume" ID="{819D5A9C-59B2-4B41-8F3C-315BE23804A9}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume" ID="{F800D8B5-4D85-4C9D-A66A-446DD0A95E92}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Cave_Depth" ID="{316A2E68-CFD6-4D7C-9E3D-F60DC7AB057C}"/>
+							<Value>180</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Boss_Room" ID="{4D8662DE-6C98-459A-A718-3606C6B90FD1}"/>
+						<CurrentStateRef Name="Temple" ID="{0583A6B9-FC6D-4243-B324-9DF5913288AE}"/>
+						<CurrentStateRef Name="exit" ID="{219C132F-7D7F-4FBC-B70A-0A48EB2E3D42}"/>
+						<CurrentStateRef Name="Gameplay" ID="{F1335124-F98A-408D-90EE-9E8A682351B0}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="AlienTile" ID="{3E5218F0-D16A-482A-BA4C-71E6BBCF54FD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
